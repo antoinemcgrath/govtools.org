@@ -22,17 +22,13 @@ with open('keys.json') as f:
 
 
 conversion_script = "convertBill2txt.py"
-conversion_script2 = "convertBill2txt2.py"
+
+#subprocess.stdin.write("touch convertBill2txt2.py\n")
 
 # Read text file
-with open(conversion_script2, 'r') as fp:
-    conversion_lines = fp.readlines()
-    #conversion_lines = [line.rstrip('\n') for line in read_lines]
+with open(conversion_script, 'r') as fp:
+    conversion_lines = fp.read()
 
-with open(conversion_script, 'w') as f:
-    f.write(conversion_lines)
-
-touch conversion_script
 
 new_droplet_name = "process-files"
 manager = digitalocean.Manager(token=the_token)
@@ -116,10 +112,8 @@ def ssh_to_command(ip_address):
     sshProcess.stdin.write("ls .\n")
     sshProcess.stdin.write("echo END\n")
     sshProcess.stdin.write("cd ~/uploads\n")
-    sshProcess.stdin.write("touch convertBill2txt.py\n")
-
-
-
+    sshProcess.stdin.write("with open(conversion_script, 'w+') as f:\n")
+    sshProcess.stdin.write("    f.write(conversion_lines)\n")
     sshProcess.stdin.write("ls .\n")
     #sshProcess.stdin.write("#python3 process.py in.pdf\n")
     sshProcess.stdin.write("logout\n")
@@ -137,3 +131,4 @@ def ssh_to_command(ip_address):
 
 scp_files(ip_address)
 ssh_to_command(ip_address)
+
