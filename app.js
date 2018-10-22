@@ -65,11 +65,23 @@ var port;
 
 if (process.argv.length >= 2) {
     if (process.argv[2] == 'test') {
-	port = 8081;
+	port = 8085;
     } else if (process.argv[2] == 'deploy') {
-	port = 8080;
+	port = 8084;
     }
 }
+
+//cat congress.ai/app.js | grep "port ="
+//	port = 8089;
+//	port = 8088;
+//cat crsreports.com/app.js | grep "port ="
+//	port = 8081;
+//	port = 8080;
+//cat govtools.org/app.js | grep "port ="
+//	port = 8085;
+//	port = 8084;
+
+
 
 if (!port) {
     console.log("Please specify 'test' or 'deploy'");
