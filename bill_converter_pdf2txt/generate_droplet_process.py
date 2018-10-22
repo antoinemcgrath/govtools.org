@@ -10,7 +10,7 @@ import subprocess
 import time
 with open('keys.json') as f:
       credentials = [x.strip().split(',') for x in f.readlines()]
-      the_token = credentials[4]
+      the_token = credentials[3]
       print(the_token)
 
 #### This script will login to Digital Ocean
