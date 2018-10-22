@@ -8,10 +8,6 @@
 import digitalocean
 import subprocess
 import time
-with open('keys.json') as f:
-      credentials = [x.strip().split(',') for x in f.readlines()]
-      the_token = credentials[0][3]
-      print(the_token)
 
 #### This script will login to Digital Ocean
 #### Destroy any existing "process-files" droplet
@@ -20,8 +16,23 @@ with open('keys.json') as f:
 #### SSH into the droplet and execute bash commands
 
 ## access from instead /home/crscloud/digitalocean.txt
-## the token =  ...
+with open('keys.json') as f:
+      credentials = [x.strip().split(',') for x in f.readlines()]
+      the_token = credentials[0][3]
 
+
+conversion_script = "convertBill2txt.py"
+conversion_script2 = "convertBill2txt2.py"
+
+# Read text file
+with open(conversion_script2, 'r') as fp:
+    conversion_lines = fp.readlines()
+    #conversion_lines = [line.rstrip('\n') for line in read_lines]
+
+with open(conversion_script, 'w') as f:
+    f.write(conversion_lines)
+
+touch conversion_script
 
 new_droplet_name = "process-files"
 manager = digitalocean.Manager(token=the_token)
@@ -73,7 +84,7 @@ print(ip_address)
 #### Wait untiil droplet OS is running and then send it files through SCP
 def scp_files(ip_address):
     print("SCP in 20 secs")
-    time.sleep(7.5)
+    time.sleep(20.5)
     attempts = 0
     while attempts < 10:
         time.sleep(1.5)
@@ -105,6 +116,10 @@ def ssh_to_command(ip_address):
     sshProcess.stdin.write("ls .\n")
     sshProcess.stdin.write("echo END\n")
     sshProcess.stdin.write("cd ~/uploads\n")
+    sshProcess.stdin.write("touch convertBill2txt.py\n")
+
+
+
     sshProcess.stdin.write("ls .\n")
     #sshProcess.stdin.write("#python3 process.py in.pdf\n")
     sshProcess.stdin.write("logout\n")
