@@ -1,0 +1,28 @@
+{
+  "name": "front-master",
+  "version": "1.0.0",
+  "description": "web_Shell_4_crsreports.com",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "*",
+    "ejs": "*",
+    "express": "*",
+    "helmet": "*",
+    "mongodb": "*",
+    "pug": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antoinemcgrath/front.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antoinemcgrath/front/issues"
+  },
+  "homepage": "https://github.com/antoinemcgrath/front"
+}
