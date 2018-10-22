@@ -37,7 +37,7 @@ destroy_earlier_droplet(manager, new_droplet_name)
 droplet = digitalocean.Droplet(token=the_token,
                                name=new_droplet_name,
                                region='nyc2', # New York 2
-                               image='ubuntu-14-04-x64', # Ubuntu 14.04 x64
+                               image='ubuntu-14-04-x64', # Look up new longterm LTS
                                size_slug='512mb',  # 512MB
                                tag="disposable",
                                ssh_keys=keys, #Automatic conversion
@@ -67,15 +67,21 @@ print(ip_address)
 #### Wait untiil droplet OS is running and then send it files through SCP
 def scp_files(ip_address):
     print("SCP in 20 secs")
-    time.sleep(20.5)
-    try:
-        subprocess.check_output(["scp",
-        "-r", "-o StrictHostKeyChecking no",
-        "/home/crscloud/congress.ai/public/upload",
-        "root@" + ip_address + ":~/"])
-    except subprocess.CalledProcessError as e:
-        raise RuntimeError("command '{}' return with error (code {}): {}".format(e.cmd, e.returncode, e.output))
-    print("SCP done")
+    time.sleep(7.5)
+    attempts = 0
+    while attempts < 10:
+        time.sleep(1.5)
+        try:
+            subprocess.check_output(["scp",
+            "-r", "-o StrictHostKeyChecking no",
+            "/home/crscloud/congress.ai/public/upload",
+            "root@" + ip_address + ":~/"])
+            print("scp success")
+            return
+        except subprocess.CalledProcessError as e:
+            raise RuntimeError("command '{}' return with error (code {}): {}".format(e.cmd, e.returncode, e.output))
+            attempts += 1
+    print("SCP failed 10 attempts check if digital ocean instance is working, if so check SCP specifics")
 
 
 #### Execute bash commands on droplet through SSH
