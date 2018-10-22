@@ -87,6 +87,6 @@ if (!port) {
     console.log("Please specify 'test' or 'deploy'");
 } else {
     var serv = http.createServer(app).listen(port, function(){
-        console.log('CRSReports App Online');
+        console.log('GovtTools.org App Online');
         });
     }
