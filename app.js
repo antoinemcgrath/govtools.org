@@ -74,12 +74,7 @@ if (process.argv.length >= 2) {
 if (!port) {
     console.log("Please specify 'test' or 'deploy'");
 } else {
-    }, function(err,thedb){
-	if(err) console.log(err);
-	console.log("connected!");
-    });
-
     var serv = http.createServer(app).listen(port, function(){
-	console.log('CRSReports App Online');
-    });
-}
+        console.log('CRSReports App Online');
+        });
+    }
