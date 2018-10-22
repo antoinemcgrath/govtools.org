@@ -187,3 +187,5 @@ public/links_reports
 node_modules/
 config.json
 crsreports.com/ssl/privkey.pem
+keys.txt
+keys.json
