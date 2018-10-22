@@ -23,7 +23,6 @@ with open('keys.json') as f:
 
 conversion_script = "convertBill2txt.py"
 
-#subprocess.stdin.write("touch convertBill2txt2.py\n")
 
 # Read text file
 with open(conversion_script, 'r') as fp:
@@ -81,19 +80,19 @@ print(ip_address)
 def scp_files(ip_address):
     print("SCP in 20 secs")
     time.sleep(20.5)
-    attempts = 0
-    while attempts < 10:
-        time.sleep(1.5)
-        try:
-            subprocess.check_output(["scp",
-            "-r", "-o StrictHostKeyChecking no",
-            "/home/crscloud/congress.ai/public/upload",
-            "root@" + ip_address + ":~/"])
-            print("scp success")
-            return
-        except subprocess.CalledProcessError as e:
-            raise RuntimeError("command '{}' return with error (code {}): {}".format(e.cmd, e.returncode, e.output))
-            attempts += 1
+    #attempts = 0
+    #while attempts < 10:
+    #    time.sleep(1.5)
+    try:
+        subprocess.check_output(["scp",
+        "-r", "-o StrictHostKeyChecking no",
+        "/home/crscloud/govtools.org/public/upload",
+        "root@" + ip_address + ":~/"])
+        print("scp success")
+        #    return
+    except subprocess.CalledProcessError as e:
+        raise RuntimeError("command '{}' return with error (code {}): {}".format(e.cmd, e.returncode, e.output))
+        #    attempts += 1
     print("SCP failed 10 attempts check if digital ocean instance is working, if so check SCP specifics")
 
 
