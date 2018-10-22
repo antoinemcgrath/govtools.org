@@ -8,6 +8,10 @@
 import digitalocean
 import subprocess
 import time
+with open('keys.json') as f:
+      credentials = [x.strip().split(',') for x in f.readlines()]
+      the_token = credentials[4]
+      print(the_token)
 
 #### This script will login to Digital Ocean
 #### Destroy any existing "process-files" droplet
@@ -17,6 +21,8 @@ import time
 
 ## access from instead /home/crscloud/digitalocean.txt
 ## the token =  ...
+
+
 new_droplet_name = "process-files"
 manager = digitalocean.Manager(token=the_token)
 keys = manager.get_all_sshkeys()
