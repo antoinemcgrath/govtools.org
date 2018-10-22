@@ -60,7 +60,6 @@ app.get('/about', function(req, res){
 
 // Code for report infor page serve1 updated line 150
 // Code fos report info page
-});
 
 var port;
 
