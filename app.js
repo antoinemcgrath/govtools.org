@@ -74,13 +74,9 @@ if (process.argv.length >= 2) {
 if (!port) {
     console.log("Please specify 'test' or 'deploy'");
 } else {
-    MongoClient.connect(config.mongo, {
-	db: {native_parser: true},
-	replSet: {connectWithNoPrimary: true}
     }, function(err,thedb){
 	if(err) console.log(err);
 	console.log("connected!");
-	db = thedb;
     });
 
     var serv = http.createServer(app).listen(port, function(){
