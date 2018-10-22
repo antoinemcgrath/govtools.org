@@ -1,0 +1,75 @@
+body {
+
+	overflow-x: hidden;
+	font-family: 'Hoefler', 'EB Garamond',  serif;
+}
+
+#searchInput {
+	font-family: 'Hoefler', 'EB Garamond',  serif;
+}
+
+#mobSearchInput {
+	font-family: 'Hoefler', 'EB Garamond',  serif;
+}
+
+input#searchInput:focus {
+	outline:none;
+
+}
+
+input#mobSearchInput:focus {
+	outline:none;
+
+}
+
+.document-row {
+	display: inline-block;
+}
+
+.active-hover:hover {
+	background-color: #e3e3e3;
+}
+
+.searchPlaceholder {
+	font-size: 22px;
+
+}
+
+#mainlogo{
+padding-bottom:10px;
+}
+
+@media (min-width: 768px) { 
+   .searchPlaceholder {
+       font-size: 32px;
+   }
+   #mainlogo {
+       padding-bottom:20px;
+   }
+
+#numReportsBox {
+padding-left: 9px!important;
+}
+
+#itemTitle{
+padding-left: 7px!important;
+
+}
+
+
+#sortBox {
+padding-right: 7px;
+}
+
+.resultitem{
+padding-left:7px;
+}
+
+}
+
+
+
+.resultitem {
+padding-bottom:20px;
+padding-top:20px;
+}
