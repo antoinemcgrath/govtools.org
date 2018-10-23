@@ -49,7 +49,7 @@ destroy_earlier_droplet(manager, new_droplet_name)
 droplet = digitalocean.Droplet(token=the_token,
                                name=new_droplet_name,
                                region='nyc2', # New York 2
-                               image='ubuntu-14-04-x64', # Look up new longterm LTS
+                               image='ubuntu-18-04-x64', # Look up new longterm LTS
                                size_slug='512mb',  # 512MB
                                tag="disposable",
                                ssh_keys=keys, #Automatic conversion
@@ -84,10 +84,12 @@ def scp_files(ip_address):
     #while attempts < 10:
     #    time.sleep(1.5)
     try:
+        # scp -r -o 'StrictHostKeyChecking no' /home/crscloud/govtools.org/public/uploads root@162.243.14.5:~/
+        ####Permission denied (publickey).
         subprocess.check_output(["scp",
-        "-r", "-o StrictHostKeyChecking no",
-        "/home/crscloud/govtools.org/public/upload",
-        "root@" + ip_address + ":~/"])
+        "-r", "'-o StrictHostKeyChecking no'",
+        "/home/crscloud/govtools.org/public/uploads",
+        "root@" + ip_address + ": ~/"])
         print("scp success")
         #    return
     except subprocess.CalledProcessError as e:
@@ -99,8 +101,9 @@ def scp_files(ip_address):
 #### Execute bash commands on droplet through SSH
 def ssh_to_command(ip_address):
     print("SSH file executing")
-    sshProcess = subprocess.Popen(['ssh',
-                                   "-o StrictHostKeyChecking no",
+    # ssh -o 'StrictHostKeyChecking no' root@162.243.14.5
+    sshProcess = subprocess.Popen(["ssh",
+                                   "'-o StrictHostKeyChecking no'",
                                    "root@" + ip_address],
                                   stdin=subprocess.PIPE,
                                   stdout = subprocess.PIPE,
