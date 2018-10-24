@@ -6,14 +6,83 @@ var https = require('https');
 var http = require('http');
 var helmet = require('helmet');         //for express security
 var constants = require('constants');
+
+
+
+var spawn = require("child_process").spawn; // for triggering python scripts etc
+//var path = require('path');
+var exec = require('child_process').exec;
 var bodyParser = require('body-parser');
+//app.use(bodyParser.json({limit: '50mb'}));
+//app.use(bodyParser.urlencoded({limit: '50mb', extended: true}));
+//app.use(express.json({limit: '50mb'}));
+//app.use(express.bodyParser({limit: '50mb'})); //increase limit sizey
 
 
-var path = require('path');
 
-//Search Match Updated to Include SERVE 1 Line 90
-//ITEM PAGE SERVE UPDATED Line 120
-//INFOR page serve1 updated line 150
+/*
+//for file upload
+const fileUpload = require('express-fileupload'); //for uploading files
+// default options
+
+app.use(fileUpload());  //for uploading files
+
+app.post('/upload', function(req, res) {
+    if (!req.files)
+	return res.status(400).send('No files were uploaded.');
+
+    // The name of the input field (i.e. "sampleFile") is used to retrieve the uploaded file
+    sampleFile = req.files.sampleFile;
+
+    // Use the mv() method to place the file somewhere on your server
+    sampleFile.mv('public/uploads/'+sampleFile.name, function(err) {
+	if (err)
+	    return res.status(500).send(err);
+
+	//scriptexec = ('python3 /home/crscloud/govtools.org/public/uploads/script.py /home/crscloud/govtools.org/public/uploads/', sampleFile.name);
+	//scriptexecute = scriptexec.toString();
+	//exec(scriptexecute);
+    /*
+	//var spawn = require("child_process").spawn;
+	var process = spawn('python3',["/home/crscloud/govtools.org/public/upload/script.py", '/home/crscloud/govtools.org/public/upload/'+sampleFile.name]);
+	//BLOB = "TEST"
+	//navigator.msSaveBlob(blob, "filename.csv")
+	resp_url = ("https://govtools.org/upload/converted"+sampleFile.name);
+	res.send((resp_url));
+	//res.send('File converted!');
+    */
+
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
