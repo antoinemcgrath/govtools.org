@@ -40,7 +40,7 @@ def destroy_earlier_droplet(manager, new_droplet_name):
 droplet = digitalocean.Droplet(token=the_token,
                                name=new_droplet_name,
                                region='nyc2', # New York 2
-                               image='ubuntu-18-04-x64', # Look up new longterm LTS
+                               image='ubuntu-18-04-x64', # CoreOS tiniest?
                                size_slug='512MB',  # size_slug='512MB'
                                tag="disposable",
                                ssh_keys=keys, #Automatic conversion
@@ -114,7 +114,7 @@ def ssh_to_command(ip_address, inputgit):
     sshProcess.stdin.close()
 
 
-'''
+
 #### Wait untiil droplet OS is running and then send it files through SCP
 def scp_files(ip_address):
     print("SCP in 20 secs")
@@ -143,7 +143,6 @@ def scp_files(ip_address):
         raise RuntimeError("command '{}' return with error (code {}): {}".format(e.cmd, e.returncode, e.output))
         #    attempts += 1
     print("SCP failed check if digital ocean instance is working, if so check SCP specifics")
-'''
 
 
 
