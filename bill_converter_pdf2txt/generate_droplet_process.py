@@ -116,7 +116,8 @@ def ssh_to_command(ip_address):
                                   stdout = subprocess.PIPE,
                                   universal_newlines=True,
                                   bufsize=0)
-    sshProcess.stdin.write(["python3", conversion_script, "uploads/visas.pdf" "\n"])
+    instruct = "python3 " + conversion_script + " uploads/visas.pdf" "\n"
+    sshProcess.stdin.write(instruct)
     sshProcess.stdin.write("cd ~/uploads\n")
     #sshProcess.stdin.write("with open(conversion_script, 'w+') as f:\n")
     #sshProcess.stdin.write("    f.write(conversion_lines)\n")
