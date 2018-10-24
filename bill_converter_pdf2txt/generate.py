@@ -91,11 +91,12 @@ def determine_seed(sys_argv): # Example https://github.com/antoinemcgrath/govtoo
 
 #### Wait untiil droplet OS is running and then send it files through SCP
 def scp_files(ip_address):
+    print("Attempting scp of uploads dir")
     try: # scp -r -o 'StrictHostKeyChecking no' conversion_script root@162.243.14.5:~/
         subprocess.check_output(["scp",
-        "-r", "-o StrictHostKeyChecking no",
-        "/home/crscloud/govtools.org/public/uploads",
-        "root@" + ip_address + ":~/"])
+        "-r", "'-o StrictHostKeyChecking no'",
+        "/home/crscloud/govtools.org/public/uploads/",
+        "root@" + ip_address + ": ~/"])
         print("scp of uploads dir success")
     except subprocess.CalledProcessError as e:
         raise RuntimeError("command '{}' return with error (code {}): {}".format(e.cmd, e.returncode, e.output))
