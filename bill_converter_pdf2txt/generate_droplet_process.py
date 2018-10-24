@@ -110,13 +110,13 @@ def scp_files(ip_address):
 def ssh_to_command(ip_address):
     print("SSH file executing") # ssh -o 'StrictHostKeyChecking no' root@IP_Address
     sshProcess = subprocess.Popen(["ssh",
-                                   "-tt", conversion_script,
+                                   "-tt" ,
                                    "root@" + ip_address],
                                   stdin=subprocess.PIPE,
                                   stdout = subprocess.PIPE,
                                   universal_newlines=True,
                                   bufsize=0)
-    sshProcess.stdin.write("python3", conversion_script, "\n")
+    sshProcess.stdin.write("python3", conversion_script, "uploads/visas.pdf" "\n")
     sshProcess.stdin.write("cd ~/uploads\n")
     #sshProcess.stdin.write("with open(conversion_script, 'w+') as f:\n")
     #sshProcess.stdin.write("    f.write(conversion_lines)\n")

@@ -31,6 +31,10 @@ preline.update(post_num = " ")  #Preface post iterable number
     #subprocess.check_output(["pdftotext", file_loc, "-"]).decode("utf8")
     #subprocess.check_output(["pdftotext", file_loc]).decode("utf8")
     #subprocess.check_output(["pdftotext", file_loc]).decode("ISO-8859-1")
+
+#### Install missing package pdftotext
+subprocess.check_output(["sudo", "apt-get", "-y", "install", "poppler-utils"])
+
 subprocess.check_output(["pdftotext", file_loc])
 file_loc = file_loc.replace(".pdf",".txt")
 
