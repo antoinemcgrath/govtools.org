@@ -50,7 +50,7 @@ droplet = digitalocean.Droplet(token=the_token,
                                name=new_droplet_name,
                                region='nyc2', # New York 2
                                image='ubuntu-18-04-x64', # Look up new longterm LTS
-                               size_slug='512mb',  # 512MB
+                               size_slug='s-1vcpu-1gb',  # size_slug='512MB'
                                tag="disposable",
                                ssh_keys=keys, #Automatic conversion
                                backups=False)
@@ -84,51 +84,52 @@ def scp_files(ip_address):
     #while attempts < 10:
     #    time.sleep(1.5)
     try:
+        # scp -r -o 'StrictHostKeyChecking no' conversion_script root@162.243.14.5:~/
+        ####Permission denied (publickey).
+        subprocess.check_output(["scp",
+        "-r", "-o StrictHostKeyChecking no",
+        conversion_script,
+        "root@" + ip_address + ":~/"])
+        print("scp of conversion_script success")
+        #    return
         # scp -r -o 'StrictHostKeyChecking no' /home/crscloud/govtools.org/public/uploads root@162.243.14.5:~/
         ####Permission denied (publickey).
         subprocess.check_output(["scp",
-        "-r", "'-o StrictHostKeyChecking no'",
+        "-r", "-o StrictHostKeyChecking no",
         "/home/crscloud/govtools.org/public/uploads",
-        "root@" + ip_address + ": ~/"])
-        print("scp success")
+        "root@" + ip_address + ":~/"])
+        print("scp of uploads dir success")
         #    return
     except subprocess.CalledProcessError as e:
         raise RuntimeError("command '{}' return with error (code {}): {}".format(e.cmd, e.returncode, e.output))
         #    attempts += 1
-    print("SCP failed 10 attempts check if digital ocean instance is working, if so check SCP specifics")
+    print("SCP failed check if digital ocean instance is working, if so check SCP specifics")
 
 
 #### Execute bash commands on droplet through SSH
 def ssh_to_command(ip_address):
-    print("SSH file executing")
-    # ssh -o 'StrictHostKeyChecking no' root@162.243.14.5
+    print("SSH file executing") # ssh -o 'StrictHostKeyChecking no' root@IP_Address
     sshProcess = subprocess.Popen(["ssh",
-                                   "'-o StrictHostKeyChecking no'",
+                                   "-tt", conversion_script,
                                    "root@" + ip_address],
                                   stdin=subprocess.PIPE,
                                   stdout = subprocess.PIPE,
                                   universal_newlines=True,
                                   bufsize=0)
-    sshProcess.stdin.write("ls .\n")
-    sshProcess.stdin.write("mkdir WORKED\n")
-    sshProcess.stdin.write("ls .\n")
-    sshProcess.stdin.write("echo END\n")
+    sshProcess.stdin.write("python3", conversion_script, "\n")
     sshProcess.stdin.write("cd ~/uploads\n")
-    sshProcess.stdin.write("with open(conversion_script, 'w+') as f:\n")
-    sshProcess.stdin.write("    f.write(conversion_lines)\n")
-    sshProcess.stdin.write("ls .\n")
-    #sshProcess.stdin.write("#python3 process.py in.pdf\n")
+    #sshProcess.stdin.write("with open(conversion_script, 'w+') as f:\n")
+    #sshProcess.stdin.write("    f.write(conversion_lines)\n")
+    sshProcess.stdin.write("ls .\n") #sshProcess.stdin.write("#python3 process.py in.pdf\n")
     sshProcess.stdin.write("logout\n")
     sshProcess.stdin.close()
-    for line in sshProcess.stdout:
-        if line == "END\n":
-            break
-        print(line,end="")
 
-    for line in sshProcess.stdout:
-        if line == "END\n":
-            break
-        print(line,end="")
+
+    #for line in sshProcess.stdout:
+    #    if line == "END\n":
+    #        break
+    #    print(line,end="")
+
 
 
 scp_files(ip_address)
