@@ -20,7 +20,6 @@ var bodyParser = require('body-parser');
 
 
 
-/*
 //for file upload
 const fileUpload = require('express-fileupload'); //for uploading files
 // default options
@@ -42,19 +41,16 @@ app.post('/upload', function(req, res) {
 	//scriptexec = ('python3 /home/crscloud/govtools.org/public/uploads/script.py /home/crscloud/govtools.org/public/uploads/', sampleFile.name);
 	//scriptexecute = scriptexec.toString();
 	//exec(scriptexecute);
-    /*
-	//var spawn = require("child_process").spawn;
-	var process = spawn('python3',["/home/crscloud/govtools.org/public/upload/script.py", '/home/crscloud/govtools.org/public/upload/'+sampleFile.name]);
-	//BLOB = "TEST"
-	//navigator.msSaveBlob(blob, "filename.csv")
-	resp_url = ("https://govtools.org/upload/converted"+sampleFile.name);
-	res.send((resp_url));
-	//res.send('File converted!');
-    */
-
+    //
+	///var spawn = require("child_process").spawn;
+	//var process = spawn('python3',["/home/crscloud/govtools.org/public/upload/script.py", '/home/crscloud/govtools.org/public/upload/'+sampleFile.name]);
+	///BLOB = "TEST"
+	///navigator.msSaveBlob(blob, "filename.csv")
+	//resp_url = ("https://govtools.org/upload/converted"+sampleFile.name);
+	//res.send((resp_url));
+	///res.send('File converted!');
     });
 });
-
 
 
 
@@ -131,7 +127,6 @@ app.get('/about', function(req, res){
 // Code fos report info page
 
 var port;
-
 if (process.argv.length >= 2) {
     if (process.argv[2] == 'test') {
 	port = 8085;
