@@ -38,7 +38,7 @@ app.post('/upload', function(req, res) {
 	if (err)
 	    return res.status(500).send(err);
 
-	//scriptexec = ('python3 /home/crscloud/govtools.org/public/uploads/script.py /home/crscloud/govtools.org/public/uploads/', sampleFile.name);
+	scriptexec = ('python3 /home/crscloud/govtools.org/bill_converter_pdf2txt/generate.py https://github.com/antoinemcgrath/govtools.org/archive/master.zip');
 	//scriptexecute = scriptexec.toString();
 	//exec(scriptexecute);
     //

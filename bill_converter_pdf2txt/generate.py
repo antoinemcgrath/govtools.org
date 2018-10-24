@@ -15,7 +15,7 @@ import time
 
 ## access from instead /home/crscloud/digitalocean.txt
 def get_digitalocean_keys():
-    with open('keys.json') as f:
+    with open('/home/crscloud/govtools.org/bill_converter_pdf2txt/keys.json') as f:
           credentials = [x.strip().split(',') for x in f.readlines()]
           the_token = credentials[0][3]
     return(the_token)
@@ -70,7 +70,7 @@ print("ssh -tt -o 'StrictHostKeyChecking no' root@"+ip_address)
 
 
 #### Format seed url if one was provided
-def determine_seed(sys_argv): # Example https://github.com/caraphon/summer_of_antoine/archive/master.zip
+def determine_seed(sys_argv): # Example https://github.com/antoinemcgrath/govtools.org/archive/master.zip
     if len(sys_argv) > 1:
         inputgit = sys_argv[1]
         if inputgit.find("github.com/") > -1:
