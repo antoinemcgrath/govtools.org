@@ -95,7 +95,7 @@ def scp_files(ip_address):
         subprocess.check_output(["scp",
         "-r", "-o StrictHostKeyChecking no",
         "/home/crscloud/govtools.org/public/uploads",
-        "root@" + ip_address + ": ~/"])
+        "root@" + ip_address + ":~/"])
         print("scp of uploads dir success")
     except subprocess.CalledProcessError as e:
         raise RuntimeError("command '{}' return with error (code {}): {}".format(e.cmd, e.returncode, e.output))
