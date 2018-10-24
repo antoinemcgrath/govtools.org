@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# python3 generate.py https://github.com/antoinemcgrath/govtools.org/archive/master.zip
 
 #### This script will login to Digital Ocean
 #### Destroy any existing "process-files" droplet
@@ -103,8 +104,8 @@ def ssh_to_command(ip_address, inputgit):
                                   universal_newlines=True,
                                   bufsize=0)
     if inputgit.find("github.com/") > -1:
-        instruct = "wget " + inputgit + " && unzip *zip" + "\n"
-        sshProcess.stdin.write(instruct)
+        instruct = "wget " + inputgit + " && unzip *zip" + "\n" #apt install unzip
+        sshProcess.stdin.write(instruct) # wget https://github.com/antoinemcgrath/govtools.org/archive/master.zip && unzip *zip
         sshProcess.stdin.write("sh ~/" + inputgit.split('/')[4] + "-master/run.sh" + "\n")
     else:
         instruct = "wget " + inputgit + "\n"
