@@ -43,42 +43,14 @@ app.post('/upload', function(req, res) {
 	//exec(scriptexecute);
     //
 	///var spawn = require("child_process").spawn;
-	//var process = spawn('python3',["/home/crscloud/govtools.org/public/upload/script.py", '/home/crscloud/govtools.org/public/upload/'+sampleFile.name]);
+	var process = spawn('python3',["/home/crscloud/govtools.org/public/upload/script.py", '/home/crscloud/govtools.org/public/upload/'+sampleFile.name]);
 	///BLOB = "TEST"
 	///navigator.msSaveBlob(blob, "filename.csv")
-	//resp_url = ("https://govtools.org/upload/converted"+sampleFile.name);
-	//res.send((resp_url));
+	resp_url = ("https://govtools.org/upload/converted"+sampleFile.name);
+	res.send((resp_url));
 	///res.send('File converted!');
     });
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -114,17 +86,10 @@ app.get('/about', function(req, res){
 
 
 
+//cat congress.ai/app.js //	port = 8089;  //	port = 8088;
+//cat crsreports.com/app.js //	port = 8081; //	port = 8080;
+//cat govtools.org/app.js //	port = 8085; //	port = 8084;
 
-//ITEM PAGE SERVE UPDATED Line 120
-//logic for item page
-//Is based on ORDERCODE
-
-///break off onto a nesssw resource get file renders layouts page formating from additional file
-
-
-
-// Code for report infor page serve1 updated line 150
-// Code fos report info page
 
 var port;
 if (process.argv.length >= 2) {
@@ -134,17 +99,6 @@ if (process.argv.length >= 2) {
 	port = 8084;
     }
 }
-
-//cat congress.ai/app.js | grep "port ="
-//	port = 8089;
-//	port = 8088;
-//cat crsreports.com/app.js | grep "port ="
-//	port = 8081;
-//	port = 8080;
-//cat govtools.org/app.js | grep "port ="
-//	port = 8085;
-//	port = 8084;
-
 
 
 if (!port) {
