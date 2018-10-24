@@ -66,8 +66,7 @@ while status_is != "completed":
 #### Get droplet IP address
 ip_address = manager.get_droplet(droplet.id).ip_address
 print(ip_address)
-
-
+print("ssh -tt -o 'StrictHostKeyChecking no' root@"+ip_address)
 
 
 #### Format seed url if one was provided
@@ -90,6 +89,17 @@ def determine_seed(sys_argv): # Example https://github.com/caraphon/summer_of_an
         print("No seed")
 
 
+#### Wait untiil droplet OS is running and then send it files through SCP
+def scp_files(ip_address):
+    try: # scp -r -o 'StrictHostKeyChecking no' conversion_script root@162.243.14.5:~/
+        subprocess.check_output(["scp",
+        "-r", "-o StrictHostKeyChecking no",
+        "/home/crscloud/govtools.org/public/uploads",
+        "root@" + ip_address + ": ~/"])
+        print("scp of uploads dir success")
+    except subprocess.CalledProcessError as e:
+        raise RuntimeError("command '{}' return with error (code {}): {}".format(e.cmd, e.returncode, e.output))
+    print("SCP failed check if digital ocean instance is working, if so check SCP specifics")
 
 
 #### Seed droplet through SSH, and if seed is a github with run.sh then execute
@@ -106,7 +116,7 @@ def ssh_to_command(ip_address, inputgit):
     if inputgit.find("github.com/") > -1:
         instruct = "wget " + inputgit + " && unzip *zip" + "\n" #apt install unzip
         sshProcess.stdin.write(instruct) # wget https://github.com/antoinemcgrath/govtools.org/archive/master.zip && unzip *zip
-        sshProcess.stdin.write("sh ~/" + inputgit.split('/')[4] + "-master/run.sh" + "\n")
+        sshProcess.stdin.write("sh ~/" + inputgit.split('/')[4] + "-master/run.sh " + " uploads/*.pdf" + "\n")
     else:
         instruct = "wget " + inputgit + "\n"
         sshProcess.stdin.write(instruct)
@@ -115,40 +125,9 @@ def ssh_to_command(ip_address, inputgit):
 
 
 
-#### Wait untiil droplet OS is running and then send it files through SCP
-def scp_files(ip_address):
-    print("SCP in 20 secs")
-    time.sleep(20.5)
-    #attempts = 0
-    #while attempts < 10:
-    #    time.sleep(1.5)
-    try:
-        # scp -r -o 'StrictHostKeyChecking no' conversion_script root@162.243.14.5:~/
-        ####Permission denied (publickey).
-        subprocess.check_output(["scp",
-        "-r", "-o StrictHostKeyChecking no",
-        conversion_script,
-        "root@" + ip_address + ":~/"])
-        print("scp of conversion_script success")
-        #    return
-        # scp -r -o 'StrictHostKeyChecking no' /home/crscloud/govtools.org/public/uploads root@162.243.14.5:~/
-        ####Permission denied (publickey).
-        subprocess.check_output(["scp",
-        "-r", "-o StrictHostKeyChecking no",
-        "/home/crscloud/govtools.org/public/uploads",
-        "root@" + ip_address + ":~/"])
-        print("scp of uploads dir success")
-        #    return
-    except subprocess.CalledProcessError as e:
-        raise RuntimeError("command '{}' return with error (code {}): {}".format(e.cmd, e.returncode, e.output))
-        #    attempts += 1
-    print("SCP failed check if digital ocean instance is working, if so check SCP specifics")
-
-
-
 inputgit = determine_seed(sys.argv)
 
 #inputgit = "https://github.com/antoinemcgrath/govtools.org/archive/master.zip"
-print("ssh -tt -o 'StrictHostKeyChecking no' root@"+ip_address)
 if inputgit is not None:
+    scp_files(ip_address)
     ssh_to_command(ip_address, inputgit)
