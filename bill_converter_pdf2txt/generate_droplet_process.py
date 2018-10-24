@@ -135,4 +135,4 @@ def ssh_to_command(ip_address):
 
 scp_files(ip_address)
 ssh_to_command(ip_address)
-
+print("ssh root@"+ip_address)
