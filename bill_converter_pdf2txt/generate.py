@@ -1,34 +1,26 @@
 #!/usr/bin/python3
 
-## https://cloud.digitalocean.com/droplets?i=9b827d&preserveScrollPosition=false
-## https://github.com/koalalorenzo/python-digitalocean#add-a-tag-to-a-droplet
-## https://github.com/search?q=%22digitalocean.Manager%28token%3D%22&type=Code
-#### pip install -U python-digitalocean
+#### This script will login to Digital Ocean
+#### Destroy any existing "process-files" droplet
+#### Create & start a new "process-files" droplet
+#### Determine the new servers IP
+#### Seed the new droplet
+#### If seed is a git: Attempt to execute run.sh
 
+import sys
 import digitalocean
 import subprocess
 import time
 
-#### This script will login to Digital Ocean
-#### Destroy any existing "process-files" droplet
-#### Create & start a new "process-files" droplet
-#### Determine the new servers IP & SCP a directory to the droplet
-#### SSH into the droplet and execute bash commands
-
 ## access from instead /home/crscloud/digitalocean.txt
-with open('keys.json') as f:
-      credentials = [x.strip().split(',') for x in f.readlines()]
-      the_token = credentials[0][3]
+def get_digitalocean_keys():
+    with open('keys.json') as f:
+          credentials = [x.strip().split(',') for x in f.readlines()]
+          the_token = credentials[0][3]
+    return(the_token)
 
 
-conversion_script = "convertBill2txt.py"
-
-
-# Read text file
-with open(conversion_script, 'r') as fp:
-    conversion_lines = fp.read()
-
-
+the_token = get_digitalocean_keys()
 new_droplet_name = "process-files"
 manager = digitalocean.Manager(token=the_token)
 keys = manager.get_all_sshkeys()
@@ -43,27 +35,26 @@ def destroy_earlier_droplet(manager, new_droplet_name):
             droplet.destroy()
 
 
-destroy_earlier_droplet(manager, new_droplet_name)
-
 #### Generating new droplet
 droplet = digitalocean.Droplet(token=the_token,
                                name=new_droplet_name,
                                region='nyc2', # New York 2
                                image='ubuntu-18-04-x64', # Look up new longterm LTS
-                               size_slug='s-1vcpu-1gb',  # size_slug='512MB'
+                               size_slug='512MB',  # size_slug='512MB'
                                tag="disposable",
                                ssh_keys=keys, #Automatic conversion
                                backups=False)
 
 
+destroy_earlier_droplet(manager, new_droplet_name)
+
 droplet.create()
 
-
 #### Sleep until droplet build is completed
-time.sleep(8)
+time.sleep(28)
 status_is = "starting"
 while status_is != "completed":
-    time.sleep(1.5)
+    time.sleep(3.5)
     actions = droplet.get_actions()
     for action in actions:
         action.load()
@@ -76,6 +67,53 @@ ip_address = manager.get_droplet(droplet.id).ip_address
 print(ip_address)
 
 
+
+
+#### Format seed url if one was provided
+def determine_seed(sys_argv): # Example https://github.com/caraphon/summer_of_antoine/archive/master.zip
+    if len(sys_argv) > 1:
+        inputgit = sys_argv[1]
+        if inputgit.find("github.com/") > -1:
+            if inputgit.endswith(".zip") == False:
+                if inputgit.endswith(".git"):
+                    inputgit = inputgit.replace(".git", "/archive/master.zip")
+                else:
+                    inputgit = inputgit + "/archive/master.zip"
+            if inputgit.startswith("github.com") == True:
+                inputgit = inputgit.replace("github.com", "https://github.com")
+            print("Seed is:", inputgit)
+        else:
+            print("URL is not a git")
+        return(inputgit)
+    else:
+        print("No seed")
+
+
+
+
+#### Seed droplet through SSH, and if seed is a github with run.sh then execute
+def ssh_to_command(ip_address, inputgit):
+    print("SSH file executing") # ssh -tt -o 'StrictHostKeyChecking no' root@IP_Address
+    sshProcess = subprocess.Popen(["ssh",
+                                   "-tt",
+                                   "-o StrictHostKeyChecking no",
+                                   "root@" + ip_address],
+                                  stdin=subprocess.PIPE,
+                                  stdout = subprocess.PIPE,
+                                  universal_newlines=True,
+                                  bufsize=0)
+    if inputgit.find("github.com/") > -1:
+        instruct = "wget " + inputgit + " && unzip *zip" + "\n"
+        sshProcess.stdin.write(instruct)
+        sshProcess.stdin.write("sh ~/" + inputgit.split('/')[4] + "-master/run.sh" + "\n")
+    else:
+        instruct = "wget " + inputgit + "\n"
+        sshProcess.stdin.write(instruct)
+    sshProcess.stdin.write("logout\n")
+    sshProcess.stdin.close()
+
+
+'''
 #### Wait untiil droplet OS is running and then send it files through SCP
 def scp_files(ip_address):
     print("SCP in 20 secs")
@@ -104,35 +142,13 @@ def scp_files(ip_address):
         raise RuntimeError("command '{}' return with error (code {}): {}".format(e.cmd, e.returncode, e.output))
         #    attempts += 1
     print("SCP failed check if digital ocean instance is working, if so check SCP specifics")
-
-
-#### Execute bash commands on droplet through SSH
-def ssh_to_command(ip_address):
-    print("SSH file executing") # ssh -o 'StrictHostKeyChecking no' root@IP_Address
-    sshProcess = subprocess.Popen(["ssh",
-                                   "-tt",
-                                   "root@" + ip_address],
-                                  stdin=subprocess.PIPE,
-                                  stdout = subprocess.PIPE,
-                                  universal_newlines=True,
-                                  bufsize=0)
-    instruct = "python3 " + conversion_script + " uploads/visas.pdf" "\n"
-    sshProcess.stdin.write(instruct)
-    sshProcess.stdin.write("cd ~/uploads\n")
-    #sshProcess.stdin.write("with open(conversion_script, 'w+') as f:\n")
-    #sshProcess.stdin.write("    f.write(conversion_lines)\n")
-    sshProcess.stdin.write("ls .\n") #sshProcess.stdin.write("#python3 process.py in.pdf\n")
-    sshProcess.stdin.write("logout\n")
-    sshProcess.stdin.close()
-
-
-    #for line in sshProcess.stdout:
-    #    if line == "END\n":
-    #        break
-    #    print(line,end="")
+'''
 
 
 
-scp_files(ip_address)
-ssh_to_command(ip_address)
-print("ssh root@"+ip_address)
+inputgit = determine_seed(sys.argv)
+
+#inputgit = "https://github.com/antoinemcgrath/govtools.org/archive/master.zip"
+print("ssh -tt -o 'StrictHostKeyChecking no' root@"+ip_address)
+if inputgit is not None:
+    ssh_to_command(ip_address, inputgit)

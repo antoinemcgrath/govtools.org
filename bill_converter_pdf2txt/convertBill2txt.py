@@ -11,7 +11,7 @@ import subprocess
 direct = os.path.dirname(os.path.realpath(__file__))
 #direct = "/home/crscloud/congress.ai/public/uploads"
 inputfile = sys.argv[1]
-
+print(inputfile)
 #direct = "/Users/macbook/Desktop/Demand_Progress"
 #inputfile = "in.pdf"
 
