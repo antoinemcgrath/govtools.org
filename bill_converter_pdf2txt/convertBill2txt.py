@@ -8,14 +8,13 @@ import subprocess
 #Python script will receive a Lediglative draft via input pdf and output an editable text version of the bill
 #https://github.com/richardgirges/express-fileupload
 #https://github.com/richardgirges/express-fileupload/tree/master/example#basic-file-upload
-direct = os.path.dirname(os.path.realpath(__file__))
 #direct = "/home/crscloud/congress.ai/public/uploads"
 inputfile = sys.argv[1]
 print(inputfile)
 #direct = "/Users/macbook/Desktop/Demand_Progress"
 #inputfile = "in.pdf"
 
-file_loc = direct + "/" + inputfile
+file_loc = "root/uploads/" + inputfile
 matched = []
 iter = 0
 matched_lines = []
