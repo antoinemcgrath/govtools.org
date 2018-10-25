@@ -14,7 +14,7 @@ print(inputfile)
 #direct = "/Users/macbook/Desktop/Demand_Progress"
 #inputfile = "in.pdf"
 
-file_loc = "root/uploads/" + inputfile
+file_loc = "root/" + inputfile
 matched = []
 iter = 0
 matched_lines = []
