@@ -94,9 +94,9 @@ def scp_files(ip_address):
     print("Attempting scp of uploads dir")
     try: # scp -r -o 'StrictHostKeyChecking no' conversion_script root@162.243.14.5:~/
         subprocess.check_output(["scp",
-        "-r", "'-o StrictHostKeyChecking no'",
+        "-r","-o", "StrictHostKeyChecking no",
         "/home/crscloud/govtools.org/public/uploads/",
-        "root@" + ip_address + ": ~/"])
+        "root@" + ip_address + ":~/"])
         print("scp of uploads dir success")
     except subprocess.CalledProcessError as e:
         raise RuntimeError("command '{}' return with error (code {}): {}".format(e.cmd, e.returncode, e.output))
@@ -106,8 +106,7 @@ def scp_files(ip_address):
 #### Seed droplet through SSH, and if seed is a github with run.sh then execute
 def ssh_to_command(ip_address, inputgit):
     print("SSH file executing") # ssh -tt -o 'StrictHostKeyChecking no' root@IP_Address
-    sshProcess = subprocess.Popen(["ssh",
-                                   "-tt",
+    sshProcess = subprocess.Popen(["ssh", #"-tt",
                                    "-o StrictHostKeyChecking no",
                                    "root@" + ip_address],
                                   stdin=subprocess.PIPE,
@@ -115,12 +114,14 @@ def ssh_to_command(ip_address, inputgit):
                                   universal_newlines=True,
                                   bufsize=0)
     if inputgit.find("github.com/") > -1:
-        instruct = "wget " + inputgit + " && unzip *zip" + "\n" #apt install unzip
-        sshProcess.stdin.write(instruct) # wget https://github.com/antoinemcgrath/govtools.org/archive/master.zip && unzip *zip
-        sshProcess.stdin.write("sh ~/" + inputgit.split('/')[4] + "-master/run.sh " + " uploads/*.pdf" + "\n")
+        sshProcess.stdin.write("apt-get -y install unzip" + "\n")
+        time.sleep(3)
+        instructA = "wget " + inputgit + " && unzip *.zip " + "\n" #apt install unzip
+        sshProcess.stdin.write(instructA) # wget https://github.com/antoinemcgrath/govtools.org/archive/master.zip && unzip *zip
+        sshProcess.stdin.write("sh ~/" + inputgit.split('/')[4] + "-master/bill_converter_pdf2txt/run.sh " + " uploads/*.pdf" + "\n")
     else:
-        instruct = "wget " + inputgit + "\n"
-        sshProcess.stdin.write(instruct)
+        instructB = "wget " + inputgit + "\n"
+        sshProcess.stdin.write(instructB)
     sshProcess.stdin.write("logout\n")
     sshProcess.stdin.close()
 
