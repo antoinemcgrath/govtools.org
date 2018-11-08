@@ -71,7 +71,7 @@ print("ssh -tt -o 'StrictHostKeyChecking no' root@"+ip_address)
 
 #### Format seed url if one was provided
 def determine_seed(sys_argv): # Example https://github.com/antoinemcgrath/govtools.org/archive/master.zip
-    if len(sys_argv) > 1:
+    if len(sys_argv) > 0:
         inputgit = sys_argv[1]
         if inputgit.find("github.com/") > -1:
             if inputgit.endswith(".zip") == False:
@@ -81,9 +81,9 @@ def determine_seed(sys_argv): # Example https://github.com/antoinemcgrath/govtoo
                     inputgit = inputgit + "/archive/master.zip"
             if inputgit.startswith("github.com") == True:
                 inputgit = inputgit.replace("github.com", "https://github.com")
-            print("Seed is:", inputgit)
         else:
             print("URL is not a git")
+        print("Seed is:", inputgit)
         return(inputgit)
     else:
         print("No seed")
@@ -128,8 +128,8 @@ def ssh_to_command(ip_address, inputgit):
 
 
 inputgit = determine_seed(sys.argv)
-
 #inputgit = "https://github.com/antoinemcgrath/govtools.org/archive/master.zip"
+
 if inputgit is not None:
     scp_files(ip_address)
     ssh_to_command(ip_address, inputgit)
