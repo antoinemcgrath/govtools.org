@@ -119,8 +119,12 @@ def ssh_to_command(ip_address, inputgit):
         time.sleep(5)
         instructA = "wget " + inputgit + " && unzip *.zip " + "\n" #install & unzip
         sshProcess.stdin.write(instructA) # wget https://github.com/antoinemcgrath/govtools.org/archive/master.zip && unzip *zip
+        time.sleep(5)
+        instructA2 = "rm *.zip " + "\n" #Remove compressed file
+        #sshProcess.stdin.write(instructA2) # wget https://github.com/antoinemcgrath/govtools.org/archive/master.zip && unzip *zip
         sshProcess.stdin.write("sh ~/" + inputgit.split('/')[4] + "-master/bill_converter_pdf2txt/run.sh " + " uploads/*.pdf" + "\n")
         print("Status: Route A, ran run.sh attempted")
+
 
     else:
         print("Status: Route B, not found to be git")
