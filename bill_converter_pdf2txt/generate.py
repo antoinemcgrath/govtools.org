@@ -32,7 +32,7 @@ def destroy_earlier_droplet(manager, new_droplet_name):
     my_droplets = manager.get_all_droplets()
     for droplet in my_droplets:
         if droplet.name == new_droplet_name:
-            print("Recreating droplet:", droplet.name)
+            print("Status: Recreating droplet:", droplet.name)
             droplet.destroy()
 
 
@@ -60,13 +60,13 @@ while status_is != "completed":
     for action in actions:
         action.load()
         status_is = action.status
-        print (status_is)
+        print("Status:", status_is)
 
 
 #### Get droplet IP address
 ip_address = manager.get_droplet(droplet.id).ip_address
-print(ip_address)
-print("ssh -tt -o 'StrictHostKeyChecking no' root@"+ip_address)
+#print(ip_address)
+print("Status: ssh -tt -o 'StrictHostKeyChecking no' root@"+ip_address)
 
 
 #### Format seed url if one was provided
@@ -82,30 +82,30 @@ def determine_seed(sys_argv): # Example https://github.com/antoinemcgrath/govtoo
             if inputgit.startswith("github.com") == True:
                 inputgit = inputgit.replace("github.com", "https://github.com")
         else:
-            print("URL is not a git")
-        print("Seed is:", inputgit)
+            print("Status: URL is not a git")
+        print("Status: Seed is:", inputgit)
         return(inputgit)
     else:
-        print("No seed")
+        print("Status: No seed")
 
 
 #### Wait untiil droplet OS is running and then send it files through SCP
 def scp_files(ip_address):
-    print("Attempting scp of uploads dir")
+    print("Status: Attempting scp of uploads dir")
     try: # scp -r -o 'StrictHostKeyChecking no' conversion_script root@162.243.14.5:~/
         subprocess.check_output(["scp",
         "-r","-o", "StrictHostKeyChecking no",
         "/home/crscloud/govtools.org/public/uploads/",
         "root@" + ip_address + ":~/"])
-        print("scp of uploads dir success")
+        print("Status: scp of uploads dir success")
     except subprocess.CalledProcessError as e:
         raise RuntimeError("command '{}' return with error (code {}): {}".format(e.cmd, e.returncode, e.output))
-        print("SCP failed check if digital ocean instance is working, if so check SCP specifics")
+        print("Status: SCP failed check if digital ocean instance is working, if so check SCP specifics")
 
 
 #### Seed droplet through SSH, and if seed is a github with run.sh then execute
 def ssh_to_command(ip_address, inputgit):
-    print("SSH file executing") # ssh -tt -o 'StrictHostKeyChecking no' root@IP_Address
+    print("Status: SSH file executing") # ssh -tt -o 'StrictHostKeyChecking no' root@IP_Address
     sshProcess = subprocess.Popen(["ssh", #"-tt",
                                    "-o StrictHostKeyChecking no",
                                    "root@" + ip_address],
@@ -114,16 +114,16 @@ def ssh_to_command(ip_address, inputgit):
                                   universal_newlines=True,
                                   bufsize=0)
     if inputgit.find("github.com/") > -1:
-        print("Route A, git found 5 sec delay")
+        print("Status: Route A, git found 5 sec delay")
         sshProcess.stdin.write("apt-get -y install unzip" + "\n")
         time.sleep(5)
         instructA = "wget " + inputgit + " && unzip *.zip " + "\n" #install & unzip
         sshProcess.stdin.write(instructA) # wget https://github.com/antoinemcgrath/govtools.org/archive/master.zip && unzip *zip
         sshProcess.stdin.write("sh ~/" + inputgit.split('/')[4] + "-master/bill_converter_pdf2txt/run.sh " + " uploads/*.pdf" + "\n")
-        print("Route A, ran run.sh attempted")
+        print("Status: Route A, ran run.sh attempted")
 
     else:
-        print("Route B, not found to be git")
+        print("Status: Route B, not found to be git")
         instructB = "wget " + inputgit + "\n"
         sshProcess.stdin.write(instructB)
     sshProcess.stdin.write("logout\n")
