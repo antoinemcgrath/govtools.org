@@ -93,7 +93,7 @@ def determine_seed(sys_argv): # Example https://github.com/antoinemcgrath/govtoo
 def scp_files(ip_address):
     print("Status: Attempting scp of uploads dir")
     try: # scp -r -o 'StrictHostKeyChecking no' conversion_script root@162.243.14.5:~/
-        subprocess.check_output(["scp", #"-v", 
+        subprocess.check_output(["scp", #"-v",
         "-r","-o", "StrictHostKeyChecking no",
         "/home/crscloud/govtools.org/public/uploads/",
         "root@" + ip_address + ":~/"])
@@ -121,7 +121,7 @@ def ssh_to_command(ip_address, inputgit):
         sshProcess.stdin.write(instructA) # wget https://github.com/antoinemcgrath/govtools.org/archive/master.zip && unzip *zip
         time.sleep(5)
         instructA2 = "rm *.zip " + "\n" #Remove compressed file
-        #sshProcess.stdin.write(instructA2) # wget https://github.com/antoinemcgrath/govtools.org/archive/master.zip && unzip *zip
+        sshProcess.stdin.write(instructA2) # wget https://github.com/antoinemcgrath/govtools.org/archive/master.zip && unzip *zip
         sshProcess.stdin.write("sh ~/" + inputgit.split('/')[4] + "-master/bill_converter_pdf2txt/run.sh " + " uploads/*.pdf" + "\n")
         print("Status: Route A, ran run.sh attempted")
 
