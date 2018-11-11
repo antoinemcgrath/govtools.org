@@ -94,7 +94,7 @@ def scp_files(ip_address):
     print("Status: Attempting scp of uploads dir")
     try: # scp -r -o 'StrictHostKeyChecking no' conversion_script root@162.243.14.5:~/
         subprocess.check_output(["scp",
-        "-r","-o", "StrictHostKeyChecking no",
+        "-v", "-r","-o", "StrictHostKeyChecking no",
         "/home/crscloud/govtools.org/public/uploads/",
         "root@" + ip_address + ":~/"])
         print("Status: scp of uploads dir success")
@@ -135,5 +135,6 @@ inputgit = determine_seed(sys.argv)
 #inputgit = "https://github.com/antoinemcgrath/govtools.org/archive/master.zip"
 
 if inputgit is not None:
+    time.sleep(15)
     scp_files(ip_address)
     ssh_to_command(ip_address, inputgit)
