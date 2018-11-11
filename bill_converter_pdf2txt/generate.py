@@ -100,7 +100,7 @@ def scp_files(ip_address):
         print("scp of uploads dir success")
     except subprocess.CalledProcessError as e:
         raise RuntimeError("command '{}' return with error (code {}): {}".format(e.cmd, e.returncode, e.output))
-    print("SCP failed check if digital ocean instance is working, if so check SCP specifics")
+        print("SCP failed check if digital ocean instance is working, if so check SCP specifics")
 
 
 #### Seed droplet through SSH, and if seed is a github with run.sh then execute
@@ -114,12 +114,14 @@ def ssh_to_command(ip_address, inputgit):
                                   universal_newlines=True,
                                   bufsize=0)
     if inputgit.find("github.com/") > -1:
-        print("Route A, git found")
+        print("Route A, git found 5 sec delay")
         sshProcess.stdin.write("apt-get -y install unzip" + "\n")
-        time.sleep(3)
+        time.sleep(5)
         instructA = "wget " + inputgit + " && unzip *.zip " + "\n" #install & unzip
         sshProcess.stdin.write(instructA) # wget https://github.com/antoinemcgrath/govtools.org/archive/master.zip && unzip *zip
         sshProcess.stdin.write("sh ~/" + inputgit.split('/')[4] + "-master/bill_converter_pdf2txt/run.sh " + " uploads/*.pdf" + "\n")
+        print("Route A, ran run.sh attempted")
+
     else:
         print("Route B, not found to be git")
         instructB = "wget " + inputgit + "\n"
