@@ -93,8 +93,8 @@ def determine_seed(sys_argv): # Example https://github.com/antoinemcgrath/govtoo
 def scp_files(ip_address):
     print("Status: Attempting scp of uploads dir")
     try: # scp -r -o 'StrictHostKeyChecking no' conversion_script root@162.243.14.5:~/
-        subprocess.check_output(["scp",
-        "-v", "-r","-o", "StrictHostKeyChecking no",
+        subprocess.check_output(["scp", #"-v", 
+        "-r","-o", "StrictHostKeyChecking no",
         "/home/crscloud/govtools.org/public/uploads/",
         "root@" + ip_address + ":~/"])
         print("Status: scp of uploads dir success")
