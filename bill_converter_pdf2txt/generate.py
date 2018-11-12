@@ -21,6 +21,10 @@ def get_digitalocean_keys():
     return(the_token)
 
 
+def store_new_ip(ip_address):
+    with open("/home/crscloud/govtools.org/bill_converter_pdf2txt/ip.txt", "w+") as fi:
+        fi.write(ip_address)
+
 the_token = get_digitalocean_keys()
 new_droplet_name = "process-files"
 manager = digitalocean.Manager(token=the_token)
@@ -65,9 +69,8 @@ while status_is != "completed":
 
 #### Get droplet IP address
 ip_address = manager.get_droplet(droplet.id).ip_address
-#print(ip_address)
 print("Status: ssh -tt -o 'StrictHostKeyChecking no' root@"+ip_address)
-
+store_new_ip(ip_address)
 
 #### Format seed url if one was provided
 def determine_seed(sys_argv): # Example https://github.com/antoinemcgrath/govtools.org/archive/master.zip
