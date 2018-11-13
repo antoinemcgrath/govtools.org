@@ -1,12 +1,21 @@
 #!/usr/bin/python3
 # python3 generate.py https://github.com/antoinemcgrath/govtools.org/archive/master.zip
 
+
+###generates Droplet
+###### writes ip to a gitignoredfile on cloud
+###### logs into droplet
+###### get git&unzip
+###### run run.sh to instal dependencies
+
+
 #### This script will login to Digital Ocean
 #### Destroy any existing "process-files" droplet
 #### Create & start a new "process-files" droplet
 #### Determine the new servers IP
-#### Seed the new droplet
-#### If seed is a git: Attempt to execute run.sh
+#### Writes IP to gitignoredfile on commanding server
+#### Seeds the new droplet
+#### If seed is a git: Attempts to execute run.sh
 
 import sys
 import digitalocean
@@ -125,7 +134,7 @@ def ssh_to_command(ip_address, inputgit):
         time.sleep(5)
         instructA2 = "rm *.zip " + "\n" #Remove compressed file
         sshProcess.stdin.write(instructA2) # wget https://github.com/antoinemcgrath/govtools.org/archive/master.zip && unzip *zip
-        sshProcess.stdin.write("sh ~/" + inputgit.split('/')[4] + "-master/bill_converter_pdf2txt/run.sh " + " uploads/*.pdf" + "\n")
+        sshProcess.stdin.write("sh ~/" + inputgit.split('/')[4] + "-master/bill_converter_pdf2txt/run.sh " + "\n")
         print("Status: Route A, ran run.sh attempted")
 
 
