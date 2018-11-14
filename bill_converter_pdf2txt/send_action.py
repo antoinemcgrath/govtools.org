@@ -18,7 +18,7 @@ print(inputfile)
 
 ###### Accesses droplet IP
 def get_ip_address():
-    with open("/home/crscloud/govtools.org/bill_converter_pdf2txt/ip.txt", "r+") as f:
+    with open("~/govtools.org/bill_converter_pdf2txt/ip.txt", "r+") as f:
         credentials = [x.strip().split(',') for x in f.readlines()]
         ip_address = credentials[0][0]
         print(ip_address)
@@ -30,11 +30,11 @@ print("Status: ssh -tt -o 'StrictHostKeyChecking no' root@"+ip_address)
 
 ###### SCP Send file to droplet
 def scp_file(ip_address, inputfile):
-    print("Status: Attempting scp of", "/home/crscloud/govtools.org/public/uploads/"+inputfile)
+    print("Status: Attempting scp of", "~/govtools.org/public/uploads/"+inputfile)
     try: # scp -r -o 'StrictHostKeyChecking no' inputfile root@162.243.14.5:~/
         subprocess.check_output(["scp", #"-v",
         "-r","-o", "StrictHostKeyChecking no",
-        "/home/crscloud/govtools.org/public/uploads/"+inputfile,
+        "~/govtools.org/public/uploads/"+inputfile,
         "root@" + ip_address + ":~/uploads/"])
         print("Status: scp of inputfile to output dir complete")
     except subprocess.CalledProcessError as e:
@@ -70,12 +70,12 @@ ssh_to_command(ip_address, inputfile)
 returnfile = inputfile.replace(".pdf", ".txt")
 
 def scp_file_return(ip_address, returnfile):
-    print("Status: Attempting return scp of", "/home/crscloud/govtools.org/public/uploads/"+returnfile)
+    print("Status: Attempting return scp of", "~/govtools.org/public/uploads/"+returnfile)
     try: # scp -r -o 'StrictHostKeyChecking no' inputfile root@162.243.14.5:~/
         subprocess.check_output(["scp", #"-v",
         "-r","-o", "StrictHostKeyChecking no",
         "root@" + ip_address + ":~/uploads/returnfile",
-        "/home/crscloud/govtools.org/public/uploads/"+returnfile])
+        "~/govtools.org/public/uploads/"+returnfile])
         print("Status: scp of returnfile to uploads dir complete")
     except subprocess.CalledProcessError as e:
         raise RuntimeError("command '{}' return with error (code {}): {}".format(e.cmd, e.returncode, e.output))
@@ -83,3 +83,7 @@ def scp_file_return(ip_address, returnfile):
 
 
 scp_file_return(ip_address, returnfile)
+
+
+##javascript attempts transfer file(s) 10 times
+##javascript rendering a progress (socet.io) pushes messages between server and the browser

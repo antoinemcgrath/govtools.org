@@ -22,16 +22,16 @@ import digitalocean
 import subprocess
 import time
 
-## access from instead /home/crscloud/digitalocean.txt
+## access from instead ~/digitalocean.txt
 def get_digitalocean_keys():
-    with open('/home/crscloud/govtools.org/bill_converter_pdf2txt/keys.json') as f:
+    with open('~/govtools.org/bill_converter_pdf2txt/keys.json') as f:
           credentials = [x.strip().split(',') for x in f.readlines()]
           the_token = credentials[0][3]
     return(the_token)
 
 
 def store_new_ip(ip_address):
-    with open("/home/crscloud/govtools.org/bill_converter_pdf2txt/ip.txt", "w+") as fi:
+    with open("~/govtools.org/bill_converter_pdf2txt/ip.txt", "w+") as fi:
         fi.write(ip_address)
 
 the_token = get_digitalocean_keys()
@@ -107,7 +107,7 @@ def scp_files(ip_address):
     try: # scp -r -o 'StrictHostKeyChecking no' conversion_script root@162.243.14.5:~/
         subprocess.check_output(["scp", #"-v",
         "-r","-o", "StrictHostKeyChecking no",
-        "/home/crscloud/govtools.org/public/uploads/",
+        "~/govtools.org/public/uploads/",
         "root@" + ip_address + ":~/"])
         print("Status: scp of uploads dir success")
     except subprocess.CalledProcessError as e:
