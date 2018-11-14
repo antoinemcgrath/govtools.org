@@ -19,8 +19,9 @@ print(inputfile)
 ###### Accesses droplet IP
 def get_ip_address():
     with open("/home/crscloud/govtools.org/bill_converter_pdf2txt/ip.txt", "r+") as f:
-          ip_address = f.readlines()
-          print(ip_address)
+        credentials = [x.strip().split(',').split('\n') for x in f.readlines()]
+        ip_address = credentials[0][0]
+        print(ip_address)
     return(ip_address)
 
 
