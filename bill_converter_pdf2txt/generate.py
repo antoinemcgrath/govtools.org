@@ -52,7 +52,7 @@ def destroy_earlier_droplet(manager, new_droplet_name):
 #### Generating new droplet
 droplet = digitalocean.Droplet(token=the_token,
                                name=new_droplet_name,
-                               region='lon1', # New York 2
+                               region='sfo1', # nyc2 lon1 sfo1 New York 2
                                image='ubuntu-18-04-x64', # CoreOS tiniest?
                                size_slug='512MB',  # size_slug='512MB'
                                tag="disposable",
