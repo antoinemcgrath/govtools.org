@@ -111,7 +111,7 @@ def scp_files(ip_address):
     try: # scp -r -o 'StrictHostKeyChecking no' conversion_script root@162.243.14.5:~/
         subprocess.check_output(["scp", #"-v",
         "-r","-o", "StrictHostKeyChecking no",
-        "~/govtools.org/public/uploads/",
+        home + "/govtools.org/public/uploads/",
         "root@" + ip_address + ":~/"])
         print("Status: scp of uploads dir success")
     except subprocess.CalledProcessError as e:
