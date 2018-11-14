@@ -30,13 +30,13 @@ print("Status: ssh -tt -o 'StrictHostKeyChecking no' root@"+ip_address)
 
 ###### SCP Send file to droplet
 def scp_file(ip_address, inputfile):
-    print("Status: Attempting scp of", "/home/crscloud/govtools.org/public/uploads/"+inputefile)
+    print("Status: Attempting scp of", "/home/crscloud/govtools.org/public/uploads/"+inputfile)
     try: # scp -r -o 'StrictHostKeyChecking no' inputfile root@162.243.14.5:~/
         subprocess.check_output(["scp", #"-v",
         "-r","-o", "StrictHostKeyChecking no",
-        "/home/crscloud/govtools.org/public/uploads/"+inputefile,
+        "/home/crscloud/govtools.org/public/uploads/"+inputfile,
         "root@" + ip_address + ":~/uploads/"])
-        print("Status: scp of inputefile to output dir complete")
+        print("Status: scp of inputfile to output dir complete")
     except subprocess.CalledProcessError as e:
         raise RuntimeError("command '{}' return with error (code {}): {}".format(e.cmd, e.returncode, e.output))
         print("Status: SCP failed check if digital ocean instance is working, if so check SCP specifics")
