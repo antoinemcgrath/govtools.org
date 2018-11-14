@@ -20,7 +20,9 @@ print(inputfile)
 def get_the_ip():
     with open("/home/crscloud/govtools.org/bill_converter_pdf2txt/ip.txt", "w+") as f:
           credentials = [x.strip().split(',') for x in f.readlines()]
-          the_ip = credentials[0][1]
+          print(credentials)
+          the_ip = credentials[0]
+          print(the_ip)
     return(the_ip)
 
 
