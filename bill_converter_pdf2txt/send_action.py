@@ -17,14 +17,14 @@ inputfile = sys.argv[1]
 print(inputfile)
 
 ###### Accesses droplet IP
-def get_the_ip():
+def get_ip_address():
     with open("/home/crscloud/govtools.org/bill_converter_pdf2txt/ip.txt", "w+") as f:
-          the_ip = [x.strip().split(',') for x in f.readlines()]
-          print(the_ip)
-    return(the_ip)
+          ip_address = f.readlines()
+          print(ip_address)
+    return(ip_address)
 
 
-the_ip = get_the_ip()
+ip_address = get_ip_address()
 print("Status: ssh -tt -o 'StrictHostKeyChecking no' root@"+ip_address)
 
 ###### SCP Send file to droplet
@@ -34,7 +34,7 @@ def scp_file(ip_address, inputfile):
         subprocess.check_output(["scp", #"-v",
         "-r","-o", "StrictHostKeyChecking no",
         "/home/crscloud/govtools.org/public/uploads/"+inputefile,
-        "root@" + the_ip + ":~/uploads/"])
+        "root@" + ip_address + ":~/uploads/"])
         print("Status: scp of inputefile to output dir complete")
     except subprocess.CalledProcessError as e:
         raise RuntimeError("command '{}' return with error (code {}): {}".format(e.cmd, e.returncode, e.output))
@@ -70,7 +70,7 @@ def scp_file_return(ip_address, returnfile):
     try: # scp -r -o 'StrictHostKeyChecking no' inputfile root@162.243.14.5:~/
         subprocess.check_output(["scp", #"-v",
         "-r","-o", "StrictHostKeyChecking no",
-        "root@" + the_ip + ":~/uploads/returnfile",
+        "root@" + ip_address + ":~/uploads/returnfile",
         "/home/crscloud/govtools.org/public/uploads/"+returnfile])
         print("Status: scp of returnfile to uploads dir complete")
     except subprocess.CalledProcessError as e:
