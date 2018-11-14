@@ -62,6 +62,9 @@ def ssh_to_command(ip_address, inputfile):
     sshProcess.stdin.close()
 
 
+ssh_to_command(ip_address, inputfile)
+
+
 ###### Serves final file to user as a url
 ###### Return SCP Send file to droplet
 returnfile = inputfile.replace(".pdf", ".txt")
