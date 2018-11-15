@@ -1,4 +1,4 @@
-var express = require('express');
+uploadvar express = require('express');
 var app = express();
 
 var fs = require('fs');                 //additional npm functionality incl. mkdir
@@ -34,7 +34,7 @@ app.post('/upload', function(req, res) {
     sampleFile = req.files.sampleFile;
 
     // Use the mv() method to place the file somewhere on your server
-    sampleFile.mv('public/uploads/'+sampleFile.name, function(err) {
+    sampleFile.mv('public/upload/'+sampleFile.name, function(err) {
 	if (err)
 	    return res.status(500).send(err);
 

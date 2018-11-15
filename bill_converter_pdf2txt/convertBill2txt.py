@@ -8,7 +8,7 @@ import subprocess
 #Python script will receive a Lediglative draft via input pdf and output an editable text version of the bill
 #https://github.com/richardgirges/express-fileupload
 #https://github.com/richardgirges/express-fileupload/tree/master/example#basic-file-upload
-#direct = "~/congress.ai/public/uploads"
+#direct = "~/congress.ai/public/upload"
 inputfile = sys.argv[1]
 print(inputfile)
 #direct = "/Users/macbook/Desktop/Demand_Progress"
