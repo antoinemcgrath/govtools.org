@@ -86,7 +86,7 @@ def scp_file_return(ip_address, returnfile):
         print("Status: SCP failed check if digital ocean instance is working, if so check SCP specifics")
 
 
-time.sleep(15)
+time.sleep(10)
 scp_file_return(ip_address, returnfile)
 
 

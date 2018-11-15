@@ -48,7 +48,7 @@ app.post('/upload', function(req, res) {
 	//var process = spawn('python3',["/home/crscloud/govtools.org/public/upload/script.py", '~/govtools.org/public/upload/'+sampleFile.name]);
 	///BLOB = "TEST"
 	///navigator.msSaveBlob(blob, "filename.csv")
-	resp_url = ("https://govtools.org/upload/converted"+sampleFile.name);
+	resp_url = ("Visit https://govtools.org/upload/"+sampleFile.name+" with the extension .txt");
 	res.send((resp_url));
 	///res.send('File converted!');
     });
