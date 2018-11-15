@@ -12,13 +12,17 @@ import sys
 import subprocess
 import time
 
+
+from pathlib import Path
+home = str(Path.home())
+
 ###### Receives an uploaded file as input
 inputfile = sys.argv[1]
 print(inputfile)
 
 ###### Accesses droplet IP
 def get_ip_address():
-    with open("~/govtools.org/bill_converter_pdf2txt/ip.txt", "r+") as f:
+    with open(home + "/govtools.org/bill_converter_pdf2txt/ip.txt", "r+") as f:
         credentials = [x.strip().split(',') for x in f.readlines()]
         ip_address = credentials[0][0]
         print(ip_address)
