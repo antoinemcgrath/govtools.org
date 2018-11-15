@@ -79,7 +79,7 @@ def scp_file_return(ip_address, returnfile):
         subprocess.check_output(["scp", #"-v",
         "-r","-o", "StrictHostKeyChecking no",
         "root@" + ip_address + ":~/upload/" + returnfile,
-        home + "/govtools.org/public/upload/"+returnfile])
+        home + "/govtools.org/public/upload/"])
         print("Status: scp of returnfile to upload dir complete")
     except subprocess.CalledProcessError as e:
         raise RuntimeError("command '{}' return with error (code {}): {}".format(e.cmd, e.returncode, e.output))
