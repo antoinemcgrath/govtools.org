@@ -78,8 +78,8 @@ def scp_file_return(ip_address, returnfile):
     try: # scp -r -o 'StrictHostKeyChecking no' inputfile root@162.243.14.5:~/
         subprocess.check_output(["scp", #"-v",
         "-r","-o", "StrictHostKeyChecking no",
-        "root@" + ip_address + ":~/uploads/returnfile",
-        "~/govtools.org/public/uploads/"+returnfile])
+        "root@" + ip_address + ":~/uploads/" + returnfile,
+        home + "/govtools.org/public/uploads/"+returnfile])
         print("Status: scp of returnfile to uploads dir complete")
     except subprocess.CalledProcessError as e:
         raise RuntimeError("command '{}' return with error (code {}): {}".format(e.cmd, e.returncode, e.output))
