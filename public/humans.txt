@@ -15,5 +15,6 @@ For information on what a humans.txt is visit humanstxt.org
      /* TEAM */
 
         Antoine McGrath
+        Daniel Schuman
 
-     2018 October Thank You
+     2018 November Thank You
