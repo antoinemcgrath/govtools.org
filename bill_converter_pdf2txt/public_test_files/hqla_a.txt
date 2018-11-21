@@ -1,0 +1,70 @@
+Be it enacted by the Senate and House of Representa-
+2 tives of the United States of America in Congress assembled,
+SECTION 1. TREATMENT OF CERTAIN MUNICIPAL OBLIGATIONS.
+(a) IN GENERAL.'Section 18 of the Federal Deposit
+6 Insurance Act (12 U.S.C. 1828) is amended'
+(1) by moving subsection (z) so that it appears
+after subsection (y); and
+(2) by adding at the end the following:
+''(aa) TREATMENT
+OF
+CERTAIN MUNICIPAL OBLIGA-
+TIONS.'
+''(1) DEFINITIONS.'In this subsection'
+''(A) the term 'investment grade', with re-
+spect to an obligation, has the meaning given
+the term in section 1.2 of title 12, Code of Fed-
+eral Regulations, or any successor thereto;
+''(B) the term 'liquid and readily-market-
+12
+able' has the meaning given the term in section
+13
+249.3 of title 12, Code of Federal Regulations,
+14
+or any successor thereto; and
+15
+16
+17
+18
+''(C) the term 'municipal obligation' means
+an obligation of'
+''(i) a State or any political subdivision thereof; or
+19
+''(ii) any agency or instrumentality of
+20
+a State or any political subdivision thereof.
+21
+''(2) MUNICIPAL
+OBLIGATIONS.'For
+purposes
+22
+of the final rule entitled 'Liquidity Coverage Ratio:
+23
+Liquidity Risk Measurement Standards' (79 Fed.
+24
+Reg. 61439 (October 10, 2014)), the final rule enti-
+25
+tled 'Liquidity Coverage Ratio: Treatment of U.S.
+Municipal Securities as High-Quality Liquid Assets'
+(81 Fed. Reg. 21223 (April 11, 2016)), and any
+other regulation that incorporates a definition of the
+term 'high-quality liquid asset' or another substan-
+tially similar term, the appropriate Federal banking
+agencies shall treat a municipal obligation as a high-
+quality liquid asset that is a level 2B liquid asset if
+that obligation is, as of the date of calculation'
+''(A) liquid and readily-marketable; and
+''(B) investment grade.''.
+(b) AMENDMENT
+TO
+LIQUIDITY COVERAGE RATIO
+12 REGULATIONS.'Not later than 90 days after the date of
+13 enactment of this Act, the Federal Deposit Insurance Cor14 poration, the Board of Governors of the Federal Reserve
+15 System, and the Comptroller of the Currency shall amend
+16 the final rule entitled ''Liquidity Coverage Ratio: Liquidity
+17 Risk Measurement Standards'' (79 Fed. Reg. 61439 (Oc18 tober 10, 2014)) and the final rule entitled ''Liquidity
+19 Coverage Ratio: Treatment of U.S. Municipal Securities
+20 as High-Quality Liquid Assets'' (81 Fed. Reg. 21223
+21 (April 11, 2016)) to implement the amendments made by
+22 this Act.
+
