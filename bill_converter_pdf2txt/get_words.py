@@ -63,9 +63,9 @@ page_count = get_page_count()
 # Get all numbers in BBox wmin wmax
 def get_numbers_on_column(words, wmin, wmax):
     xmax = 0
-    xmin = sys.maxint
+    xmin = 999,999,999
     ymax = 0
-    ymin = sys.maxint
+    ymin = 999,999,999
     num_column_list = []
     for w in words:
         if float(Decimal(w['xmin'])) > float(Decimal(wmin))-TOLERANCE and float(Decimal(w['xmax'])) < float(Decimal(wmax)) + TOLERANCE:
