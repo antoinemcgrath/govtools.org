@@ -35,7 +35,17 @@ outputfile = sys.argv[1][:-3]+"txt"
 
 
 #Bbox tolerance
-TOLERANCE = 1
+TOLERANCE = 4
+
+#   Analysis driven by
+# sort visas_tol_6.txt |uniq -c | egrep -v "  1  " |sort
+# Tolerance 1: results in least dup lines but 92 blanks
+# Tolerance 2: results in few dup lines but 87 blanks
+# Tolerance 3: results in same as 3
+# Tolerance 4: results in lease dup lines but 49 blanks
+# Tolerance 5: results in same as 4
+# Tolerance 10: results in same as 4
+# Tolerance 20: starts to grab page numbers and other offline words
 
 #Line preface numbers which may be expected
 NUMBERS = ['1', '2', '3', '4', '5', '6', '7', '9', '10', '11', '12', '13',
@@ -147,8 +157,8 @@ page_words = get_page_words(page)
 for a_num in column_num_sequence:
     if ymax > float(a_num['ymax']):
         page += 1
-        print(page + " of " + page_count + " pages")
-        while page != page_count:
+        print(str(page) + " of " + str(page_count) + " pages")
+        if page < page_count:
             page_words = get_page_words(page)
     line = get_words_in_box(page_words, Decimal(a_num['xmin']), Decimal(a_num['xmax']), Decimal(a_num['ymin']), Decimal(a_num['ymax'])) #print (str(page) + ":" + str(a_num.text) + " line height is between " + a_num['ymin'] + " & " + a_num['ymax'])    #print(line)
     pages_lines += line + "\n"
