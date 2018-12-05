@@ -83,6 +83,7 @@ def scp_file_return(ip_address, returnfile):
         "root@" + ip_address + ":~/upload/" + returnfile,
         home + "/govtools.org/public/upload/"])
         print("Status: scp of returnfile to upload dir complete")
+        print("https://govtools.org/upload/"+returnfile)
     except subprocess.CalledProcessError as e:
         raise RuntimeError("command '{}' return with error (code {}): {}".format(e.cmd, e.returncode, e.output))
         print("Status: SCP failed check if digital ocean instance is working, if so check SCP specifics")
