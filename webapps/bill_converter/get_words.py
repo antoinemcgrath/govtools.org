@@ -1,4 +1,6 @@
 #python2 on ubuntu
+# python2 get_words.py public_test_files/visas.pdf #Ubuntu
+# python get_words.py public_test_files/visas.pdf #mac
 
 import glob
 from subprocess import Popen, PIPE
@@ -141,11 +143,13 @@ ymax = 0
 page = 0
 pages_lines = ""
 page_words = get_page_words(page)
+
 for a_num in column_num_sequence:
     if ymax > float(a_num['ymax']):
         page += 1
-        print(page)
-        page_words = get_page_words(page)
+        print(page + " of " + page_count + " pages")
+        while page != page_count:
+            page_words = get_page_words(page)
     line = get_words_in_box(page_words, Decimal(a_num['xmin']), Decimal(a_num['xmax']), Decimal(a_num['ymin']), Decimal(a_num['ymax'])) #print (str(page) + ":" + str(a_num.text) + " line height is between " + a_num['ymin'] + " & " + a_num['ymax'])    #print(line)
     pages_lines += line + "\n"
     ymax = float(a_num['ymax'])

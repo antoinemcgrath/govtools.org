@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-# python3 send_action.py
+# python3 send_action.py "file"
+# python3 send_action.py visas.pdf
 
 ### A users upload of a pdf triggers this python script
 ###### Receives an uploaded file as input
@@ -20,7 +21,7 @@ home = str(Path.home())
 inputfile = sys.argv[1]
 print(inputfile)
 
-###### Accesses droplet IP
+###### Accesses processing server droplet IP
 def get_ip_address():
     with open(home + "/govtools.org/webapps/bill_converter/ip.txt", "r+") as f:
         credentials = [x.strip().split(',') for x in f.readlines()]
@@ -32,7 +33,7 @@ def get_ip_address():
 ip_address = get_ip_address()
 print("Status: ssh -tt -o 'StrictHostKeyChecking no' root@"+ip_address)
 
-###### SCP Send file to droplet
+###### SCP Send file to processing server/droplet
 def scp_file(ip_address, inputfile):
     print("Status: Attempting scp of", home + "/govtools.org/public/upload/"+inputfile)
     try: # scp -r -o 'StrictHostKeyChecking no' inputfile root@162.243.14.5:~/
@@ -49,7 +50,7 @@ def scp_file(ip_address, inputfile):
 scp_file(ip_address, inputfile)
 
 
-###### Triggers droplet conversion and requests final file through SSH
+###### Triggers provessing server/droplet conversion and requests final file through SSH
 def ssh_to_command(ip_address, inputfile):
     print("Status: SSH file executing") # ssh -tt -o 'StrictHostKeyChecking no' root@IP_Address
     sshProcess = subprocess.Popen(["ssh", #"-tt",
@@ -62,6 +63,7 @@ def ssh_to_command(ip_address, inputfile):
     print("Status: SSH of actions")
     instructA = "python2 ~/govtools.org-master/webapps/bill_converter/get_words.py " + "~/upload/"+inputfile + "\n"
     sshProcess.stdin.write(instructA)
+    #time.sleep(60)
     sshProcess.stdin.write("logout\n")
     sshProcess.stdin.close()
 
