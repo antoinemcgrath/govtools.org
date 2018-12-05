@@ -49,7 +49,12 @@ app.post('/upload', function(req, res) {
 	///BLOB = "TEST"
 	///navigator.msSaveBlob(blob, "filename.csv")
 	resp_url = ("Visit https://govtools.org/upload/"+sampleFile.name+" with the extension .txt");
+    res.header('Content-disposition: attachment; filename=sampleFile.name');
+    //res.header(field, [value])
 	res.send((resp_url));
+    ///header('Content-type: application/vnd.ms-excel');
+
+
 	///res.send('File converted!');
     });
 });
