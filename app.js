@@ -50,7 +50,7 @@ app.post('/upload', function(req, res) {
 	///navigator.msSaveBlob(blob, "filename.csv")
     dest = sampleFile.name.split('.').slice(0, -1).join('.')+".txt"
 	resp_url = ("Visit https://govtools.org/upload/"+dest);
-    res.header('Content-disposition: attachment; filename='dest);
+    res.header('Content-disposition: attachment; filename=dest');
     //res.header(field, [value])
 	res.send((resp_url));
     ///header('Content-type: application/vnd.ms-excel');
