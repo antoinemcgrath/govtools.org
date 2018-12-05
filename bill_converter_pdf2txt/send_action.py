@@ -60,7 +60,7 @@ def ssh_to_command(ip_address, inputfile):
                                   universal_newlines=True,
                                   bufsize=0)
     print("Status: SSH of actions")
-    instructA = "python3 ~/govtools.org-master/bill_converter_pdf2txt/convertBill2txt.py " + "~/upload/"+inputfile + "\n"
+    instructA = "python3 ~/govtools.org-master/bill_converter_pdf2txt/get_words.py " + "~/upload/"+inputfile + "\n"
     sshProcess.stdin.write(instructA)
     sshProcess.stdin.write("logout\n")
     sshProcess.stdin.close()
