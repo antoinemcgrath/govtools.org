@@ -41,7 +41,7 @@ NUMBERS = ['1', '2', '3', '4', '5', '6', '7', '9', '10', '11', '12', '13',
 
 
 #PDFtoText the file
-output = Popen(["pdftotext", "-nopgbrk", "-f", "1", "-bbox", pdfname, "-"], stdout=PIPE, stderr=PIPE).communicate()[0]
+output = Popen(["pdftotext", "-nopgbrk", "-f", "1", "-bbox", inputfile, "-"], stdout=PIPE, stderr=PIPE).communicate()[0]
 #Load PDF into beautifulsoup
 soup = BeautifulSoup(output.decode('utf-8'))
 
