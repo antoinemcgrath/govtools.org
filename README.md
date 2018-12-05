@@ -5,8 +5,11 @@ GovTools.org: Website & user interface
 ----
 
 This Git supports GovTools.org a resource for government.
-Tools include:
-1. PDF to Text conversion.
+
+Tools are stored in the webapps directory
+
+1. bill_converter provides PDF to Text conversion of draft bills
+https://govtools.org/upload.html
 -For the conversion of bill drafts stored in PDF to an easily editable .txt format.
 -Files (bill drafts) are destroyed after conversion and not preserved on the servers.
 -For users security the file processing server is periodically destroyed and recreated.

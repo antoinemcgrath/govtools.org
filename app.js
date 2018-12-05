@@ -38,9 +38,9 @@ app.post('/upload', function(req, res) {
 	if (err)
 	    return res.status(500).send(err);
 
-    //python3 home/crscloud/govtools.org/bill_converter_pdf2txt/generate.py https://github.com/antoinemcgrath/govtools.org/archive/master.zip
+    //python3 home/crscloud/govtools.org/webapps/bill_converter/generate.py https://github.com/antoinemcgrath/govtools.org/archive/master.zip
 
-	scriptexec = ("python3 /home/crscloud/govtools.org/bill_converter_pdf2txt/send_action.py " + sampleFile.name);
+	scriptexec = ("python3 /home/crscloud/govtools.org/webapps/bill_converter/send_action.py " + sampleFile.name);
 	//scriptexecute = scriptexec.toString();
 	exec(scriptexec);
     //
