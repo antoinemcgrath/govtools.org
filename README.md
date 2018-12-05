@@ -9,6 +9,7 @@ This Git supports GovTools.org a resource for government.
 Tools are stored in the webapps directory
 
 1. bill_converter provides PDF to Text conversion of draft bills
+'''
 * https://govtools.org/upload.html
 * -For the conversion of bill drafts stored in PDF to an easily editable .txt format.
 * -Files (bill drafts) are destroyed after conversion and not preserved on the servers.
@@ -24,7 +25,7 @@ Tools are stored in the webapps directory
 * The user is able to access their converted document at https://govtools.org/upload/TheirFilesName.txt
 * *The users files are destroyed on primary server upon being server (or if not acccessed after 10 minutes)
 * *Periodically Cron script triggers generate.py which destroys and rebuilds the processing server and sets env. stores new keys
-
+'''
 
 
 -------
