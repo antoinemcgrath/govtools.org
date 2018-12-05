@@ -22,7 +22,7 @@ print(inputfile)
 
 ###### Accesses droplet IP
 def get_ip_address():
-    with open(home + "/govtools.org/bill_converter_pdf2txt/ip.txt", "r+") as f:
+    with open(home + "/govtools.org/bill_converter/ip.txt", "r+") as f:
         credentials = [x.strip().split(',') for x in f.readlines()]
         ip_address = credentials[0][0]
         print(ip_address)
@@ -60,7 +60,7 @@ def ssh_to_command(ip_address, inputfile):
                                   universal_newlines=True,
                                   bufsize=0)
     print("Status: SSH of actions")
-    instructA = "python2 ~/govtools.org-master/bill_converter_pdf2txt/get_words.py " + "~/upload/"+inputfile + "\n"
+    instructA = "python2 ~/govtools.org-master/bill_converter/get_words.py " + "~/upload/"+inputfile + "\n"
     sshProcess.stdin.write(instructA)
     sshProcess.stdin.write("logout\n")
     sshProcess.stdin.close()

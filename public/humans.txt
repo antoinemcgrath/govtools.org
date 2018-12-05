@@ -1,7 +1,4 @@
 
-For information on what a humans.txt is visit humanstxt.org
-
-
     /* THANKS */
 
     First and foremost THANK YOU
@@ -12,9 +9,10 @@ For information on what a humans.txt is visit humanstxt.org
     THANK YOU Advisors
         Daniel Schuman of Demand Progress for requesting a PDF to txt conversion of bill drafts
 
-     /* TEAM */
+    /* TEAM */
 
         Antoine McGrath
         Daniel Schuman
 
-     2018 November Thank You
+    /* Dated */
+    2018 December Thank You

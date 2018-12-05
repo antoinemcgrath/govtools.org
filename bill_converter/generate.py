@@ -28,14 +28,14 @@ home = str(Path.home())
 
 ## access from instead ~/digitalocean.txt
 def get_digitalocean_keys():
-    with open(home + '/govtools.org/bill_converter_pdf2txt/keys.json') as f:
+    with open(home + '/govtools.org/bill_converter/keys.json') as f:
           credentials = [x.strip().split(',') for x in f.readlines()]
           the_token = credentials[0][3]
     return(the_token)
 
 
 def store_new_ip(ip_address):
-    with open(home + "/govtools.org/bill_converter_pdf2txt/ip.txt", "w+") as fi:
+    with open(home + "/govtools.org/bill_converter/ip.txt", "w+") as fi:
         fi.write(ip_address)
 
 the_token = get_digitalocean_keys()
@@ -138,7 +138,7 @@ def ssh_to_command(ip_address, inputgit):
         time.sleep(5)
         instructA2 = "rm *.zip " + "\n" #Remove compressed file
         sshProcess.stdin.write(instructA2) # wget https://github.com/antoinemcgrath/govtools.org/archive/master.zip && unzip *zip
-        sshProcess.stdin.write("sh ~/" + inputgit.split('/')[4] + "-master/bill_converter_pdf2txt/run.sh " + "\n")
+        sshProcess.stdin.write("sh ~/" + inputgit.split('/')[4] + "-master/bill_converter/run.sh " + "\n")
         print("Status: Route A, ran run.sh attempted")
 
 
