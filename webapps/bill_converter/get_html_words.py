@@ -12,12 +12,6 @@ from datetime import datetime
 #from BeautifulSoup import BeautifulSoup #apt install python-pip pip install beautifulsoup4
 from bs4 import BeautifulSoup
 
-#inputfile = sys.argv[1]
-inputfile = "food.pdf" # For test
-outputfile = inputfile[:-3]+"txt"
-
-
-max_doc_width = 1275
 #PDFtoText the file
 #Load PDF into beautifulsoup
 #Get all words and their coordinates
@@ -29,7 +23,6 @@ max_doc_width = 1275
 #Generate txt from each pages bbox minus num_col_bbox
 #Generate txt from cropped pdf
 
-
 #### If a filetype check is desired #'application/pdf; charset=binary'
 #import magic
 #mag = magic.open(magic.MAGIC_MIME)
@@ -37,8 +30,12 @@ max_doc_width = 1275
 #mts = mag.file(pdfname)
 
 
-#Bbox tolerance
-TOLERANCE = 4
+#inputfile = sys.argv[1]
+inputfile = "food.pdf" # For test
+outputfile = inputfile[:-3]+"txt"
+max_doc_width = 1275  #Standard pdf width
+TOLERANCE = 4  #Bbox tolerance
+
 
 #   Analysis driven by
 # sort visas_tol_6.txt |uniq -c | egrep -v "  1  " |sort
@@ -147,19 +144,46 @@ def get_pages_specs():
                 prev_boxed_num = int(line.text)
                 #print("Page " + str(page_number) + " starts with line " + line.text + " at ymin " + str(line['ymin'])) #print(line)
                 start_y = line['ymin']
-        specs.append({"ymin":start_y, "ymax":line['ymax'], "xmin":float(page_nums[-1]['xmin'])-2, "xmin_sans_num":float(page_nums[-1]['xmin'])-2, "xmax":max_doc_width})
+        specs.append({"page":page_number+1, "ymin":float(start_y), "ymax":float(line['ymax']), "xmin_avec_num":float(page_nums[-1]['xmin'])-2, "xmin_sans_num":float(page_nums[-1]['xmin'])-2, "xmax":float(max_doc_width)})
     return(specs)
 
 
+def p(specs):
+    for one in specs:
+        print(one)
+
+
 specs = get_pages_specs()
+p(specs)
 
 
 
-def get_bbox_words(specs):
-    for page_number in specs:
 
-        print "Page" + str(page_number)
-        page_words = get_page_words(page_number)
+
+def get_bbox_page_words(spec, incl_line_nums):
+    for p_spec in specs:
+        print "Page" + str(p_spec['page'])
+        words = get_page_words(p_spec['page']-1)
+            for one in words:
+                if incl_line_num == True:
+                    if spec[] < deliminator:
+
+
+
+                        numis_xmax.append(one)
+                        print(one)
+                if incl_line_num == False:
+                    if one > deliminator:
+                        numis_xmax.append(one)
+                        print(one)
+
+
+get_bbox_page_words(spec, True)
+
+
+
+
+
         page_numbers = []
         for page_word in page_words:
             if page_word.text in NUMBERS:
