@@ -11,6 +11,7 @@ import re
 from datetime import datetime
 #from BeautifulSoup import BeautifulSoup #apt install python-pip pip install beautifulsoup4
 from bs4 import BeautifulSoup
+import numpy as np
 
 #PDFtoText the file
 #Load PDF into beautifulsoup
@@ -36,9 +37,8 @@ outputfile = inputfile[:-3]+"txt"
 max_doc_width = 1275  #Standard pdf width
 TOLERANCE = 4  #Bbox tolerance
 
-
-#   Analysis driven by
-# sort visas_tol_6.txt |uniq -c | egrep -v "  1  " |sort
+#   Tolerance analysis driven by
+# > sort visas_tol_20.txt |uniq -c | egrep -v "  1  " |sort
 # Tolerance 1: results in least dup lines but 92 blanks
 # Tolerance 2: results in few dup lines but 87 blanks
 # Tolerance 3: results in same as 3
@@ -47,17 +47,13 @@ TOLERANCE = 4  #Bbox tolerance
 # Tolerance 10: results in same as 4
 # Tolerance 20: starts to grab page numbers and other offline words
 
-#Line preface numbers which may be expected
-NUMBERS = map(lambda x:str(x),range(1,26))
+NUMBERS = map(lambda x:str(x),range(1,26))  #Line preface numbers which may be expected
 
 #PDFtoText the file
 output = Popen(["pdftotext", "-nopgbrk", "-f", "1", "-bbox", inputfile, "-"], stdout=PIPE, stderr=PIPE).communicate()[0]
-#Load PDF into beautifulsoup
-soup = BeautifulSoup(output.decode('utf-8'), "lxml")
+soup = BeautifulSoup(output.decode('utf-8'), "lxml")  #Load PDF into beautifulsoup
 
-#Get all words and their coordinates
-all_words = soup.html.body.doc('word') #For all pages
-
+all_words = soup.html.body.doc('word')  #Get all words and their coordinates
 
 def get_nums(words):
     nums = []
@@ -67,9 +63,6 @@ def get_nums(words):
     return(nums)
 
 
-all_nums = get_nums(all_words)
-
-
 def crop_split(words, side, deliminator):
     cropped_words = []
     numis_xmax = []
@@ -77,19 +70,13 @@ def crop_split(words, side, deliminator):
         if side == "lt":
             if one < deliminator:
                 numis_xmax.append(one)
-                print(one)
         if side == "gt":
             if one > deliminator:
                 numis_xmax.append(one)
-                print(one)
     return(numis_xmax)
 
 
-pages_nums = crop_split(all_nums, "lt", 300) #Reduce all_nums to just those less than 300
-
-
-#### Perhaps not entirely needed
-import numpy as np
+#### Slight improvement to num column identification, perhaps not needed
 def reject_outliers(data):
     m = 2
     u = np.mean(data)
@@ -98,63 +85,126 @@ def reject_outliers(data):
     return filtered
 
 
-fav_xmax = reject_outliers(pages_nums)
-
 def mean(numbers):
-    return float(sum(numbers)) / max(len(numbers), 1)
+    return float(sum(numbers))/max(len(numbers),1)
 
 
-xmax_mean = mean(fav_xmax)
-
-
-def get_page_count():
+def get_page_words(): #Fetch all of the words on specified page
     page_count = 0
+    pages = []
     for each_page in soup.html.body.doc('page'):
         page_count += 1
-    print ("The PDF contains " + str(page_count) + " pages.")
-    return (page_count)
-
-
-page_count = get_page_count()
-
-
-def get_page_words(page_number): #Fetch all of the words on specified page
-    page_words = soup.html.body.doc('page')[page_number]('word') #[xmin, xmax, ymin, ymax]
-    sorted_page_words = sorted(page_words, key=lambda elem: float(elem['xmax'])) #This prevents misordering for the odd cases when they are not listed left to right by BeautifulSoup
-    return (sorted_page_words)
+        page_words = each_page('word')
+        pages.append({"page":page_count, "words":page_words})
+    return (pages)
 
 
 def get_pages_specs():
     specs = []
-    for page_number in xrange(page_count):
-        print "Page" + str(page_number)
-        page_words = get_page_words(page_number)
+    for p in p_words:
+        print "Page " + str(p['page'])
         page_numbers = []
-        for page_word in page_words:
-            if page_word.text in NUMBERS:
-                page_numbers.append(page_word)
-        page_nums = []
-        for page_word in page_numbers:
-            if float(page_word['xmax']) < xmax_mean + 2 and float(page_word['xmax']) > xmax_mean-2:
-                page_nums.append(page_word)
-        page_nums = sorted(page_nums, key=lambda elem: float(elem['ymin']))
-        prev_boxed_num = 2
-        for line in page_nums:
+        for word in p['words']:     #For every word on a page
+            if word.text in NUMBERS: #Check if word is a number
+                page_numbers.append(word) #If a number add to list of page('s)_numbers
+        left_nums = [] #Get left nums for each page
+        for num in page_numbers: #For every page's_number
+            if float(num['xmax']) < xmax_mean + 2 and float(num['xmax']) > xmax_mean-2:
+                left_nums.append(num) #Append to left nums list if it is near the xmax_mean
+        left_nums = sorted(left_nums, key=lambda elem: float(elem['ymin']))
+        prev_boxed_num = 99  #Detect which of the left_nums is the first "1" in a sequence
+        for line in left_nums:
+            print("Line attempt")
             if prev_boxed_num >= int(line.text):
-                prev_boxed_num = int(line.text)
-                #print("Page " + str(page_number) + " starts with line " + line.text + " at ymin " + str(line['ymin'])) #print(line)
+                line_nums = []
+                print("Reset")
+                line_nums.append(line)  #print("Page " + str(page_number) + " starts with line " + line.text + " at ymin " + str(line['ymin'])) #print(line)
                 start_y = line['ymin']
-        specs.append({"page":page_number+1, "ymin":float(start_y), "ymax":float(line['ymax']), "xmin_avec_num":float(page_nums[-1]['xmin'])-2, "xmin_sans_num":float(page_nums[-1]['xmin'])-2, "xmax":float(max_doc_width)})
+                prev_boxed_num = int(line.text)
+                print(line.text)
+            else:
+                if prev_boxed_num == int(line.text)-1:
+                    line_nums.append(line)
+                    prev_boxed_num = int(line.text)
+                    print("append")
+                    print(line.text)
+        print(line_nums)
+        specs.append({"page":int(p['page']),
+        "ymin":float(start_y),
+        "ymax":float(line['ymax']),
+        "xmin_avec_num":float(line['xmin'])-2,
+        "xmin_sans_num":float(line['xmin'])-2,
+        "xmax":float(max_doc_width),
+        "line_nums":line_nums})
     return(specs)
 
 
-def p(specs):
-    for one in specs:
-        print(one)
-
-
 specs = get_pages_specs()
-p(specs)
+
+
+
+
+# Inorder to merge dictionary pwords[words] into specs
+def get_pwords(p_words, page):
+    for dict_ in p_words:
+        if dict_["page"] == page:
+            return {"words": dict_["words"]}
+
+
+def print_specs_num(specs):
+    for p in specs: #display page and word count
+       print("Page " + str(p['page']) +
+       ", word count " + str(len(p['words'])) +
+       ", ymin " + str(p['ymin']) +
+       ", ymax " + str(p['ymax']) +
+       ", xmax " + str(p['xmax']) +
+       ", xmin avec num " + str(p['xmin_avec_num']) +
+       ", xmin sans num " + str(p['xmin_sans_num']))
+
+
+# Get all numbers from all pages
+all_nums = get_nums(all_words)
+
+#Reduce all_nums to just those with an xmax less than 300px
+pages_nums = crop_split(all_nums, "lt", 300)
+
+#Reduce nums by removing outliers
+fav_xmax = reject_outliers(pages_nums)
+
+#Get the mean of xmax of nums colum
+xmax_mean = mean(fav_xmax)
+
+#Get page words
+p_words = get_page_words()
+
+
+for p in p_words:
+    print(str(p['page']) + " " + str(len(p['words'])))
+
+
+#Define page count
+page_count = len(p_words)
+
+#Get bbox specs for each page
+specs = get_pages_specs()
+
+
+# Merge dictionary pwords[words] into specs
+# Now specs contains for each page its bbox and page words
+for dict_ in specs:
+    dict_.update(get_pwords(p_words, dict_["page"]))
+
+
+# Proof you can see
+print_specs_num(specs)
+
+
+
+
+
+#Locate the lead numbers on each line
+p_words
+
 
 
 
@@ -256,3 +306,13 @@ pdfWriter = PyPDF2.PdfFileWriter()
 subprocess.check_output(["pdftohtml", "-enc", "UTF-8", "-noframes", file_loc])
 file_loc = file_loc.replace(".pdf",".html")
 #file_loc = file_loc.replace(".html",".pdf")
+
+
+
+
+def get_page_words():
+
+    pag
+    for each_page in soup.html.body.doc('page'):
+        page_count += 1
+    print ("The PDF contains " + str(page_count) + " pages.")
