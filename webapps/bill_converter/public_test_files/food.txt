@@ -1,0 +1,512 @@
+ 1     Be it enacted by the Senate and House of Representa-
+ 2 tives of the United States of America in Congress assembled,
+ 3 SECTION 1. SHORT TITLE.
+ 4     This Act may be cited as the ‘‘Give Our Resources
+ 5 the Opportunity to Work Act of 2018’’.
+ 6 SEC. 2. CONSERVATION RESERVE PROGRAM.
+ 7     (a) INELIGIBLE LAND.—Section 1231 of the Food
+ 8 Security Act of 1985 (16 U.S.C. 3831) is amended—
+ 9         (1) by redesignating subsections (c) through (i)
+ 10     as subsections (d) through (j), respectively; and
+ 1         (2) by inserting after subsection (b) the fol-
+ 2     lowing:
+ 3     ‘‘(c) INELIGIBLE LAND.—
+ 4         ‘‘(1) IN GENERAL.—The Secretary shall not in-
+ 5     clude in the conservation reserve program estab-
+ 6     lished under this subchapter—
+ 7             ‘‘(A) except as provided in paragraphs (2)
+ 8         and (3)(B), prime farmland or class I, II, or III
+ 9         land (as defined in the Soil Survey Manual of
+ 10         the Department of Agriculture) (or successor
+ 11         definitions) that is—
+ 12                 ‘‘(i) not highly erodible; and
+ 13                 ‘‘(ii) eroding at a level that is less
+ 14             than the soil loss tolerance level of the
+ 15             land; or
+ 16             ‘‘(B) all of the land on a farm that is larg-
+ 17         er than 10 acres.
+ 18         ‘‘(2) EXEMPTIONS.—In carrying out paragraph
+ 19     (1)(A), the Secretary shall exempt—
+ 20             ‘‘(A) land that is eligible under subsection
+ 21         (b)(3); and
+ 22             ‘‘(B) land that—
+ 23                 ‘‘(i) is eligible under subsection (b)(4);
+ 24             and
+ 25                 ‘‘(ii) is—
+ 1                     ‘‘(I) a grass sod waterway;
+ 2                     ‘‘(II) a contour grass sod strip;
+ 3                     ‘‘(III) a prairie strip;
+ 4                     ‘‘(IV) a filterstrip;
+ 5                     ‘‘(V) a riparian buffer;
+ 6                     ‘‘(VI) a wetland buffer;
+ 7                     ‘‘(VII) a saturated buffer;
+ 8                     ‘‘(VIII) a bioreactor; or
+ 9                     ‘‘(IX) a similar partial field that
+ 10                 will improve water quality if the land
+ 11                 is enrolled in the conservation reserve
+ 12                 program using continuous sign-up
+ 13                 under section 1234(d)(2)(A)(ii), as
+ 14                 determined by the Secretary.
+ 15         ‘‘(3) PORTION OF FIELD.—
+ 16             ‘‘(A) IN GENERAL.—Subject to subpara-
+ 17         graph (C), in the case of a field described in
+ 18         subparagraph (B), the Secretary shall enroll
+ 19         only the land described in clause (ii) of that
+ 20         subparagraph.
+ 21             ‘‘(B) LAND DESCRIBED.—A field described
+ 22         in this subparagraph is a field that contains—
+ 23                 ‘‘(i) land that is excluded under para-
+ 24             graph (1)(A); and
+ 25                 ‘‘(ii) land that is—
+ 1                     ‘‘(I) not excluded under para-
+ 2                 graph (1)(A); and
+ 3                     ‘‘(II) eligible under subsection
+ 4                 (b).
+ 5             ‘‘(C) EXCEPTION.—In the case of a field
+ 6         described in subparagraph (B) more than 90
+ 7         percent of the land of which is land described
+ 8         in clause (ii) of that subparagraph, the Sec-
+ 9         retary may enroll all of the land of the field.’’.
+ 10     (b) ENROLLMENT.—Subsection (e) of section 1231 of
+ 11 the Food Security Act of 1985 (16 U.S.C. 3831) (as re-
+ 12 designated by subsection (a)) is amended—
+ 13         (1) in paragraph (1), by striking ‘‘during—’’ in
+ 14     the matter preceding subparagraph (A) and all that
+ 15     follows through the period at the end of subpara-
+ 16     graph (E) and inserting ‘‘not more than 24,000,000
+ 17     acres.’’;
+ 18         (2) in paragraph (2)(A)—
+ 19             (A) by striking ‘‘limitations’’ and inserting
+ 20         ‘‘limitation’’;
+ 21             (B) by striking ‘‘2,000,000’’ and inserting
+ 22         ‘‘3,000,000’’; and
+ 23             (C) by striking ‘‘2018’’ and inserting
+ 24         ‘‘2023’’; and
+ 25         (3) by adding at the end the following:
+ 1         ‘‘(3) ENROLLMENT OF CONSERVATION BUFF-
+ 2     ERS TO FOSTER CLEAN LAKES, ESTUARIES, AND
+ 3     RIVERS.—
+ 4             ‘‘(A) IN GENERAL.—For purposes of ap-
+ 5         plying the limitation in paragraph (1), the Sec-
+ 6         retary shall give priority to the enrollment in
+ 7         the conservation reserve program under this
+ 8         subchapter of land that—
+ 9                 ‘‘(i)  is  described  in  subsection
+ 10             (c)(2)(B)(ii); and
+ 11                 ‘‘(ii) shall have a positive impact, as
+ 12             determined by the Secretary, on the water
+ 13             quality of—
+ 14                     ‘‘(I) a lake;
+ 15                     ‘‘(II) an estuary; or
+ 16                     ‘‘(III) a river.
+ 17             ‘‘(B) SEDIMENT AND NUTRIENT LOAD-
+ 18         INGS.—In carrying out subparagraph (A), the
+ 19         Secretary shall focus on land that—
+ 20                 ‘‘(i) is located in a watershed im-
+ 21             pacted by sediment and nutrient; and
+ 22                 ‘‘(ii) if enrolled, will reduce sediment
+ 23             loadings, nutrient loadings, and harmful
+ 24             algal blooms, as determined by the Sec-
+ 25             retary.
+ 1             ‘‘(C) MINIMUM ACREAGE.—Of the acres
+ 2         enrolled in the conservation reserve under para-
+ 3         graph (1), not less than 4,000,000 acres shall
+ 4         be—
+ 5                 ‘‘(i) of land described in subparagraph
+ 6             (A); and
+ 7                 ‘‘(ii) newly enrolled during fiscal years
+ 8             2019 through 2028.’’.
+ 9     (c) PAYMENT RATES.—Section 1234 of the Food Se-
+ 10 curity Act of 1985 (16 U.S.C. 3834) is amended—
+ 11         (1) in subsection (c)—
+ 12             (A) by redesignating paragraphs (1) and
+ 13         (2) as subparagraphs (A) and (B), respectively,
+ 14         and indenting appropriately; and
+ 15             (B) by inserting before subparagraph (A)
+ 16         (as so redesignated) the following:
+ 17         ‘‘(1) SIGNING AND PRACTICE INCENTIVE PAY-
+ 18     MENTS.—
+ 19             ‘‘(A) IN GENERAL.—In the case of a con-
+ 20         tinuous enrollment contract, the Secretary may
+ 21         make a signing incentive payment or a practice
+ 22         incentive payment to an owner or operator of
+ 23         eligible land in an amount sufficient to encour-
+ 24         age participation in the program established
+ 25         under this subchapter.
+ 1             ‘‘(B)  LIMITATION  ON  MAKING  PAY-
+ 2         MENTS.—The Secretary may only make a pay-
+ 3         ment described in subparagraph (A) if the na-
+ 4         tional average market price received by pro-
+ 5         ducers during the previous 12-month marketing
+ 6         year for all covered commodities is greater than
+ 7         the national average market price received by
+ 8         producers during the most recent 10 marketing
+ 9         years for all covered commodities.
+ 10         ‘‘(2) TREE THINNING AND OTHER PRAC-
+ 11     TICES.—’’;
+ 12         (2) in subsection (d)—
+ 13             (A) in paragraph (3), by adding at the end
+ 14         the following:
+ 15             ‘‘(D) PRIORITY FOR LOW COST OFFERS.—
+ 16         In determining the acceptability of contract of-
+ 17         fers for new general enrollments, the Secretary
+ 18         shall—
+ 19                 ‘‘(i) give priority to a contract offer
+ 20             that maximizes the conservation value of
+ 21             the land that is the subject of the contract
+ 22             offer relative to the cost of the contract;
+ 23             and
+ 24                 ‘‘(ii) assign the cost value factor de-
+ 25             scribed in clause (i) a weight of not less
+ 1             than 25 percent in any ranking scheme
+ 2             used by the Secretary in determining the
+ 3             acceptability of contract offers.’’;
+ 4             (B) in paragraph (5)—
+ 5                 (i) in subparagraph (C)—
+ 6                     (I) by striking ‘‘The Secretary
+ 7                 may use’’ and inserting ‘‘With respect
+ 8                 to’’; and
+ 9                     (II) by striking ‘‘rental rates’’
+ 10                 and inserting the following: ‘‘rental
+ 11                 rates, the Secretary—
+ 12                 ‘‘(i) shall apply the limitation de-
+ 13             scribed in subsection (g)(1)(A); and
+ 14                 ‘‘(ii) may use the estimates’’; and
+ 15                 (ii) by adding at the end the fol-
+ 16             lowing:
+ 17             ‘‘(D) LIMITATION.—Subject to subsection
+ 18         (g), the amount of an annual rental payment
+ 19         paid to an owner or operator under this sub-
+ 20         chapter, in the case of general enrollment, shall
+ 21         not be greater than 80 percent of the applicable
+ 22         estimate of the county average market dryland
+ 23         cash rental rates for cropland derived from the
+ 24         survey conducted under subparagraph (A).’’;
+ 25         and
+ 1         (3) in subsection (g)—
+ 2             (A) in paragraph (1), by striking ‘‘exceed
+ 3         $50,000’’ and inserting the following: ‘‘ex-
+ 4         ceed—
+ 5             ‘‘(A) $50,000; and
+ 6             ‘‘(B) $240 per acre.’’; and
+ 7             (B) in paragraph (2)(A), by striking ‘‘this
+ 8         subsection’’ and inserting ‘‘paragraph (1)’’.
+ 9 SEC. 3. CONSERVATION STEWARDSHIP PROGRAM.
+ 10     (a) DEFINITIONS.—Section 1238D of the Food Secu-
+ 11 rity Act of 1985 (16 U.S.C. 3838d) is amended—
+ 12         (1) in paragraph (2)(B)—
+ 13             (A) in clause (i), by striking ‘‘and’’ at the
+ 14         end;
+ 15             (B) in clause (ii), by striking the period at
+ 16         the end and inserting ‘‘; and’’; and
+ 17             (C) by adding at the end the following:
+ 18                 ‘‘(iii) development of a comprehensive
+ 19             conservation plan, as defined in section
+ 20             1238G(f)(1).’’; and
+ 21         (2) in paragraph (7), by striking the period at
+ 22     the end and inserting the following: ‘‘through the
+ 23     use of—
+ 24             ‘‘(A) quality criteria under a resource man-
+ 25         agement system;
+ 1             ‘‘(B) predictive analytics tools;
+ 2             ‘‘(C) data from past and current enroll-
+ 3         ment in the program; and
+ 4             ‘‘(D) other methods that measure con-
+ 5         servation and improvement in priority resource
+ 6         concerns.’’.
+ 7     (b) ESTABLISHMENT.—Section 1238E(a) of the
+ 8 Food Security Act of 1985 (16 U.S.C. 3838e(a)) is
+ 9 amended in the matter preceding paragraph (1) by strik-
+ 10 ing ‘‘2018’’ and inserting ‘‘2023’’.
+ 11     (c) STEWARDSHIP CONTRACTS.—Section 1238F of
+ 12 the Food Security Act of 1985 (16 U.S.C. 3838f) is
+ 13 amended—
+ 14         (1) in subsection (b), by striking paragraph (1)
+ 15     and inserting the following:
+ 16         ‘‘(1) RANKING OF APPLICATIONS.—
+ 17             ‘‘(A) IN GENERAL.—In evaluating contract
+ 18         offers submitted under subsection (a), the Sec-
+ 19         retary shall rank applications based on—
+ 20                 ‘‘(i) the natural resource conservation
+ 21             and environmental benefits that result
+ 22             from the conservation treatment on all ap-
+ 23             plicable priority resource concerns at the
+ 24             time of submission of the application; and
+ 1                 ‘‘(ii) the degree to which the proposed
+ 2             conservation activities increase natural re-
+ 3             source  conservation  and  environmental
+ 4             benefits.
+ 5             ‘‘(B) ADDITIONAL CRITERION.—If 2 or
+ 6         more applications receive the same ranking
+ 7         under subparagraph (A), the Secretary shall
+ 8         rank those contracts based on the extent to
+ 9         which the actual and anticipated conservation
+ 10         benefits from each contract are provided at the
+ 11         lowest cost relative to other similarly beneficial
+ 12         contract offers.’’; and
+ 13         (2) in subsection (e)—
+ 14             (A) in paragraph (2)—
+ 15                 (i) by inserting ‘‘new or improved’’
+ 16             after ‘‘integrate’’; and
+ 17                 (ii) by inserting ‘‘demonstrating con-
+ 18             tinuous improvement during the additional
+ 19             5-year period,’’ after ‘‘operation,’’; and
+ 20             (B) in paragraph (3)—
+ 21                 (i) in subparagraph (A)—
+ 22                     (I) by striking ‘‘to meet’’ and in-
+ 23                 serting ‘‘to plan, install, maintain,
+ 24                 and actively manage conservation ac-
+ 1                 tivities that allow the producer to
+ 2                 meet or exceed’’; and
+ 3                     (II) by striking ‘‘on the agricul-
+ 4                 tural operation’’; and
+ 5                 (ii) in subparagraph (B), by striking
+ 6             ‘‘to exceed the stewardship threshold of’’
+ 7             and inserting ‘‘to adopt or improve con-
+ 8             servation activities, as determined by the
+ 9             Secretary, to achieve higher levels of per-
+ 10             formance with respect to not less than’’.
+ 11     (d) DUTIES OF THE SECRETARY.—Section 1238G of
+ 12 the Food Security Act of 1985 (16 U.S.C. 3838g) is
+ 13 amended—
+ 14         (1) in subsection (c)(2), by striking ‘‘all finan-
+ 15     cial’’ and all that follows through the period at the
+ 16     end and inserting the following: ‘‘all—
+ 17             ‘‘(A) financial assistance, including pay-
+ 18         ments made under subsections (d)(2)(B), (e),
+ 19         and (f);
+ 20             ‘‘(B) technical assistance; and
+ 21             ‘‘(C) any other expenses associated with
+ 22         enrollment or participation in the program.’’;
+ 23         (2) in subsection (d), by adding at the end the
+ 24     following:
+ 1         ‘‘(5) PAYMENT FOR COVER CROP ACTIVITIES.—
+ 2     The amount of a payment under this subsection for
+ 3     cover crop activities shall be not less than 125 per-
+ 4     cent of the annual payment amount determined by
+ 5     the Secretary under paragraph (2).’’;
+ 6         (3) in subsection (e)—
+ 7             (A) in the subsection heading, by inserting
+ 8         ‘‘AND  MANAGEMENT-INTENSIVE  ROTATION
+ 9         GRAZING’’ after ‘‘ROTATIONS’’;
+ 10             (B) by striking paragraph (2);
+ 11             (C) by redesignating paragraphs (1) and
+ 12         (4) as paragraphs (2) and (1), respectively;
+ 13             (D) by moving paragraph (1) (as so redes-
+ 14         ignated) so as to appear before paragraph (2)
+ 15         (as so redesignated);
+ 16             (E) in paragraph (1) (as so redesig-
+ 17         nated)—
+ 18                 (i) by redesignating subparagraphs
+ 19             (A) through (D) and (E) as clauses (i)
+ 20             through (iv) and (vi), respectively, and in-
+ 21             denting appropriately;
+ 22                 (ii) by striking the paragraph designa-
+ 23             tion and all that follows through ‘‘the
+ 24             term’’ in the matter preceding clause (i)
+ 1             (as so redesignated) and inserting the fol-
+ 2             lowing:
+ 3         ‘‘(1) DEFINITIONS.—In this subsection:
+ 4             ‘‘(A)   MANAGEMENT-INTENSIVE   ROTA-
+ 5         TIONAL GRAZING.—The term ‘management-in-
+ 6         tensive rotational grazing’ means a grazing sys-
+ 7         tem in which animals are regularly and system-
+ 8         atically moved to fresh pasture in a manner
+ 9         that—
+ 10                 ‘‘(i) maximizes the quantity and qual-
+ 11             ity of forage growth;
+ 12                 ‘‘(ii) improves manure distribution
+ 13             and nutrient cycling;
+ 14                 ‘‘(iii) increases carbon sequestration
+ 15             from greater forage harvest;
+ 16                 ‘‘(iv) improves the quality and quan-
+ 17             tity of cover for wildlife;
+ 18                 ‘‘(v) provides permanent cover to pro-
+ 19             tect the soil from erosion; and
+ 20                 ‘‘(vi) improves water quality.
+ 21             ‘‘(B) RESOURCE-CONSERVING CROP ROTA-
+ 22         TION.—The term’’; and
+ 23                 (iii) in subparagraph (B) (as so des-
+ 24             ignated)—
+ 1                     (I) in clause (iv) (as so redesig-
+ 2                 nated), by striking ‘‘and’’ at the end;
+ 3                 and
+ 4                     (II) by inserting after clause (iv)
+ 5                 (as so redesignated) the following:
+ 6                 ‘‘(v) builds soil carbon; and’’;
+ 7             (F) in paragraph (2) (as so redesignated),
+ 8         by striking ‘‘improve resource-conserving’’ and
+ 9         all that follows through the period at the end
+ 10         and inserting the following: ‘‘improve, manage,
+ 11         and maintain—
+ 12             ‘‘(A) resource-conserving crop rotations; or
+ 13             ‘‘(B)   management-intensive   rotational
+ 14         grazing.’’;
+ 15             (G) in paragraph (3)—
+ 16                 (i) by striking ‘‘paragraph (1)’’ and
+ 17             inserting ‘‘paragraph (2)’’; and
+ 18                 (ii) by striking ‘‘and maintain’’ and
+ 19             all that follows through the period at the
+ 20             end and inserting ‘‘or improve, manage,
+ 21             and maintain resource-conserving crop ro-
+ 22             tations or management-intensive rotational
+ 23             grazing for the term of the contract.’’; and
+ 24             (H) by adding at the end the following:
+ 1         ‘‘(4) MINIMUM AMOUNT OF PAYMENT.—An ad-
+ 2     ditional payment provided under paragraph (2) shall
+ 3     be in an amount that is not less than $20 per
+ 4     acre.’’;
+ 5         (4) by redesignating subsections (f) through (i)
+ 6     as subsections (g) through (j), respectively;
+ 7         (5) by inserting after subsection (e) the fol-
+ 8     lowing:
+ 9     ‘‘(f) PAYMENT FOR COMPREHENSIVE CONSERVATION
+ 10 PLAN.—
+ 11         ‘‘(1) DEFINITION OF COMPREHENSIVE CON-
+ 12     SERVATION PLAN.—In this subsection, the term
+ 13     ‘comprehensive conservation plan’ means a conserva-
+ 14     tion plan that meets or exceeds the stewardship
+ 15     threshold for each priority resource concern identi-
+ 16     fied by the Secretary under subsection (a)(2).
+ 17         ‘‘(2) PAYMENT FOR COMPREHENSIVE CON-
+ 18     SERVATION PLAN.—The Secretary shall provide an
+ 19     additional annual payment to a producer that devel-
+ 20     ops and implements a comprehensive conservation
+ 21     plan.
+ 22         ‘‘(3) AMOUNT OF PAYMENT.—
+ 23             ‘‘(A) IN GENERAL.—An additional annual
+ 24         payment under paragraph (2) shall be in an
+ 1         amount not less than $1,000 and not greater
+ 2         than $3,000 per year.
+ 3             ‘‘(B) CRITERIA.—The Secretary shall de-
+ 4         termine the amount of payment under subpara-
+ 5         graph (A) based on—
+ 6                 ‘‘(i) the number of priority resource
+ 7             concerns addressed in the comprehensive
+ 8             conservation plan; and
+ 9                 ‘‘(ii) the number of types of land uses
+ 10             included in the comprehensive conservation
+ 11             plan.’’; and
+ 12         (6) in subsection (j) (as so redesignated), by
+ 13     striking ‘‘subsection (f)’’ and inserting ‘‘subsection
+ 14     (g)’’.
+ 15 SEC. 4. ENVIRONMENTAL QUALITY INCENTIVES PROGRAM.
+ 16     (a) PURPOSES.—Section 1240(4) of the Food Secu-
+ 17 rity Act of 1985 (16 U.S.C. 3839aa(4)) is amended by
+ 18 striking ‘‘livestock, pest or irrigation management’’ and
+ 19 inserting ‘‘crops and livestock, pest management, irriga-
+ 20 tion management’’.
+ 21     (b) ESTABLISHMENT AND ADMINISTRATION.—
+ 22         (1) IN GENERAL.—Section 1240B of the Food
+ 23     Security Act of 1985 (16 U.S.C. 3839aa–2) is
+ 24     amended—
+ 1             (A)  by  redesignating  subsections  (c)
+ 2         through (i) as subsections (d) through (j), re-
+ 3         spectively;
+ 4             (B) by inserting after subsection (b) the
+ 5         following:
+ 6     ‘‘(c) PROGRAM COORDINATION.—The Secretary shall
+ 7 coordinate management of the program and the conserva-
+ 8 tion stewardship program under subchapter B of chapter
+ 9 2 to facilitate the ability of a participant in the program
+ 10 to enroll in the conservation stewardship program after
+ 11 meeting the stewardship threshold for not less than 2 pri-
+ 12 ority resource concerns.’’; and
+ 13             (C) in paragraph (4)(B) of subsection (e)
+ 14         (as so redesignated)—
+ 15                 (i) in clause (i)—
+ 16                     (I) by striking ‘‘Not more than’’
+ 17                 and inserting ‘‘The Secretary shall
+ 18                 provide not less than’’;
+ 19                     (II) by striking ‘‘may be pro-
+ 20                 vided’’; and
+ 21                     (III) by striking ‘‘the purpose of’’
+ 22                 and inserting ‘‘all costs relating to’’;
+ 23                 and
+ 24                 (ii) in clause (ii), by striking ‘‘90-day’’
+ 25             and inserting ‘‘180-day’’.
+ 1         (2)   CONFORMING   AMENDMENTS.—Section
+ 2     1240B of the Food Security Act of 1985 (16 U.S.C.
+ 3     3839aa–2) is amended—
+ 4             (A) in paragraph (2) of subsection (g) (as
+ 5         so redesignated), by striking ‘‘subsection (g)’’
+ 6         and inserting ‘‘subsection (h)’’; and
+ 7             (B) in paragraph (2) of subsection (h) (as
+ 8         so redesignated), by striking ‘‘subsection (f)’’
+ 9         and inserting ‘‘subsection (g)’’.
+ 10 SEC. 5. FUNDING AND ADMINISTRATION.
+ 11     (a) COMMODITY CREDIT CORPORATION.—Section
+ 12 1241 of the Food Security Act of 1985 (16 U.S.C. 3841)
+ 13 is amended—
+ 14         (1) in subsection (a)—
+ 15             (A) in the matter preceding paragraph (1),
+ 16         by striking ‘‘fiscal year 2019’’ and inserting
+ 17         ‘‘each of fiscal years 2019 through 2023’’; and
+ 18             (B) in paragraph (5), by striking ‘‘prac-
+ 19         ticable—’’ in the matter preceding subpara-
+ 20         graph (A) and all that follows through the pe-
+ 21         riod at the end of subparagraph (E) and insert-
+ 22         ing ‘‘practicable, $1,750,000,000 for each of
+ 23         fiscal years 2019 through 2023, of which not
+ 24         less than $500,000,000 for each fiscal year
+ 25         shall be for management activities that assist
+ 1         producers that protect sources of drinking
+ 2         water.’’;
+ 3         (2) in subsection (b), by striking ‘‘fiscal year
+ 4     2019’’ and inserting ‘‘each of fiscal years 2019
+ 5     through 2023’’; and
+ 6         (3) in subsection (h)(1)—
+ 7             (A) in the matter preceding subparagraph
+ 8         (A), by striking ‘‘2018’’ and inserting ‘‘2023’’;
+ 9         and
+ 10             (B) by striking ‘‘5 percent’’ each place it
+ 11         appears and inserting ‘‘15 percent’’.
+ 12     (b) ACREAGE LIMITATIONS.—Section 1244(f)(1) of
+ 13 the Food Security Act of 1985 (16 U.S.C. 3844(f)(1)) is
+ 14 amended—
+ 15         (1) in subparagraph (A)—
+ 16             (A) in the subparagraph heading, by in-
+ 17         serting ‘‘CONSERVATION RESERVE PROGRAM’’
+ 18         before ‘‘ENROLLMENTS’’;
+ 19             (B) by striking ‘‘25’’ and inserting ‘‘15’’;
+ 20         and
+ 21             (C) by striking ‘‘and wetland reserve ease-
+ 22         ments under section 1265C’’ and inserting ‘‘,
+ 23         except that any land included in that program
+ 24         in a county greater than 15 percent of the crop-
+ 25         land of which is included in that program on
+ 1         the day before the date of enactment of the
+ 2         Give Our Resources the Opportunity to Work
+ 3         Act of 2018 may continue to be so included
+ 4         until the date on which the contract covering
+ 5         the land expires.’’; and
+ 6         (2) in subparagraph (B), by striking ‘‘10’’ and
+ 7     inserting ‘‘15’’.
+ 8 SEC. 6. REPORT ON LAND ACCESS, TENURE, AND TRANSI-
+ 9            TION.
+ 10     Not later than 1 year after the date of enactment
+ 11 of this Act, the Secretary of Agriculture, in consultation
+ 12 with the Chief Economist, shall submit to Congress and
+ 13 make publicly available a report identifying—
+ 14         (1) the barriers that prevent or hinder the abil-
+ 15     ity of beginning farmers and ranchers and histori-
+ 16     cally underserved producers to acquire or access
+ 17     farmland;
+ 18         (2) the extent to which Federal programs, in-
+ 19     cluding agricultural conservation easement pro-
+ 20     grams, land transition programs, and financing pro-
+ 21     grams, are improving—
+ 22             (A) farmland access and tenure for begin-
+ 23         ning farmers and ranchers and historically un-
+ 24         derserved producers; and
+ 1             (B) farmland transition and succession;
+ 2         and
+ 3         (3) the regulatory, operational, or statutory
+ 4     changes that are necessary to improve—
+ 5             (A) the ability of beginning farmers and
+ 6         ranchers and historically underserved producers
+ 7         to acquire or access farmland;
+ 8             (B) farmland tenure for beginning farmers
+ 9         and ranchers and historically underserved pro-
+ 10         ducers; and
+ 11             (C) farmland transition and succession.

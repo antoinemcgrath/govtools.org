@@ -112,23 +112,18 @@ def get_pages_specs():
             if float(num['xmax']) < xmax_mean + 2 and float(num['xmax']) > xmax_mean-2:
                 left_nums.append(num) #Append to left nums list if it is near the xmax_mean
         left_nums = sorted(left_nums, key=lambda elem: float(elem['ymin']))
-        prev_boxed_num = 99  #Detect which of the left_nums is the first "1" in a sequence
+        prev_boxed_num = 99999  #Detect which of the left_nums is the first "1" in a sequence
         for line in left_nums:
-            print("Line attempt")
             if prev_boxed_num >= int(line.text):
                 line_nums = []
-                print("Reset")
                 line_nums.append(line)  #print("Page " + str(page_number) + " starts with line " + line.text + " at ymin " + str(line['ymin'])) #print(line)
                 start_y = line['ymin']
                 prev_boxed_num = int(line.text)
-                print(line.text)
             else:
                 if prev_boxed_num == int(line.text)-1:
                     line_nums.append(line)
                     prev_boxed_num = int(line.text)
-                    print("append")
-                    print(line.text)
-        print(line_nums)
+        #print(line_nums)
         specs.append({"page":int(p['page']),
         "ymin":float(start_y),
         "ymax":float(line['ymax']),
@@ -137,11 +132,6 @@ def get_pages_specs():
         "xmax":float(max_doc_width),
         "line_nums":line_nums})
     return(specs)
-
-
-specs = get_pages_specs()
-
-
 
 
 # Inorder to merge dictionary pwords[words] into specs
@@ -199,6 +189,81 @@ for dict_ in specs:
 print_specs_num(specs)
 
 
+def get_spaces(space): #input is space between bbox of words in pixels
+    h = int(round(space))
+    if h == 0:
+        spaces = ""
+    if h != 0 and h < 7:
+        spaces = " "
+    else:
+        spaces = " "*(h/7)
+    return(spaces)
+
+
+line_tol = 10
+
+def get_docs_texts(specs):
+    doc_t = ""
+    for one in specs:
+        page_t = ""
+        for line_start in one["line_nums"]:
+            line = ""
+            word_end = float(line_start["xmax"])
+            #print(str(line_start["ymin"]) + " " + str(line_start["ymax"]))
+            for aword in one['words']:
+                if float(aword["ymin"]) > float(line_start["ymin"]) - line_tol and float(aword["ymax"]) < float(line_start["ymax"]) + line_tol:
+                    space = float(aword['xmin'])-word_end #Calculate the space between boxes (words)
+                    word_end = float(aword['xmax']) #Reset word end for next word
+                    spaces = get_spaces(space)
+                    line += spaces + aword.text
+            page_t += line + "\n"
+        doc_t += page_t
+    return(doc_t)
+
+
+doc_t = get_docs_texts(specs)
+
+f = open(outputfile, 'w')
+f.write(doc_t.encode('utf8'))
+f.close()
+
+
+
+
+
+
+
+
+
+
+
+
+
+line += spaces + w.text #print (box_xmax, box_xmin, box_ymax, box_ymin)
+
+
+
+                line.append(aword)
+        line = sorted(line, key=lambda elem: float(elem['ymin']))
+        for word in line:
+            print(word.text)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         #  + str(one[' page']) + "page. Words on page " + str(len(one['words'])) + "  Start of line " + str(line_start.text))
+         float(line_start['xmax'])
+         ymax="348.032000" ymin="335.208000"
 
 
 
