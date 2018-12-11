@@ -91,6 +91,7 @@ def scp_file_return(ip_address, returnfile):
 
 time.sleep(10)
 scp_file_return(ip_address, returnfile)
+scp_file_return(ip_address, returnfile[:-4]+"_num.txt")
 
 
 ##javascript attempts transfer file(s) 10 times

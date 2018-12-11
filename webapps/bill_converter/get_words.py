@@ -2,7 +2,6 @@
 # python2 get_words.py public_test_files/visas.pdf #Ubuntu
 # python get_words.py public_test_files/visas.pdf #mac
 
-import PyPDF2 # version 1.26.0
 import glob
 from subprocess import Popen, PIPE
 from decimal import *
@@ -11,7 +10,7 @@ import re
 from datetime import datetime
 #from BeautifulSoup import BeautifulSoup #apt install python-pip pip install beautifulsoup4
 from bs4 import BeautifulSoup
-import numpy as np
+import numpy as np #pip install numpy
 
 #PDFtoText the file
 #Load PDF into beautifulsoup
