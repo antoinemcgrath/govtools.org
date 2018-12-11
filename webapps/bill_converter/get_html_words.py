@@ -15,8 +15,8 @@ import numpy as np
 
 #PDFtoText the file
 #Load PDF into beautifulsoup
-#Get all words and their coordinates
-#Search for the column with the most numbers (num_col_bbox)
+#Get all words and bbox coordinates
+#Find the column with the most numbers
 
 #Print the bbox of interest for each page
 #Crop each page to bbox specs output as pdf
@@ -31,11 +31,13 @@ import numpy as np
 #mts = mag.file(pdfname)
 
 
-#inputfile = sys.argv[1]
-inputfile = "food.pdf" # For test
+inputfile = sys.argv[1]
+#inputfile = "food.pdf" # For test
 outputfile = inputfile[:-3]+"txt"
 max_doc_width = 1275  #Standard pdf width
-TOLERANCE = 4  #Bbox tolerance
+tolerance = 4  #Bbox tolerance
+line_num_preface = "sans_num" #"avec_num"
+line_tol = 10 #Vertical tolerance of a single line
 
 #   Tolerance analysis driven by
 # > sort visas_tol_20.txt |uniq -c | egrep -v "  1  " |sort
@@ -50,8 +52,8 @@ TOLERANCE = 4  #Bbox tolerance
 NUMBERS = map(lambda x:str(x),range(1,26))  #Line preface numbers which may be expected
 
 #PDFtoText the file
-output = Popen(["pdftotext", "-nopgbrk", "-f", "1", "-bbox", inputfile, "-"], stdout=PIPE, stderr=PIPE).communicate()[0]
-soup = BeautifulSoup(output.decode('utf-8'), "lxml")  #Load PDF into beautifulsoup
+texts = Popen(['pdftotext', '-nopgbrk', '-f', '1', '-bbox', inputfile, '-'], stdout=PIPE, stderr=PIPE).communicate()[0]
+soup = BeautifulSoup(texts.decode('utf-8'), "lxml")  #Load PDF into beautifulsoup
 
 all_words = soup.html.body.doc('word')  #Get all words and their coordinates
 
@@ -94,7 +96,9 @@ def get_page_words(): #Fetch all of the words on specified page
     pages = []
     for each_page in soup.html.body.doc('page'):
         page_count += 1
+        pbbox_words = []
         page_words = each_page('word')
+        page_words = sorted(page_words, key=lambda elem: float(elem['xmin']))
         pages.append({"page":page_count, "words":page_words})
     return (pages)
 
@@ -102,7 +106,6 @@ def get_page_words(): #Fetch all of the words on specified page
 def get_pages_specs():
     specs = []
     for p in p_words:
-        print "Page " + str(p['page'])
         page_numbers = []
         for word in p['words']:     #For every word on a page
             if word.text in NUMBERS: #Check if word is a number
@@ -116,19 +119,18 @@ def get_pages_specs():
         for line in left_nums:
             if prev_boxed_num >= int(line.text):
                 line_nums = []
-                line_nums.append(line)  #print("Page " + str(page_number) + " starts with line " + line.text + " at ymin " + str(line['ymin'])) #print(line)
+                line_nums.append(line)
                 start_y = line['ymin']
                 prev_boxed_num = int(line.text)
             else:
                 if prev_boxed_num == int(line.text)-1:
                     line_nums.append(line)
                     prev_boxed_num = int(line.text)
-        #print(line_nums)
         specs.append({"page":int(p['page']),
         "ymin":float(start_y),
         "ymax":float(line['ymax']),
         "xmin_avec_num":float(line['xmin'])-2,
-        "xmin_sans_num":float(line['xmin'])-2,
+        "xmin_sans_num":float(line['xmax']),
         "xmax":float(max_doc_width),
         "line_nums":line_nums})
     return(specs)
@@ -137,8 +139,8 @@ def get_pages_specs():
 # Inorder to merge dictionary pwords[words] into specs
 def get_pwords(p_words, page):
     for dict_ in p_words:
-        if dict_["page"] == page:
-            return {"words": dict_["words"]}
+        if dict_['page'] == page:
+            return {"words": dict_['words']}
 
 
 def print_specs_num(specs):
@@ -167,10 +169,8 @@ xmax_mean = mean(fav_xmax)
 #Get page words
 p_words = get_page_words()
 
-
-for p in p_words:
-    print(str(p['page']) + " " + str(len(p['words'])))
-
+#for p in p_words:
+#    print(str(p['page']) + " " + str(len(p['words'])))
 
 #Define page count
 page_count = len(p_words)
@@ -178,15 +178,14 @@ page_count = len(p_words)
 #Get bbox specs for each page
 specs = get_pages_specs()
 
-
 # Merge dictionary pwords[words] into specs
 # Now specs contains for each page its bbox and page words
 for dict_ in specs:
-    dict_.update(get_pwords(p_words, dict_["page"]))
+    dict_.update(get_pwords(p_words, dict_['page']))
 
 
 # Proof you can see
-print_specs_num(specs)
+#print_specs_num(specs)
 
 
 def get_spaces(space): #input is space between bbox of words in pixels
@@ -200,29 +199,43 @@ def get_spaces(space): #input is space between bbox of words in pixels
     return(spaces)
 
 
-line_tol = 10
-
-def get_docs_texts(specs):
+def get_docs_texts(specs, line_num_preface):
     doc_t = ""
     for one in specs:
         page_t = ""
-        for line_start in one["line_nums"]:
+        for line_start in one['line_nums']:
             line = ""
-            word_end = float(line_start["xmax"])
-            #print(str(line_start["ymin"]) + " " + str(line_start["ymax"]))
+            word_end = float(line_start['xmax'])
+            #print(str(line_start['ymin']) + " " + str(line_start['ymax']))
             for aword in one['words']:
-                if float(aword["ymin"]) > float(line_start["ymin"]) - line_tol and float(aword["ymax"]) < float(line_start["ymax"]) + line_tol:
-                    space = float(aword['xmin'])-word_end #Calculate the space between boxes (words)
-                    word_end = float(aword['xmax']) #Reset word end for next word
-                    spaces = get_spaces(space)
-                    line += spaces + aword.text
+                aymin = float(aword['ymin'])
+                aymax = float(aword['ymax'])
+                if line_num_preface == 'sans_num':
+                    bbox_xmin = float(one['xmin_sans_num'])
+                    if aymin > (float(line_start['ymin']) - line_tol) and aymax < (float(line_start['ymax']) + line_tol) and float(aword['xmin']) > bbox_xmin:
+                        space = float(aword['xmin'])-word_end #Calculate the space between boxes (words)
+                        word_end = float(aword['xmax']) #Reset word end for next word
+                        spaces = get_spaces(space)
+                        line += spaces + aword.text
+                else: #avec preface numbers
+                    bbox_xmin = float(one['xmin_avec_num'])
+                    if aymin > (float(line_start['ymin']) - line_tol) and aymax < (float(line_start['ymax']) + line_tol) and float(aword['xmin']) > bbox_xmin:
+                        space = float(aword['xmin'])-word_end #Calculate the space between boxes (words)
+                        word_end = float(aword['xmax']) #Reset word end for next word
+                        spaces = get_spaces(space)
+                        line += spaces + aword.text
+                #print("Word end: " + str(word_end) + " bbox_xmin " + str(bbox_xmin) + " " + aword.text)
             page_t += line + "\n"
         doc_t += page_t
     return(doc_t)
 
 
-doc_t = get_docs_texts(specs)
-
+doc_t = get_docs_texts(specs, line_num_preface) #Get text legislative texts only
 f = open(outputfile, 'w')
+f.write(doc_t.encode('utf8'))
+f.close()
+
+doc_t = get_docs_texts(specs, "avec_num") #Get text legislative texts with line numbers
+f = open(outputfile[:-4]+"_num.txt", 'w')
 f.write(doc_t.encode('utf8'))
 f.close()
