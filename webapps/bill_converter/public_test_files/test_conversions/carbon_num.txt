@@ -1,673 +1,673 @@
- 1     Be it enacted by the Senate and House of Representa-
- 2 tives of the United States of America in Congress assembled,
- 3 SECTION 1. SHORT TITLE.
- 4     This Act may be cited as the ‘‘American Opportunity
- 5 Carbon Fee Act’’.
- 6 SEC. 2. CARBON DIOXIDE AND OTHER GREENHOUSE GAS
- 7            EMISSION FEES.
- 8     (a) IN GENERAL.—Chapter 38 of the Internal Rev-
- 9 enue Code of 1986 is amended by adding at the end there-
- 10 of the following new subchapter:
- 1   ‘‘Subchapter E—Carbon Dioxide and Other
- 2         Greenhouse Gas Emission Fees
- 3 ‘‘SEC. 4691. FEE FOR CARBON DIOXIDE EMISSIONS.
- 4     ‘‘(a) IN GENERAL.—
- 5         ‘‘(1) FOSSIL FUEL PRODUCTS PRODUCING CAR-
- 6     BON EMISSIONS.—
- 7             ‘‘(A) IN GENERAL.—There is hereby im-
- 8         posed a fee in an amount equal to the applica-
- 9         ble amount at the rate specified in subpara-
- 10         graph (B) on—
- 11                 ‘‘(i) coal—
- 12                     ‘‘(I) removed from any mine in
- 13                 the United States, or
- 14                     ‘‘(II) entered into the United
- 15                 States  for  consumption,  use,  or
- 16                 warehousing,
- 17                 ‘‘(ii) petroleum products—
- 18                     ‘‘(I) removed from any refinery,
- 19                     ‘‘(II) removed from any terminal,
- 20                 or
- 21                     ‘‘(III) entered into the United
- 22                 States  for  consumption,  use,  or
- 23                 warehousing, and
- 1                 ‘‘(iii) natural gas—
- 2                     ‘‘(I) entered into any processor,
- 3                 or
- 4                     ‘‘(II) entered into the United
- 5                 States  for  consumption,  use,  or
- 6                 warehousing.
- 7             ‘‘(B) RATE.—The rate specified in this
- 8         subparagraph with respect to any product de-
- 9         scribed in subparagraph (A) is an amount equal
- 10         to the applicable amount per ton of carbon di-
- 11         oxide that would be emitted through the com-
- 12         bustion of such product (as determined by the
- 13         Secretary, in consultation with the Secretary of
- 14         Energy and the Administrator of the Environ-
- 15         mental Protection Agency).
- 16         ‘‘(2) EMISSIONS ATTRIBUTABLE TO OTHER
- 17     SUBSTANCES.—There is hereby imposed a fee in an
- 18     amount equal to the applicable amount per ton of
- 19     carbon dioxide emitted—
- 20             ‘‘(A) from any facility which—
- 21                 ‘‘(i) is required to report emissions, or
- 22             to which emissions are attributed, under
- 23             subpart A of part 98 of title 40, Code of
- 24             Federal Regulations, as in effect on the
- 1             date of the enactment of the American Op-
- 2             portunity Carbon Fee Act, and
- 3                 ‘‘(ii) emits not less than 25,000 tons
- 4             of carbon dioxide emissions during the pre-
- 5             vious calendar year, and
- 6             ‘‘(B) by reason of the combustion or proc-
- 7         essing of any product other than coal, petro-
- 8         leum products, and natural gas.
- 9     ‘‘(b) APPLICABLE AMOUNT.—
- 10         ‘‘(1) IN GENERAL.—For purposes of this part,
- 11     the applicable amount is—
- 12             ‘‘(A) for calendar year 2015, $42,
- 13             ‘‘(B) for any calendar year following a year
- 14         which is not a national emissions target attain-
- 15         ment year, the sum of—
- 16                 ‘‘(i) the product of the amount in ef-
- 17             fect under this subparagraph for the pre-
- 18             ceding calendar year and 102 percent, and
- 19                 ‘‘(ii) the inflation adjustment amount
- 20             determined under paragraph (2), and
- 21             ‘‘(C) for any calendar year following a year
- 22         which is a national emissions target attainment
- 23         year, the sum of—
- 1                 ‘‘(i) the amount in effect under this
- 2             subparagraph for the preceding calendar
- 3             year, and
- 4                 ‘‘(ii) the inflation adjustment amount
- 5             determined under paragraph (2).
- 6         ‘‘(2) INFLATION ADJUSTMENT AMOUNT.—
- 7             ‘‘(A) IN GENERAL.—The inflation adjust-
- 8         ment amount for any calendar year shall be an
- 9         amount (not less than zero) equal to the prod-
- 10         uct of—
- 11                 ‘‘(i) the amount determined under
- 12             paragraph (1)(B)(i) or (1)(C)(i), as appli-
- 13             cable, for such year, and
- 14                 ‘‘(ii) the percentage by which the CPI
- 15             for the preceding calendar year exceeds the
- 16             CPI for the second preceding calendar
- 17             year.
- 18             ‘‘(B) CPI.—Rules similar to the rules of
- 19         paragraphs (4) and (5) of section 1(f) shall
- 20         apply for purposes of this paragraph.
- 21         ‘‘(3) ROUNDING.—The applicable amount under
- 22     this subsection shall be rounded up to the next whole
- 23     dollar amount.
- 24         ‘‘(4) NATIONAL EMISSIONS TARGET ATTAIN-
- 25     MENT YEAR.—For purposes of paragraph (1), a cal-
- 1     endar year is a national emissions target attainment
- 2     year if the level of greenhouse gas emissions in the
- 3     United States for the calendar year does not exceed
- 4     20 percent of the level of greenhouse gas emissions
- 5     in the United States for calendar year 2005 as de-
- 6     termined by the Secretary in consultation with the
- 7     Administrator of the Environmental Protection
- 8     Agency.
- 9     ‘‘(c) REFUNDS FOR CAPTURING CARBON DIOXIDE
- 10 AND PRODUCTION OF CERTAIN GOODS.—
- 11         ‘‘(1) CARBON DIOXIDE CAPTURE, UTILIZATION,
- 12     AND STORAGE.—
- 13             ‘‘(A) IN GENERAL.—In the case of a per-
- 14         son who—
- 15                 ‘‘(i) uses any coal, petroleum product,
- 16             or natural gas for which a fee has been im-
- 17             posed under subsection (a)(1) in a manner
- 18             which results in the emission of qualified
- 19             carbon dioxide,
- 20                 ‘‘(ii) captures the resulting emitted
- 21             qualified carbon dioxide at a qualified facil-
- 22             ity, and
- 23                 ‘‘(iii)(I) disposes of such qualified car-
- 24             bon dioxide in secure storage, or
- 1                 ‘‘(II) utilizes such qualified carbon di-
- 2             oxide in a manner provided in subpara-
- 3             graph (D),
- 4             there shall be allowed a refund, in the
- 5             same manner as if it were an overpayment
- 6             of the fee imposed by such subsection, to
- 7             such person in amount determined under
- 8             subparagraph (B).
- 9             ‘‘(B) AMOUNT OF REFUND.—The amount
- 10         of the refund under this subparagraph is an
- 11         amount equal to the product of—
- 12                 ‘‘(i) the applicable amount under sub-
- 13             section (b) for the calendar year in which
- 14             such qualified carbon dioxide was captured
- 15             and disposed or utilized, and
- 16                 ‘‘(ii) the adjusted tons of qualified
- 17             carbon dioxide captured and disposed or
- 18             utilized.
- 19             ‘‘(C) ADJUSTED TOTAL TONS.—For pur-
- 20         poses of subparagraph (B), the adjusted tons of
- 21         qualified carbon dioxide captured and disposed
- 22         or utilized shall be the total tons of qualified
- 23         carbon dioxide captured and disposed or utilized
- 24         reduced by the amount of any anticipated leak-
- 25         age of carbon dioxide into the atmosphere due
- 1         to imperfect storage technology or otherwise, as
- 2         determined by the Secretary in consultation
- 3         with the Administrator of the Environmental
- 4         Protection Agency.
- 5             ‘‘(D) REQUIREMENTS.—
- 6                 ‘‘(i) IN GENERAL.—Any refund under
- 7             subparagraph (A) shall apply only with re-
- 8             spect to qualified carbon dioxide that has
- 9             been captured and disposed or utilized
- 10             within the United States.
- 11                 ‘‘(ii) DISPOSAL AND SECURE STOR-
- 12             AGE.—
- 13                     ‘‘(I)  SECURE  STORAGE.—The
- 14                 Secretary, in consultation with the
- 15                 Administrator of the Environmental
- 16                 Protection Agency and the Secretary
- 17                 of Energy, shall establish regulations
- 18                 similar to the regulations under sec-
- 19                 tion 45Q(d)(2) for determining ade-
- 20                 quate security measures for the secure
- 21                 storage of qualified carbon dioxide for
- 22                 purposes of subparagraph (A)(iii)(I).
- 23                     ‘‘(II)  RECAPTURE.—The  Sec-
- 24                 retary shall, by regulations, provide
- 25                 for recapturing the benefit of any re-
- 1                 fund made under subparagraph (A)
- 2                 with respect to any qualified carbon
- 3                 dioxide which is disposed in secure
- 4                 storage and ceases to be stored in a
- 5                 manner consistent with the require-
- 6                 ments of this section.
- 7                 ‘‘(iii) UTILIZATION.—The Secretary,
- 8             in consultation with the Administrator of
- 9             the  Environmental  Protection  Agency,
- 10             shall establish regulations providing for the
- 11             appropriate methods and manners for the
- 12             utilization  of  qualified  carbon  dioxide
- 13             under subparagraph (A)(iii)(II), including
- 14             the utilization of captured carbon dioxide
- 15             for enhanced oil or gas recovery and the
- 16             production of substances such as plastics,
- 17             biofuels, and chemicals. Such regulations
- 18             shall provide for the minimization of the
- 19             escape or further emission of the qualified
- 20             carbon dioxide into the atmosphere.
- 21             ‘‘(E) QUALIFIED CARBON DIOXIDE; QUALI-
- 22         FIED FACILITY.—For purposes of this para-
- 23         graph—
- 24                 ‘‘(i) QUALIFIED CARBON DIOXIDE.—
- 25             The term ‘qualified carbon dioxide’ has the
- 1             same meaning given that term under sec-
- 2             tion 45Q(b).
- 3                 ‘‘(ii) QUALIFIED FACILITY.—The term
- 4             ‘qualified facility’ has the same meaning
- 5             given that term under section 45Q(c), de-
- 6             termined without regard to paragraph (3)
- 7             thereof.
- 8         ‘‘(2) MANUFACTURE OF CERTAIN GOODS.—In
- 9     the case of a person who uses any coal, petroleum
- 10     product, or natural gas for which a fee has been im-
- 11     posed under subsection (a)(1) as an input for a
- 12     manufactured good that encapsulates carbon dioxide
- 13     in a manner such that it does not result in the direct
- 14     emission of carbon dioxide in the manufacturing or
- 15     subsequent use of such good, a refund shall be al-
- 16     lowed to such person in the same manner as if it
- 17     were an overpayment of the fee imposed by such sec-
- 18     tion in an amount that is equal to the product of—
- 19             ‘‘(A) an amount equal to the applicable
- 20         amount under subsection (b) for the calendar
- 21         year in which such product was used, and
- 22             ‘‘(B) the total tons of carbon dioxide that
- 23         would have otherwise been emitted through the
- 24         combustion of such product.
- 1         ‘‘(3) EXPORTS.—In the case of a person who
- 2     exports any coal, petroleum product, or natural gas
- 3     from the United States for which a fee has been im-
- 4     posed under subsection (a)(1), a refund shall be al-
- 5     lowed to such person in the same manner as if it
- 6     were an overpayment of the fee imposed by such sec-
- 7     tion in an amount that is equal to the fee previously
- 8     imposed under such section with respect to such
- 9     product.
- 10 ‘‘SEC. 4692. FEE FOR NON-CARBON DIOXIDE GREENHOUSE
- 11            GAS EMISSIONS.
- 12     ‘‘(a) IN GENERAL.—There is hereby imposed a fee
- 13 in an amount determined under subsection (b) on the
- 14 emission (including attributed emissions) of any green-
- 15 house gas other than carbon dioxide from any greenhouse
- 16 gas emissions source.
- 17     ‘‘(b) AMOUNT OF FEE.—The amount of fee imposed
- 18 by subsection (a) shall be equal to the applicable amount
- 19 determined under section 4691(b) per ton of carbon diox-
- 20 ide equivalents emitted by the greenhouse gas emissions
- 21 source.
- 22     ‘‘(c) GREENHOUSE GAS EMISSIONS SOURCE.—The
- 23 term ‘greenhouse gas emissions source’ means any facility
- 24 which—
- 1         ‘‘(1) is required to report emissions (or which
- 2     would be required to report emissions notwith-
- 3     standing any other provision of law prohibiting the
- 4     implementation of or use of funds for such require-
- 5     ments), or to which emissions are attributed, under
- 6     part 98 of title 40, Code of Federal Regulations, as
- 7     in effect on the date of the enactment of the Amer-
- 8     ican Opportunity Carbon Fee Act, and
- 9         ‘‘(2) emits during the previous calendar year
- 10     greenhouse gases (not including carbon dioxide) at a
- 11     rate equal to the carbon dioxide equivalent of not
- 12     less than 25,000 tons.
- 13     ‘‘(d) SPECIAL RULES.—For purposes of determining
- 14 emissions under subsections (a) and (c)(2), there shall not
- 15 be taken into account—
- 16         ‘‘(1) the emission of fluorinated greenhouse
- 17     gases other than nitrogen triflouride from any facil-
- 18     ity that is included under—
- 19             ‘‘(A) the electrical transmission and dis-
- 20         tribution equipment use source category under
- 21         subpart DD of part 98 of title 40, Code of Fed-
- 22         eral Regulations, as in effect on the date of the
- 23         enactment of the American Opportunity Carbon
- 24         Fee Act,
- 1             ‘‘(B) the electronics manufacturing source
- 2         category under subpart I of such part, as in ef-
- 3         fect on the date of the enactment of the Amer-
- 4         ican Opportunity Carbon Fee Act,
- 5             ‘‘(C) in the case of a facility that trans-
- 6         forms or destroys such gases, the industrial gas
- 7         supplier source category under subpart OO of
- 8         such part, as in effect on the date of the enact-
- 9         ment of the American Opportunity Carbon Fee
- 10         Act, or
- 11             ‘‘(D) the electrical equipment manufac-
- 12         turing or refurbishment category under subpart
- 13         SS of such part, as in effect on the date of the
- 14         enactment of the American Opportunity Carbon
- 15         Fee Act, or
- 16         ‘‘(2) the emission of triflouride from any facility
- 17     that is included under—
- 18             ‘‘(A) the industrial gas supplier source cat-
- 19         egory under subpart OO of part 98 of title 40,
- 20         Code of Federal Regulations, as in effect on the
- 21         date of the enactment of the American Oppor-
- 22         tunity Carbon Fee Act, or
- 23             ‘‘(B) the source category for importers and
- 24         exporters of fluorinated greenhouse gases con-
- 25         tained in pre-charged equipment or closed-cell
- 1         foams under subpart QQ of such part, as in ef-
- 2         fect on the date of the enactment of the Amer-
- 3         ican Opportunity Carbon Fee Act.
- 4 ‘‘SEC. 4693. ESCAPED METHANE.
- 5     ‘‘(a) REPORTING PROGRAM.—
- 6         ‘‘(1) IN GENERAL.—Not later than January 1,
- 7     2016, the Secretary of the Treasury, in consultation
- 8     with the Administrator of the Environmental Protec-
- 9     tion Agency and the Administrator of the Energy
- 10     Information Administration, shall establish and im-
- 11     plement a program to provide for the collection of
- 12     data on methane emissions by major non-natural
- 13     sources, including methane emissions attributable to
- 14     the extraction and distribution of coal, petroleum
- 15     products, and natural gas.
- 16         ‘‘(2) ANNUAL REPORT.—Not later than 12
- 17     months after the date that the Secretary implements
- 18     the program described in paragraph (1), and annu-
- 19     ally thereafter, the Secretary shall issue a report, to
- 20     be made available to the public and the appropriate
- 21     Committees of Congress, on methane emissions, in-
- 22     cluding—
- 23             ‘‘(A) identification of all major non-natural
- 24         sources categories of methane emissions,
- 1             ‘‘(B) the total amount, expressed in tons of
- 2         carbon dioxide equivalent, of—
- 3                 ‘‘(i) methane emissions attributable to
- 4             the extraction and distribution of coal
- 5             within the United States during the pre-
- 6             ceding calendar year,
- 7                 ‘‘(ii) methane emissions attributable
- 8             to the extraction and distribution of petro-
- 9             leum products within the United States
- 10             during the preceding calendar year, and
- 11                 ‘‘(iii) methane emissions attributable
- 12             to the extraction and distribution of nat-
- 13             ural gas within the United States during
- 14             the preceding calendar year, and
- 15             ‘‘(C) the total amount, expressed in tons of
- 16         carbon dioxide equivalent, of—
- 17                 ‘‘(i) greenhouse gas emissions attrib-
- 18             utable to the extraction, distribution, and
- 19             combustion of coal within the United
- 20             States during the preceding calendar year,
- 21                 ‘‘(ii) greenhouse gas emissions attrib-
- 22             utable to the extraction, distribution, and
- 23             combustion of petroleum products within
- 24             the United States during the preceding cal-
- 25             endar year, and
- 1                 ‘‘(iii) greenhouse gas emissions attrib-
- 2             utable to the extraction, distribution, and
- 3             combustion of natural gas within the
- 4             United States during the preceding cal-
- 5             endar year.
- 6     ‘‘(b) SUPPLEMENTARY FEE FOR ESCAPED METH-
- 7 ANE.—
- 8         ‘‘(1) COAL.—In the case of any calendar year
- 9     beginning after 2016, the fee imposed under section
- 10     4691(a)(1) with respect to coal shall be increased by
- 11     the amount determined by the Secretary (in con-
- 12     sultation with the Administrator of the Environ-
- 13     mental Protection Agency) necessary to ensure that
- 14     the total fees collected under such section with re-
- 15     spect to coal are equal to the total amount of such
- 16     fees that would be collected on coal if the fee im-
- 17     posed under section 4691(a)(1) applied to the car-
- 18     bon-dioxide equivalent of methane emissions re-
- 19     ported under subsection (a)(2)(B)(i).
- 20         ‘‘(2) PETROLEUM PRODUCTS.—In the case of
- 21     any calendar year beginning after 2016, the fee im-
- 22     posed under section 4691(a)(1) with respect to pe-
- 23     troleum products shall be increased by the amount
- 24     determined by the Secretary (in consultation with
- 25     the Administrator of the Environmental Protection
- 1     Agency) necessary to ensure that the total fees col-
- 2     lected under such section with respect to petroleum
- 3     products are equal to the total amount of such fees
- 4     that would be collected on petroleum products if the
- 5     fee imposed under section 4691(a)(1) applied to the
- 6     carbon-dioxide equivalent of methane emissions re-
- 7     ported under subsection (a)(2)(B)(ii).
- 8         ‘‘(3) NATURAL GAS.—In the case of any cal-
- 9     endar year beginning after 2016, the fee imposed
- 10     under section 4691(a)(1) with respect to natural gas
- 11     shall be increased by the amount determined by the
- 12     Secretary (in consultation with the Administrator of
- 13     the Environmental Protection Agency) necessary to
- 14     ensure that the total fees collected under such sec-
- 15     tion with respect to natural gas are equal to the
- 16     total amount of such fees that would be collected on
- 17     natural gas if the fee imposed under section
- 18     4691(a)(1) applied to the carbon-dioxide equivalent
- 19     of methane emissions reported under subsection
- 20     (a)(2)(B)(iii).
- 21 ‘‘SEC. 4694. BORDER ADJUSTMENTS.
- 22     ‘‘(a) EXPORTS.—
- 23         ‘‘(1) IN GENERAL.—In the case of any good ex-
- 24     ported from the United States that—
- 25             ‘‘(A) is manufactured using as an input—
- 1                 ‘‘(i) any coal, petroleum product, or
- 2             natural gas that is subject to a fee under
- 3             section 4691(a)(1) or 4693(b), or
- 4                 ‘‘(ii) any product manufactured in a
- 5             facility that is subject to a fee under sec-
- 6             tion 4691(a)(2) or 4692(a), and
- 7             ‘‘(B) as a result of such fee, has been de-
- 8         termined by the Secretary to be placed at a
- 9         competitive disadvantage in foreign markets
- 10         against similar goods that are manufactured
- 11         using inputs not subject to equivalent green-
- 12         house gas or carbon content taxes or fees,
- 13     the Secretary may provide an equivalency refund to
- 14     the person exporting such good in an amount deter-
- 15     mined under paragraph (2).
- 16         ‘‘(2) EQUIVALENCY REFUND.—For any good
- 17     identified by the Secretary under paragraph (1), the
- 18     amount determined under this paragraph shall be
- 19     equal to the difference between—
- 20             ‘‘(A) the amount of the cost of such good
- 21         attributable to any fees imposed under this sub-
- 22         chapter on inputs used in the manufacturing of
- 23         such good (as determined under regulations es-
- 24         tablished by the Secretary), and
- 1             ‘‘(B) the amount, if any, of the cost of
- 2         such good which would be attributable to com-
- 3         parable greenhouse gas or carbon content taxes
- 4         or fees imposed by the foreign nation or sub-
- 5         stantial governmental unit to which such good
- 6         is exported if the inputs used in the manufac-
- 7         turing of such good were subject to such taxes
- 8         or fees (as determined under regulations estab-
- 9         lished by the Secretary).
- 10     ‘‘(b) IMPORTS.—
- 11         ‘‘(1) IN GENERAL.—In the case of any good im-
- 12     ported into the United States—
- 13             ‘‘(A) that is manufactured using as an
- 14         input—
- 15                 ‘‘(i) any coal, petroleum product, or
- 16             natural gas that is not subject to a fee
- 17             under section 4691(a)(1) or 4693(b), or
- 18                 ‘‘(ii) any product manufactured in a
- 19             facility that is not subject to a fee under
- 20             section 4691(a)(2) or 4692(a), and
- 21             ‘‘(B) is placed at a competitive disadvan-
- 22         tage compared to similar goods in the domestic
- 23         market which are manufactured using inputs
- 24         subject to such a fee, as determined under reg-
- 25         ulations established by the Secretary,
- 1     the Secretary may impose an equivalency fee on the
- 2     person importing such good in an amount deter-
- 3     mined under paragraph (2).
- 4         ‘‘(2) EQUIVALENCY FEE.—For any good identi-
- 5     fied by the Secretary under paragraph (1), the
- 6     amount determined under this paragraph shall be
- 7     equal to the difference between—
- 8             ‘‘(A) the amount of the cost of such good
- 9         which would be attributable to any fees imposed
- 10         under this subchapter on inputs used in the
- 11         manufacturing of such good if the inputs used
- 12         in manufacturing such good were subject to
- 13         such fees (as determined under regulations es-
- 14         tablished by the Secretary), and
- 15             ‘‘(B) the amount, if any, of the cost of
- 16         such good which is attributable to comparable
- 17         greenhouse gas or carbon content taxes or fees
- 18         imposed by the foreign nation or substantial
- 19         governmental unit from which such good is im-
- 20         ported (as determined under regulations estab-
- 21         lished by the Secretary).
- 22     ‘‘(c) REGULATORY AUTHORITY.—The Secretary shall
- 23 consult with the Administrator of the Environmental Pro-
- 24 tection Agency and the Secretary of Energy in establishing
- 1 rules and regulations implementing the purposes of this
- 2 section.
- 3 ‘‘SEC. 4695. DEFINITIONS AND OTHER RULES.
- 4     ‘‘(a) DEFINITIONS.—For purposes of this sub-
- 5 chapter:
- 6         ‘‘(1) CARBON DIOXIDE EQUIVALENT.—
- 7             ‘‘(A) IN GENERAL.—Except as provided
- 8         under subparagraph (B), the term ‘carbon diox-
- 9         ide equivalent’ means, with respect to a green-
- 10         house gas, the quantity of such gas that has a
- 11         global warming potential equivalent to 1 metric
- 12         ton of carbon dioxide, as determined pursuant
- 13         to table A-1 of subpart A of part 98 of title 40,
- 14         Code of Federal Regulations, as in effect on the
- 15         date of the enactment of the American Oppor-
+ 1         Be it enacted by the Senate and House of Representa-
+ 2  tives of the United States of America in Congress assembled,
+ 3  SECTION 1. SHORT TITLE.
+ 4         This Act may be cited as the ‘‘American Opportunity
+ 5  Carbon Fee Act’’.
+ 6  SEC. 2. CARBON DIOXIDE AND OTHER GREENHOUSE GAS
+ 7                     EMISSION FEES.
+ 8         (a) IN GENERAL.—Chapter 38 of the Internal Rev-
+ 9  enue Code of 1986 is amended by adding at the end there-
+ 10  of the following new subchapter:
+ 1     ‘‘Subchapter E—Carbon Dioxide and Other
+ 2                Greenhouse Gas Emission Fees
+ 3  ‘‘SEC. 4691. FEE FOR CARBON DIOXIDE EMISSIONS.
+ 4         ‘‘(a) IN GENERAL.—
+ 5                ‘‘(1) FOSSIL FUEL PRODUCTS PRODUCING CAR-
+ 6         BON EMISSIONS.—
+ 7                       ‘‘(A) IN GENERAL.—There is hereby im-
+ 8                posed a fee in an amount equal to the applica-
+ 9                ble amount at the rate specified in subpara-
+ 10                graph (B) on—
+ 11                              ‘‘(i) coal—
+ 12                                     ‘‘(I) removed from any mine in
+ 13                              the United States, or
+ 14                                     ‘‘(II)   entered   into   the   United
+ 15                              States   for   consumption,   use,   or
+ 16                              warehousing,
+ 17                              ‘‘(ii) petroleum products—
+ 18                                     ‘‘(I) removed from any refinery,
+ 19                                     ‘‘(II) removed from any terminal,
+ 20                              or
+ 21                                     ‘‘(III)  entered  into  the  United
+ 22                              States   for   consumption,   use,   or
+ 23                              warehousing, and
+ 1                              ‘‘(iii) natural gas—
+ 2                                     ‘‘(I) entered into any processor,
+ 3                              or
+ 4                                     ‘‘(II)   entered   into   the   United
+ 5                              States   for   consumption,   use,   or
+ 6                              warehousing.
+ 7                       ‘‘(B)  RATE.—The  rate  specified  in  this
+ 8                subparagraph with respect to any product de-
+ 9                scribed in subparagraph (A) is an amount equal
+ 10                to the applicable amount per ton of carbon di-
+ 11                oxide that would be emitted through the com-
+ 12                bustion of such product (as determined by the
+ 13                Secretary, in consultation with the Secretary of
+ 14                Energy and the Administrator of the Environ-
+ 15                mental Protection Agency).
+ 16                ‘‘(2)   EMISSIONS   ATTRIBUTABLE   TO   OTHER
+ 17         SUBSTANCES.—There is hereby imposed a fee in an
+ 18         amount equal to the applicable amount per ton of
+ 19         carbon dioxide emitted—
+ 20                       ‘‘(A) from any facility which—
+ 21                              ‘‘(i) is required to report emissions, or
+ 22                       to which emissions are attributed, under
+ 23                       subpart A of part 98 of title 40, Code of
+ 24                       Federal Regulations, as in effect on the
+ 1                       date of the enactment of the American Op-
+ 2                       portunity Carbon Fee Act, and
+ 3                              ‘‘(ii) emits not less than 25,000 tons
+ 4                       of carbon dioxide emissions during the pre-
+ 5                       vious calendar year, and
+ 6                       ‘‘(B) by reason of the combustion or proc-
+ 7                essing of any product other than coal, petro-
+ 8                leum products, and natural gas.
+ 9         ‘‘(b) APPLICABLE AMOUNT.—
+ 10                ‘‘(1) IN GENERAL.—For purposes of this part,
+ 11         the applicable amount is—
+ 12                       ‘‘(A) for calendar year 2015, $42,
+ 13                       ‘‘(B) for any calendar year following a year
+ 14                which is not a national emissions target attain-
+ 15                ment year, the sum of—
+ 16                              ‘‘(i) the product of the amount in ef-
+ 17                       fect under this subparagraph for the pre-
+ 18                       ceding calendar year and 102 percent, and
+ 19                              ‘‘(ii) the inflation adjustment amount
+ 20                       determined under paragraph (2), and
+ 21                       ‘‘(C) for any calendar year following a year
+ 22                which is a national emissions target attainment
+ 23                year, the sum of—
+ 1                              ‘‘(i) the amount in effect under this
+ 2                       subparagraph  for  the  preceding  calendar
+ 3                       year, and
+ 4                              ‘‘(ii) the inflation adjustment amount
+ 5                       determined under paragraph (2).
+ 6                ‘‘(2) INFLATION ADJUSTMENT AMOUNT.—
+ 7                       ‘‘(A) IN GENERAL.—The inflation adjust-
+ 8                ment amount for any calendar year shall be an
+ 9                amount (not less than zero) equal to the prod-
+ 10                uct of—
+ 11                              ‘‘(i)  the  amount  determined  under
+ 12                       paragraph (1)(B)(i) or (1)(C)(i), as appli-
+ 13                       cable, for such year, and
+ 14                              ‘‘(ii) the percentage by which the CPI
+ 15                       for the preceding calendar year exceeds the
+ 16                       CPI  for  the  second  preceding  calendar
+ 17                       year.
+ 18                       ‘‘(B) CPI.—Rules similar to the rules of
+ 19                paragraphs  (4)  and  (5)  of  section  1(f)  shall
+ 20                apply for purposes of this paragraph.
+ 21                ‘‘(3) ROUNDING.—The applicable amount under
+ 22         this subsection shall be rounded up to the next whole
+ 23         dollar amount.
+ 24                ‘‘(4)  NATIONAL  EMISSIONS  TARGET  ATTAIN-
+ 25         MENT YEAR.—For purposes of paragraph (1), a cal-
+ 1         endar year is a national emissions target attainment
+ 2         year if the level of greenhouse gas emissions in the
+ 3         United States for the calendar year does not exceed
+ 4         20 percent of the level of greenhouse gas emissions
+ 5         in the United States for calendar year 2005 as de-
+ 6         termined by the Secretary in consultation with the
+ 7         Administrator   of   the   Environmental   Protection
+ 8         Agency.
+ 9         ‘‘(c) REFUNDS FOR CAPTURING CARBON DIOXIDE
+ 10  AND PRODUCTION OF CERTAIN GOODS.—
+ 11                ‘‘(1) CARBON DIOXIDE CAPTURE, UTILIZATION,
+ 12         AND STORAGE.—
+ 13                       ‘‘(A) IN GENERAL.—In the case of a per-
+ 14                son who—
+ 15                              ‘‘(i) uses any coal, petroleum product,
+ 16                       or natural gas for which a fee has been im-
+ 17                       posed under subsection (a)(1) in a manner
+ 18                       which results in the emission of qualified
+ 19                       carbon dioxide,
+ 20                              ‘‘(ii)  captures  the  resulting  emitted
+ 21                       qualified carbon dioxide at a qualified facil-
+ 22                       ity, and
+ 23                              ‘‘(iii)(I) disposes of such qualified car-
+ 24                       bon dioxide in secure storage, or
+ 1                              ‘‘(II) utilizes such qualified carbon di-
+ 2                       oxide  in  a  manner  provided  in  subpara-
+ 3                       graph (D),
+ 4                       there  shall  be  allowed  a  refund,  in  the
+ 5                       same manner as if it were an overpayment
+ 6                       of the fee imposed by such subsection, to
+ 7                       such person in amount determined under
+ 8                       subparagraph (B).
+ 9                       ‘‘(B) AMOUNT OF REFUND.—The amount
+ 10                of the refund under this subparagraph is an
+ 11                amount equal to the product of—
+ 12                              ‘‘(i) the applicable amount under sub-
+ 13                       section (b) for the calendar year in which
+ 14                       such qualified carbon dioxide was captured
+ 15                       and disposed or utilized, and
+ 16                              ‘‘(ii)  the  adjusted  tons  of  qualified
+ 17                       carbon dioxide captured and disposed or
+ 18                       utilized.
+ 19                       ‘‘(C) ADJUSTED TOTAL TONS.—For pur-
+ 20                poses of subparagraph (B), the adjusted tons of
+ 21                qualified carbon dioxide captured and disposed
+ 22                or utilized shall be the total tons of qualified
+ 23                carbon dioxide captured and disposed or utilized
+ 24                reduced by the amount of any anticipated leak-
+ 25                age of carbon dioxide into the atmosphere due
+ 1                to imperfect storage technology or otherwise, as
+ 2                determined  by  the  Secretary  in  consultation
+ 3                with the Administrator of the Environmental
+ 4                Protection Agency.
+ 5                       ‘‘(D) REQUIREMENTS.—
+ 6                              ‘‘(i) IN GENERAL.—Any refund under
+ 7                       subparagraph (A) shall apply only with re-
+ 8                       spect to qualified carbon dioxide that has
+ 9                       been  captured  and  disposed  or  utilized
+ 10                       within the United States.
+ 11                              ‘‘(ii)  DISPOSAL  AND  SECURE  STOR-
+ 12                       AGE.—
+ 13                                     ‘‘(I)    SECURE    STORAGE.—The
+ 14                              Secretary,  in  consultation  with  the
+ 15                              Administrator  of  the  Environmental
+ 16                              Protection Agency and the Secretary
+ 17                              of Energy, shall establish regulations
+ 18                              similar to the regulations under sec-
+ 19                              tion 45Q(d)(2) for determining ade-
+ 20                              quate security measures for the secure
+ 21                              storage of qualified carbon dioxide for
+ 22                              purposes of subparagraph (A)(iii)(I).
+ 23                                     ‘‘(II)    RECAPTURE.—The    Sec-
+ 24                              retary  shall,  by  regulations,  provide
+ 25                              for recapturing the benefit of any re-
+ 1                              fund  made  under  subparagraph  (A)
+ 2                              with respect to any qualified carbon
+ 3                              dioxide  which  is  disposed  in  secure
+ 4                              storage and ceases to be stored in a
+ 5                              manner  consistent  with  the  require-
+ 6                              ments of this section.
+ 7                              ‘‘(iii)  UTILIZATION.—The  Secretary,
+ 8                       in consultation with the Administrator of
+ 9                       the   Environmental   Protection   Agency,
+ 10                       shall establish regulations providing for the
+ 11                       appropriate methods and manners for the
+ 12                       utilization   of   qualified   carbon   dioxide
+ 13                       under subparagraph (A)(iii)(II), including
+ 14                       the utilization of captured carbon dioxide
+ 15                       for enhanced oil or gas recovery and the
+ 16                       production of substances such as plastics,
+ 17                       biofuels, and chemicals. Such regulations
+ 18                       shall provide for the minimization of the
+ 19                       escape or further emission of the qualified
+ 20                       carbon dioxide into the atmosphere.
+ 21                       ‘‘(E) QUALIFIED CARBON DIOXIDE; QUALI-
+ 22                FIED  FACILITY.—For  purposes  of  this  para-
+ 23                graph—
+ 24                              ‘‘(i) QUALIFIED CARBON DIOXIDE.—
+ 25                       The term ‘qualified carbon dioxide’ has the
+ 1                       same meaning given that term under sec-
+ 2                       tion 45Q(b).
+ 3                              ‘‘(ii) QUALIFIED FACILITY.—The term
+ 4                       ‘qualified facility’ has the same meaning
+ 5                       given that term under section 45Q(c), de-
+ 6                       termined without regard to paragraph (3)
+ 7                       thereof.
+ 8                ‘‘(2) MANUFACTURE OF CERTAIN GOODS.—In
+ 9         the case of a person who uses any coal, petroleum
+ 10         product, or natural gas for which a fee has been im-
+ 11         posed  under  subsection  (a)(1)  as  an  input  for  a
+ 12         manufactured good that encapsulates carbon dioxide
+ 13         in a manner such that it does not result in the direct
+ 14         emission of carbon dioxide in the manufacturing or
+ 15         subsequent use of such good, a refund shall be al-
+ 16         lowed to such person in the same manner as if it
+ 17         were an overpayment of the fee imposed by such sec-
+ 18         tion in an amount that is equal to the product of—
+ 19                       ‘‘(A)  an  amount  equal  to  the  applicable
+ 20                amount under subsection (b) for the calendar
+ 21                year in which such product was used, and
+ 22                       ‘‘(B) the total tons of carbon dioxide that
+ 23                would have otherwise been emitted through the
+ 24                combustion of such product.
+ 1                ‘‘(3) EXPORTS.—In the case of a person who
+ 2         exports any coal, petroleum product, or natural gas
+ 3         from the United States for which a fee has been im-
+ 4         posed under subsection (a)(1), a refund shall be al-
+ 5         lowed to such person in the same manner as if it
+ 6         were an overpayment of the fee imposed by such sec-
+ 7         tion in an amount that is equal to the fee previously
+ 8         imposed  under  such  section  with  respect  to  such
+ 9         product.
+ 10  ‘‘SEC. 4692. FEE FOR NON-CARBON DIOXIDE GREENHOUSE
+ 11                     GAS EMISSIONS.
+ 12         ‘‘(a) IN GENERAL.—There is hereby imposed a fee
+ 13  in an amount determined under subsection (b) on the
+ 14  emission (including attributed emissions) of any green-
+ 15  house gas other than carbon dioxide from any greenhouse
+ 16  gas emissions source.
+ 17         ‘‘(b) AMOUNT OF FEE.—The amount of fee imposed
+ 18  by subsection (a) shall be equal to the applicable amount
+ 19  determined under section 4691(b) per ton of carbon diox-
+ 20  ide equivalents emitted by the greenhouse gas emissions
+ 21  source.
+ 22         ‘‘(c) GREENHOUSE GAS EMISSIONS SOURCE.—The
+ 23  term ‘greenhouse gas emissions source’ means any facility
+ 24  which—
+ 1                ‘‘(1) is required to report emissions (or which
+ 2         would  be  required  to  report  emissions  notwith-
+ 3         standing any other provision of law prohibiting the
+ 4         implementation of or use of funds for such require-
+ 5         ments), or to which emissions are attributed, under
+ 6         part 98 of title 40, Code of Federal Regulations, as
+ 7         in effect on the date of the enactment of the Amer-
+ 8         ican Opportunity Carbon Fee Act, and
+ 9                ‘‘(2) emits during the previous calendar year
+ 10         greenhouse gases (not including carbon dioxide) at a
+ 11         rate equal to the carbon dioxide equivalent of not
+ 12         less than 25,000 tons.
+ 13         ‘‘(d) SPECIAL RULES.—For purposes of determining
+ 14  emissions under subsections (a) and (c)(2), there shall not
+ 15  be taken into account—
+ 16                ‘‘(1)  the  emission  of  fluorinated  greenhouse
+ 17         gases other than nitrogen triflouride from any facil-
+ 18         ity that is included under—
+ 19                       ‘‘(A) the electrical transmission and dis-
+ 20                tribution equipment use source category under
+ 21                subpart DD of part 98 of title 40, Code of Fed-
+ 22                eral Regulations, as in effect on the date of the
+ 23                enactment of the American Opportunity Carbon
+ 24                Fee Act,
+ 1                       ‘‘(B) the electronics manufacturing source
+ 2                category under subpart I of such part, as in ef-
+ 3                fect on the date of the enactment of the Amer-
+ 4                ican Opportunity Carbon Fee Act,
+ 5                       ‘‘(C) in the case of a facility that trans-
+ 6                forms or destroys such gases, the industrial gas
+ 7                supplier source category under subpart OO of
+ 8                such part, as in effect on the date of the enact-
+ 9                ment of the American Opportunity Carbon Fee
+ 10                Act, or
+ 11                       ‘‘(D)  the  electrical  equipment  manufac-
+ 12                turing or refurbishment category under subpart
+ 13                SS of such part, as in effect on the date of the
+ 14                enactment of the American Opportunity Carbon
+ 15                Fee Act, or
+ 16                ‘‘(2) the emission of triflouride from any facility
+ 17         that is included under—
+ 18                       ‘‘(A) the industrial gas supplier source cat-
+ 19                egory under subpart OO of part 98 of title 40,
+ 20                Code of Federal Regulations, as in effect on the
+ 21                date of the enactment of the American Oppor-
+ 22                tunity Carbon Fee Act, or
+ 23                       ‘‘(B) the source category for importers and
+ 24                exporters of fluorinated greenhouse gases con-
+ 25                tained in pre-charged equipment or closed-cell
+ 1                foams under subpart QQ of such part, as in ef-
+ 2                fect on the date of the enactment of the Amer-
+ 3                ican Opportunity Carbon Fee Act.
+ 4  ‘‘SEC. 4693. ESCAPED METHANE.
+ 5         ‘‘(a) REPORTING PROGRAM.—
+ 6                ‘‘(1) IN GENERAL.—Not later than January 1,
+ 7         2016, the Secretary of the Treasury, in consultation
+ 8         with the Administrator of the Environmental Protec-
+ 9         tion Agency and the Administrator of the Energy
+ 10         Information Administration, shall establish and im-
+ 11         plement a program to provide for the collection of
+ 12         data  on  methane  emissions  by  major  non-natural
+ 13         sources, including methane emissions attributable to
+ 14         the extraction and distribution of coal, petroleum
+ 15         products, and natural gas.
+ 16                ‘‘(2)  ANNUAL  REPORT.—Not  later  than  12
+ 17         months after the date that the Secretary implements
+ 18         the program described in paragraph (1), and annu-
+ 19         ally thereafter, the Secretary shall issue a report, to
+ 20         be made available to the public and the appropriate
+ 21         Committees of Congress, on methane emissions, in-
+ 22         cluding—
+ 23                       ‘‘(A) identification of all major non-natural
+ 24                sources categories of methane emissions,
+ 1                       ‘‘(B) the total amount, expressed in tons of
+ 2                carbon dioxide equivalent, of—
+ 3                              ‘‘(i) methane emissions attributable to
+ 4                       the  extraction  and  distribution  of  coal
+ 5                       within the United States during the pre-
+ 6                       ceding calendar year,
+ 7                              ‘‘(ii)  methane  emissions  attributable
+ 8                       to the extraction and distribution of petro-
+ 9                       leum  products  within  the  United  States
+ 10                       during the preceding calendar year, and
+ 11                              ‘‘(iii) methane emissions attributable
+ 12                       to the extraction and distribution of nat-
+ 13                       ural gas within the United States during
+ 14                       the preceding calendar year, and
+ 15                       ‘‘(C) the total amount, expressed in tons of
+ 16                carbon dioxide equivalent, of—
+ 17                              ‘‘(i) greenhouse gas emissions attrib-
+ 18                       utable to the extraction, distribution, and
+ 19                       combustion   of   coal   within   the   United
+ 20                       States during the preceding calendar year,
+ 21                              ‘‘(ii) greenhouse gas emissions attrib-
+ 22                       utable to the extraction, distribution, and
+ 23                       combustion of petroleum products within
+ 24                       the United States during the preceding cal-
+ 25                       endar year, and
+ 1                              ‘‘(iii) greenhouse gas emissions attrib-
+ 2                       utable to the extraction, distribution, and
+ 3                       combustion   of   natural   gas   within   the
+ 4                       United  States  during  the  preceding  cal-
+ 5                       endar year.
+ 6         ‘‘(b) SUPPLEMENTARY FEE FOR ESCAPED METH-
+ 7  ANE.—
+ 8                ‘‘(1) COAL.—In the case of any calendar year
+ 9         beginning after 2016, the fee imposed under section
+ 10         4691(a)(1) with respect to coal shall be increased by
+ 11         the amount determined by the Secretary (in con-
+ 12         sultation  with  the  Administrator  of  the  Environ-
+ 13         mental Protection Agency) necessary to ensure that
+ 14         the total fees collected under such section with re-
+ 15         spect to coal are equal to the total amount of such
+ 16         fees that would be collected on coal if the fee im-
+ 17         posed under section 4691(a)(1) applied to the car-
+ 18         bon-dioxide  equivalent  of  methane  emissions  re-
+ 19         ported under subsection (a)(2)(B)(i).
+ 20                ‘‘(2) PETROLEUM PRODUCTS.—In the case of
+ 21         any calendar year beginning after 2016, the fee im-
+ 22         posed under section 4691(a)(1) with respect to pe-
+ 23         troleum products shall be increased by the amount
+ 24         determined by the Secretary (in consultation with
+ 25         the Administrator of the Environmental Protection
+ 1         Agency) necessary to ensure that the total fees col-
+ 2         lected under such section with respect to petroleum
+ 3         products are equal to the total amount of such fees
+ 4         that would be collected on petroleum products if the
+ 5         fee imposed under section 4691(a)(1) applied to the
+ 6         carbon-dioxide equivalent of methane emissions re-
+ 7         ported under subsection (a)(2)(B)(ii).
+ 8                ‘‘(3) NATURAL GAS.—In the case of any cal-
+ 9         endar year beginning after 2016, the fee imposed
+ 10         under section 4691(a)(1) with respect to natural gas
+ 11         shall be increased by the amount determined by the
+ 12         Secretary (in consultation with the Administrator of
+ 13         the Environmental Protection Agency) necessary to
+ 14         ensure that the total fees collected under such sec-
+ 15         tion with respect to natural gas are equal to the
+ 16         total amount of such fees that would be collected on
+ 17         natural   gas   if   the   fee   imposed   under   section
+ 18         4691(a)(1) applied to the carbon-dioxide equivalent
+ 19         of  methane  emissions  reported  under  subsection
+ 20         (a)(2)(B)(iii).
+ 21  ‘‘SEC. 4694. BORDER ADJUSTMENTS.
+ 22         ‘‘(a) EXPORTS.—
+ 23                ‘‘(1) IN GENERAL.—In the case of any good ex-
+ 24         ported from the United States that—
+ 25                       ‘‘(A) is manufactured using as an input—
+ 1                              ‘‘(i) any coal, petroleum product, or
+ 2                       natural gas that is subject to a fee under
+ 3                       section 4691(a)(1) or 4693(b), or
+ 4                              ‘‘(ii) any product manufactured in a
+ 5                       facility that is subject to a fee under sec-
+ 6                       tion 4691(a)(2) or 4692(a), and
+ 7                       ‘‘(B) as a result of such fee, has been de-
+ 8                termined by the Secretary to be placed at a
+ 9                competitive  disadvantage  in  foreign  markets
+ 10                against  similar  goods  that  are  manufactured
+ 11                using inputs not subject to equivalent green-
+ 12                house gas or carbon content taxes or fees,
+ 13         the Secretary may provide an equivalency refund to
+ 14         the person exporting such good in an amount deter-
+ 15         mined under paragraph (2).
+ 16                ‘‘(2)  EQUIVALENCY  REFUND.—For  any  good
+ 17         identified by the Secretary under paragraph (1), the
+ 18         amount determined under this paragraph shall be
+ 19         equal to the difference between—
+ 20                       ‘‘(A) the amount of the cost of such good
+ 21                attributable to any fees imposed under this sub-
+ 22                chapter on inputs used in the manufacturing of
+ 23                such good (as determined under regulations es-
+ 24                tablished by the Secretary), and
+ 1                       ‘‘(B) the amount, if any, of the cost of
+ 2                such good which would be attributable to com-
+ 3                parable greenhouse gas or carbon content taxes
+ 4                or fees imposed by the foreign nation or sub-
+ 5                stantial governmental unit to which such good
+ 6                is exported if the inputs used in the manufac-
+ 7                turing of such good were subject to such taxes
+ 8                or fees (as determined under regulations estab-
+ 9                lished by the Secretary).
+ 10         ‘‘(b) IMPORTS.—
+ 11                ‘‘(1) IN GENERAL.—In the case of any good im-
+ 12         ported into the United States—
+ 13                       ‘‘(A)  that  is  manufactured  using  as  an
+ 14                input—
+ 15                              ‘‘(i) any coal, petroleum product, or
+ 16                       natural gas that is not subject to a fee
+ 17                       under section 4691(a)(1) or 4693(b), or
+ 18                              ‘‘(ii) any product manufactured in a
+ 19                       facility that is not subject to a fee under
+ 20                       section 4691(a)(2) or 4692(a), and
+ 21                       ‘‘(B) is placed at a competitive disadvan-
+ 22                tage compared to similar goods in the domestic
+ 23                market which are manufactured using inputs
+ 24                subject to such a fee, as determined under reg-
+ 25                ulations established by the Secretary,
+ 1         the Secretary may impose an equivalency fee on the
+ 2         person  importing  such  good  in  an  amount  deter-
+ 3         mined under paragraph (2).
+ 4                ‘‘(2) EQUIVALENCY FEE.—For any good identi-
+ 5         fied  by  the  Secretary  under  paragraph  (1),  the
+ 6         amount determined under this paragraph shall be
+ 7         equal to the difference between—
+ 8                       ‘‘(A) the amount of the cost of such good
+ 9                which would be attributable to any fees imposed
+ 10                under this subchapter on inputs used in the
+ 11                manufacturing of such good if the inputs used
+ 12                in  manufacturing  such  good  were  subject  to
+ 13                such fees (as determined under regulations es-
+ 14                tablished by the Secretary), and
+ 15                       ‘‘(B) the amount, if any, of the cost of
+ 16                such good which is attributable to comparable
+ 17                greenhouse gas or carbon content taxes or fees
+ 18                imposed  by  the  foreign  nation  or  substantial
+ 19                governmental unit from which such good is im-
+ 20                ported (as determined under regulations estab-
+ 21                lished by the Secretary).
+ 22         ‘‘(c) REGULATORY AUTHORITY.—The Secretary shall
+ 23  consult with the Administrator of the Environmental Pro-
+ 24  tection Agency and the Secretary of Energy in establishing
+ 1  rules and regulations implementing the purposes of this
+ 2  section.
+ 3  ‘‘SEC. 4695. DEFINITIONS AND OTHER RULES.
+ 4         ‘‘(a)   DEFINITIONS.—For   purposes   of   this   sub-
+ 5  chapter:
+ 6                ‘‘(1) CARBON DIOXIDE EQUIVALENT.—
+ 7                       ‘‘(A)  IN  GENERAL.—Except  as  provided
+ 8                under subparagraph (B), the term ‘carbon diox-
+ 9                ide equivalent’ means, with respect to a green-
+ 10                house gas, the quantity of such gas that has a
+ 11                global warming potential equivalent to 1 metric
+ 12                ton of carbon dioxide, as determined pursuant
+ 13                to table A-1 of subpart A of part 98 of title 40,
+ 14                Code of Federal Regulations, as in effect on the
+ 15                date of the enactment of the American Oppor-
+ 16                tunity Carbon Fee Act.
+ 17                       ‘‘(B)                EXCEPTION                FOR
+ 18                HYDROFLUOROCARBONS.—In    the    case    of
+ 19                hydrofluorocarbons  emitted  from  any  facility
+ 20                that is included under—
+ 21                              ‘‘(i) the industrial gas supplier source
+ 22                       category under subpart OO of part 98 of
+ 23                       title 40, Code of Federal Regulations, or
+ 24                              ‘‘(ii) the source category for importers
+ 25                       and  exporters  of  fluorinated  greenhouse
+ 1                       gases contained in pre-charged equipment
+ 2                       or closed-cell foams under subpart QQ of
+ 3                       such part,
+ 4                the term ‘carbon dioxide equivalent’ means 10
+ 5                percent      of      the      quantity      of      such
+ 6                hydrofluorocarbons that has a global warming
+ 7                potential equivalent to 1 metric ton of carbon
+ 8                dioxide, as determined pursuant to table A-1 of
+ 9                subpart A of such part, as in effect on the date
+ 10                of the enactment of the American Opportunity
+ 11                Carbon Fee Act.
+ 12                ‘‘(2) GREENHOUSE GAS.—The term ‘greenhouse
+ 13         gas’ has the meaning given such term under section
+ 14         211(o)(1)(G) of the Clean Air Act, as in effect on
+ 15         the date of the enactment of the American Oppor-
  16         tunity Carbon Fee Act.
- 17             ‘‘(B)         EXCEPTION         FOR
- 18         HYDROFLUOROCARBONS.—In  the  case  of
- 19         hydrofluorocarbons emitted from any facility
- 20         that is included under—
- 21                 ‘‘(i) the industrial gas supplier source
- 22             category under subpart OO of part 98 of
- 23             title 40, Code of Federal Regulations, or
- 24                 ‘‘(ii) the source category for importers
- 25             and exporters of fluorinated greenhouse
- 1             gases contained in pre-charged equipment
- 2             or closed-cell foams under subpart QQ of
- 3             such part,
- 4         the term ‘carbon dioxide equivalent’ means 10
- 5         percent   of   the   quantity   of   such
- 6         hydrofluorocarbons that has a global warming
- 7         potential equivalent to 1 metric ton of carbon
- 8         dioxide, as determined pursuant to table A-1 of
- 9         subpart A of such part, as in effect on the date
- 10         of the enactment of the American Opportunity
- 11         Carbon Fee Act.
- 12         ‘‘(2) GREENHOUSE GAS.—The term ‘greenhouse
- 13     gas’ has the meaning given such term under section
- 14     211(o)(1)(G) of the Clean Air Act, as in effect on
- 15     the date of the enactment of the American Oppor-
- 16     tunity Carbon Fee Act.
- 17         ‘‘(3) COAL.—The term ‘coal’ has the same
- 18     meaning given such term under section 48A(c)(4).
- 19         ‘‘(4) PETROLEUM PRODUCT.—The term ‘petro-
- 20     leum product’ has the same meaning given such
- 21     product under section 4612(a)(3)).
- 22         ‘‘(5) TON.—
- 23             ‘‘(A) IN GENERAL.—The term ‘ton’ means
- 24         1,000 kilograms. In the case of any greenhouse
- 25         gas which is a gas, the term ‘ton’ means the
- 1         amount of such gas in cubic meters which is the
- 2         equivalent of 1,000 kilograms on a molecular
- 3         weight basis.
- 4             ‘‘(B) FRACTIONAL PART OF TON.—In the
- 5         case of a fraction of a ton, any fee imposed by
- 6         this subchapter on such fraction shall be the
- 7         same fraction of the amount of such fee im-
- 8         posed on a whole ton.
- 9         ‘‘(6)  UNITED  STATES.—The  term  ‘United
- 10     States’ has the meaning given such term by section
- 11     4612(a)(4).
- 12     ‘‘(b) OTHER RULES.—
- 13         ‘‘(1) ASSESSMENT AND COLLECTION.—Subject
- 14     to subsection (d), payment of the fee imposed by
- 15     sections 4691, 4692, and 4693 shall be assessed and
- 16     collected in the same manner as taxes under this
- 17     subtitle.
- 18         ‘‘(2) REGULATIONS.—The Secretary shall pre-
- 19     scribe such regulations as may be necessary to carry
- 20     out the provisions of this subchapter.’’.
- 21     (b) CLERICAL AMENDMENT.—The table of sub-
- 22 chapter for chapter 38 of the Internal Revenue Code of
- 23 1986 is amended by adding at the end the following new
- 24 item:
- 1     (c) EFFECTIVE DATE.—The amendments made by
- 2 this section shall apply to taxable years beginning after
- 3 December 31, 2014.
- 4 SEC. 3. AMERICAN OPPORTUNITY FUND.
- 5     (a) ESTABLISHMENT OF FUND.—Subchapter A of
- 6 chapter 98 of the Internal Revenue Code of 1986 is
- 7 amended by adding at the end thereof the following new
- 8 section:
- 9 ‘‘SEC. 9512. AMERICAN OPPORTUNITY FUND.
- 10     ‘‘(a) CREATION OF FUND.—There is established in
- 11 the Treasury of the United States a trust fund to be
- 12 known as the ‘American Opportunity Fund’, consisting of
- 13 such amounts as may be appropriated or credited to the
- 14 American Opportunity Fund as provided in this section
- 15 or section 9602(b).
- 16     ‘‘(b) TRANSFERS TO FUND.—There is hereby cred-
- 17 ited to the American Opportunity Fund an amount equal
- 18 to the budgetary effects for the American Opportunity
- 19 Carbon Fee Act determined pursuant to section 4 of the
- 20 Statutory Pay-As-You-Go Act of 2010 (determined with-
- 21 out regard to section 5 of the American Opportunity Car-
- 22 bon Fee Act).
- 23     ‘‘(c) EXPENDITURES FROM FUND.—
- 24         ‘‘(1) IN GENERAL.—Subject to paragraph (2),
- 25     amounts in the American Opportunity Fund shall be
- 1     made available for the following uses to assist Amer-
- 2     ican families and businesses:
- 3             ‘‘(A) Providing economic assistance to low-
- 4         income households or households in regions
- 5         with disproportionately high energy costs.
- 6             ‘‘(B) Transfers to the general fund of the
- 7         Treasury to offset tax cuts.
- 8             ‘‘(C) Transfers to the Federal Old-Age and
- 9         Survivors Trust Fund and the Federal Dis-
- 10         ability Insurance Trust Fund established under
- 11         section 201 of the Social Security Act (42
- 12         U.S.C. 401) to provide supplemental funding
- 13         for increases in Social Security benefits.
- 14             ‘‘(D) Providing tuition assistance for high-
- 15         er education or alleviating federal student loan
- 16         debt.
- 17             ‘‘(E) Investing in improvements to the in-
- 18         frastructure of the United States.
- 19             ‘‘(F) Providing dividends directly to indi-
- 20         viduals and families.
- 21             ‘‘(G) Providing transition assistance to
- 22         workers and businesses in energy intensive and
- 23         fossil fuel industries.
- 24             ‘‘(H) Investing in mitigation and adapta-
- 25         tion measures that promote national security,
- 1         protect public health, conserve natural re-
- 2         sources, or fulfill international climate commit-
- 3         ments made by the United Nations Framework
- 4         Convention on Climate Change.
- 5             ‘‘(I) Reducing the debt of the United
- 6         States.
- 7         ‘‘(2) LIMITATION.—No amount may be made
- 8     available from the American Opportunity Fund to
- 9     create any new government agency or to fund gov-
- 10     ernment operations beyond what is necessary to
- 11     carry out the uses provided in paragraph (1).’’.
- 12     (b) CLERICAL AMENDMENT.—The table of sections
- 13 for Subchapter A of Chapter 98 of such code is amended
- 14 by adding at the end thereof the following new item:
- 15 SEC. 4. PUBLIC DISCLOSURE OF REVENUES AND EXPENDI-
- 16            TURES.
- 17     (a) ESTABLISHMENT OF WEBSITE.—The Secretary
- 18 of the Treasury, or the Secretary’s designee, shall estab-
- 19 lish a website for purposes of making the disclosures de-
- 20 scribed in subsection (b)
- 21     (b) DISCLOSURES.—The Secretary shall make pub-
- 22 licly available, on an ongoing basis and as frequently as
- 23 possible, the following information:
- 1         (1) The amount and sources of revenue attrib-
- 2     utable to this Act and the amendments made by this
- 3     Act.
- 4         (2) The amount, programs, and purposes for
- 5     which expenditures are made from the American Op-
- 6     portunity Fund.
- 7 SEC. 5. BUDGETARY PROVISIONS.
- 8     (a) BUDGETARY EFFECTS OF THIS ACT.—
- 9         (1) PAYGO SCORECARD.—The budgetary effects
- 10     of this Act and the amendments made by this Act
- 11     shall not be entered on either PAYGO scorecard
- 12     maintained pursuant to section 4(d) of the Statutory
- 13     Pay-As-You-Go Act of 2010 (2 U.S.C. 933(d)).
- 14         (2) SENATE PAYGO SCORECARD.—The budg-
- 15     etary effects of this Act and the amendments made
- 16     by this Act shall not be entered on any PAYGO
- 17     scorecard maintained for purposes of section 201 of
- 18     S. Con. Res. 21 (110th Congress).
- 19     (b)  EXCLUSION  FROM  DETERMINATION  OF
- 20 BREACH.—Section 251(a) of the Balanced Budget and
- 21 Emergency Deficit Control Act of 1985 (2 U.S.C. 901(a))
- 22 is amended by adding at the end the following:
- 23         ‘‘(8) AMERICAN OPPORTUNITY FUND.—In de-
- 24     termining whether there has been a breach during a
- 25     fiscal year, the Office of Management and Budget
- 1     shall not include amounts appropriated from the
- 2     American Opportunity Fund during the fiscal year
- 3     as discretionary appropriations if the Director of the
- 4     Office of Management and Budget determines that
- 5     amounts are appropriated to assist American fami-
- 6     lies and businesses in a manner described in section
- 7     9512(c) of the Internal Revenue Code of 1986.’’.
- 8     (c) PAYGO LEGISLATION.—Section 4 of the Statu-
- 9 tory Pay-As-You-Go Act of 2010 (2 U.S.C. 933) is amend-
- 10 ed by adding at the end the following:
- 11     ‘‘(h)  OFFSET  FROM  AMERICAN  OPPORTUNITY
- 12 FUND.—In determining the budgetary effects of a
- 13 PAYGO Act, CBO or OMB, as applicable, shall treat any
- 14 amounts transferred from the American Opportunity
- 15 Fund to the General Fund of the Treasury under the
- 16 PAYGO Act as a savings if the Director of CBO or the
- 17 Director of OMB, as applicable, determines that the
- 18 amounts are transferred to assist American families and
- 19 businesses in a manner described in section 9512(c) of the
- 20 Internal Revenue Code of 1986.’’.
- 21 SEC. 6. SEVERABILITY.
- 22     If any provision of this Act or amendment made by
- 23 this Act, or the application of a provision or amendment
- 24 to any person or circumstance, is held to be unconstitu-
- 25 tional, the remainder of this Act and amendments made
- 1 by this Act, and the application of the provisions and
- 2 amendment to any person or circumstance, shall not be
- 3 affected by the holding.
+ 17                ‘‘(3)  COAL.—The  term  ‘coal’  has  the  same
+ 18         meaning given such term under section 48A(c)(4).
+ 19                ‘‘(4) PETROLEUM PRODUCT.—The term ‘petro-
+ 20         leum  product’  has  the  same  meaning  given  such
+ 21         product under section 4612(a)(3)).
+ 22                ‘‘(5) TON.—
+ 23                       ‘‘(A) IN GENERAL.—The term ‘ton’ means
+ 24                1,000 kilograms. In the case of any greenhouse
+ 25                gas which is a gas, the term ‘ton’ means the
+ 1                amount of such gas in cubic meters which is the
+ 2                equivalent of 1,000 kilograms on a molecular
+ 3                weight basis.
+ 4                       ‘‘(B) FRACTIONAL PART OF TON.—In the
+ 5                case of a fraction of a ton, any fee imposed by
+ 6                this subchapter on such fraction shall be the
+ 7                same fraction of the amount of such fee im-
+ 8                posed on a whole ton.
+ 9                ‘‘(6)   UNITED   STATES.—The   term   ‘United
+ 10         States’ has the meaning given such term by section
+ 11         4612(a)(4).
+ 12         ‘‘(b) OTHER RULES.—
+ 13                ‘‘(1) ASSESSMENT AND COLLECTION.—Subject
+ 14         to subsection (d), payment of the fee imposed by
+ 15         sections 4691, 4692, and 4693 shall be assessed and
+ 16         collected in the same manner as taxes under this
+ 17         subtitle.
+ 18                ‘‘(2) REGULATIONS.—The Secretary shall pre-
+ 19         scribe such regulations as may be necessary to carry
+ 20         out the provisions of this subchapter.’’.
+ 21         (b)  CLERICAL  AMENDMENT.—The  table  of  sub-
+ 22  chapter for chapter 38 of the Internal Revenue Code of
+ 23  1986 is amended by adding at the end the following new
+ 24  item:
+ 1         (c) EFFECTIVE DATE.—The amendments made by
+ 2  this section shall apply to taxable years beginning after
+ 3  December 31, 2014.
+ 4  SEC. 3. AMERICAN OPPORTUNITY FUND.
+ 5         (a) ESTABLISHMENT OF FUND.—Subchapter A of
+ 6  chapter  98  of  the  Internal  Revenue  Code  of  1986  is
+ 7  amended by adding at the end thereof the following new
+ 8  section:
+ 9  ‘‘SEC. 9512. AMERICAN OPPORTUNITY FUND.
+ 10         ‘‘(a) CREATION OF FUND.—There is established in
+ 11  the Treasury of the United States a trust fund to be
+ 12  known as the ‘American Opportunity Fund’, consisting of
+ 13  such amounts as may be appropriated or credited to the
+ 14  American Opportunity Fund as provided in this section
+ 15  or section 9602(b).
+ 16         ‘‘(b) TRANSFERS TO FUND.—There is hereby cred-
+ 17  ited to the American Opportunity Fund an amount equal
+ 18  to the budgetary effects for the American Opportunity
+ 19  Carbon Fee Act determined pursuant to section 4 of the
+ 20  Statutory Pay-As-You-Go Act of 2010 (determined with-
+ 21  out regard to section 5 of the American Opportunity Car-
+ 22  bon Fee Act).
+ 23         ‘‘(c) EXPENDITURES FROM FUND.—
+ 24                ‘‘(1) IN GENERAL.—Subject to paragraph (2),
+ 25         amounts in the American Opportunity Fund shall be
+ 1         made available for the following uses to assist Amer-
+ 2         ican families and businesses:
+ 3                       ‘‘(A) Providing economic assistance to low-
+ 4                income  households  or  households  in  regions
+ 5                with disproportionately high energy costs.
+ 6                       ‘‘(B) Transfers to the general fund of the
+ 7                Treasury to offset tax cuts.
+ 8                       ‘‘(C) Transfers to the Federal Old-Age and
+ 9                Survivors  Trust  Fund  and  the  Federal  Dis-
+ 10                ability Insurance Trust Fund established under
+ 11                section  201  of  the  Social  Security  Act  (42
+ 12                U.S.C. 401) to provide supplemental funding
+ 13                for increases in Social Security benefits.
+ 14                       ‘‘(D) Providing tuition assistance for high-
+ 15                er education or alleviating federal student loan
+ 16                debt.
+ 17                       ‘‘(E) Investing in improvements to the in-
+ 18                frastructure of the United States.
+ 19                       ‘‘(F) Providing dividends directly to indi-
+ 20                viduals and families.
+ 21                       ‘‘(G)  Providing  transition  assistance  to
+ 22                workers and businesses in energy intensive and
+ 23                fossil fuel industries.
+ 24                       ‘‘(H) Investing in mitigation and adapta-
+ 25                tion measures that promote national security,
+ 1                protect   public   health,   conserve   natural   re-
+ 2                sources, or fulfill international climate commit-
+ 3                ments made by the United Nations Framework
+ 4                Convention on Climate Change.
+ 5                       ‘‘(I)  Reducing  the  debt  of  the  United
+ 6                States.
+ 7                ‘‘(2) LIMITATION.—No amount may be made
+ 8         available from the American Opportunity Fund to
+ 9         create any new government agency or to fund gov-
+ 10         ernment  operations  beyond  what  is  necessary  to
+ 11         carry out the uses provided in paragraph (1).’’.
+ 12         (b) CLERICAL AMENDMENT.—The table of sections
+ 13  for Subchapter A of Chapter 98 of such code is amended
+ 14  by adding at the end thereof the following new item:
+ 15  SEC. 4. PUBLIC DISCLOSURE OF REVENUES AND EXPENDI-
+ 16                     TURES.
+ 17         (a) ESTABLISHMENT OF WEBSITE.—The Secretary
+ 18  of the Treasury, or the Secretary’s designee, shall estab-
+ 19  lish a website for purposes of making the disclosures de-
+ 20  scribed in subsection (b)
+ 21         (b) DISCLOSURES.—The Secretary shall make pub-
+ 22  licly available, on an ongoing basis and as frequently as
+ 23  possible, the following information:
+ 1                (1) The amount and sources of revenue attrib-
+ 2         utable to this Act and the amendments made by this
+ 3         Act.
+ 4                (2) The amount, programs, and purposes for
+ 5         which expenditures are made from the American Op-
+ 6         portunity Fund.
+ 7  SEC. 5. BUDGETARY PROVISIONS.
+ 8         (a) BUDGETARY EFFECTS OF THIS ACT.—
+ 9                (1) PAYGO SCORECARD.—The budgetary effects
+ 10         of this Act and the amendments made by this Act
+ 11         shall  not  be  entered  on  either  PAYGO  scorecard
+ 12         maintained pursuant to section 4(d) of the Statutory
+ 13         Pay-As-You-Go Act of 2010 (2 U.S.C. 933(d)).
+ 14                (2)  SENATE  PAYGO  SCORECARD.—The  budg-
+ 15         etary effects of this Act and the amendments made
+ 16         by this Act shall not be entered on any PAYGO
+ 17         scorecard maintained for purposes of section 201 of
+ 18         S. Con. Res. 21 (110th Congress).
+ 19         (b)    EXCLUSION    FROM    DETERMINATION    OF
+ 20  BREACH.—Section 251(a) of the Balanced Budget and
+ 21  Emergency Deficit Control Act of 1985 (2 U.S.C. 901(a))
+ 22  is amended by adding at the end the following:
+ 23                ‘‘(8) AMERICAN OPPORTUNITY FUND.—In de-
+ 24         termining whether there has been a breach during a
+ 25         fiscal year, the Office of Management and Budget
+ 1         shall  not  include  amounts  appropriated  from  the
+ 2         American Opportunity Fund during the fiscal year
+ 3         as discretionary appropriations if the Director of the
+ 4         Office of Management and Budget determines that
+ 5         amounts are appropriated to assist American fami-
+ 6         lies and businesses in a manner described in section
+ 7         9512(c) of the Internal Revenue Code of 1986.’’.
+ 8         (c) PAYGO LEGISLATION.—Section 4 of the Statu-
+ 9  tory Pay-As-You-Go Act of 2010 (2 U.S.C. 933) is amend-
+ 10  ed by adding at the end the following:
+ 11         ‘‘(h)   OFFSET   FROM   AMERICAN   OPPORTUNITY
+ 12  FUND.—In   determining   the   budgetary   effects   of   a
+ 13  PAYGO Act, CBO or OMB, as applicable, shall treat any
+ 14  amounts  transferred  from  the  American  Opportunity
+ 15  Fund to the General Fund of the Treasury under the
+ 16  PAYGO Act as a savings if the Director of CBO or the
+ 17  Director  of  OMB,  as  applicable,  determines  that  the
+ 18  amounts are transferred to assist American families and
+ 19  businesses in a manner described in section 9512(c) of the
+ 20  Internal Revenue Code of 1986.’’.
+ 21  SEC. 6. SEVERABILITY.
+ 22         If any provision of this Act or amendment made by
+ 23  this Act, or the application of a provision or amendment
+ 24  to any person or circumstance, is held to be unconstitu-
+ 25  tional, the remainder of this Act and amendments made
+ 1  by this Act, and the application of the provisions and
+ 2  amendment to any person or circumstance, shall not be
+ 3  affected by the holding.

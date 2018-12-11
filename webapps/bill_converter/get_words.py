@@ -191,10 +191,10 @@ def get_spaces(space): #input is space between bbox of words in pixels
     h = int(round(space))
     if h == 0:
         spaces = ""
-    if h != 0 and h < 7:
+    if h != 0 and h < 9:
         spaces = " "
     else:
-        spaces = " "*(h/7)
+        spaces = " "*(h/4)
     return(spaces)
 
 
