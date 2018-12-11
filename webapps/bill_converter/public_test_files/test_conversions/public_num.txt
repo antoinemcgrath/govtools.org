@@ -1,0 +1,105 @@
+ 1     Be it enacted by the Senate and House of Representa-
+ 2 tives of the United States of America in Congress assembled,
+ 3 SECTION 1. SHORT TITLE.
+ 4     This Act may be cited as the ‘‘Statutes at Large
+ 5 Modernization Act’’.
+ 6 SEC. 2. FINDINGS.
+ 7     Congress finds the following:
+ 8         (1) The United States was established under ‘‘a
+ 9     government of laws, and not of men’’.
+ 1         (2) The rule of law requires that the laws be
+ 2     available to the people.
+ 3         (3) Active, permanent laws are codified in the
+ 4     United States Code, which is maintained by the Of-
+ 5     fice of the Law Revision Counsel at http://
+ 6     uscode.house.gov/.
+ 7         (4) The United States Code usually does not in-
+ 8     clude, however, repealed laws, original statutes that
+ 9     have since been amended, or those with limited du-
+ 10     ration such as appropriations acts. Furthermore, un-
+ 11     codified titles of the United States Code are merely
+ 12     ‘‘evidence’’ of the law before the judicial branch, so
+ 13     attorneys must consult the United States Statutes at
+ 14     Large.
+ 15         (5) The United States Statutes at Large is
+ 16     compiled by the National Archives and Records Ad-
+ 17     ministration. It is legal and permanent evidence of
+ 18     all the laws enacted during a session of Congress be-
+ 19     ginning with the First Congress in 1789. It also
+ 20     contains  concurrent  resolutions,  reorganization
+ 21     plans, proposed and ratified amendments to the
+ 22     Constitution of the United States, and proclamations
+ 23     by the President.
+ 24         (6) The Statutes at Large collection is pub-
+ 25     lished under the direction of the Office of the Fed-
+ 1     eral Register through the Congressional Printing
+ 2     Management Division of the Government Publishing
+ 3     Office.
+ 4         (7) The Law Library of Congress has begun to
+ 5     digitize the Statutes at Large. It has published all
+ 6     volumes in a text-over-PDF format. They appear as
+ 7     scanned PDF images with basic search capability.
+ 8         (8) More resources are needed to adequately re-
+ 9     fine and structure the embedded data elements that
+ 10     enable advanced search functions, machine read-
+ 11     ability, and other useful options.
+ 12         (9) The Government Publishing Office is the
+ 13     appropriate entity to lead the online digitization of
+ 14     the Statutes at Large in collaboration with other
+ 15     Federal and private entities with expertise in devel-
+ 16     oping formatting conventions for legislative mate-
+ 17     rials.
+ 18         (10) Incorporating relevant digital information
+ 19     into www.Congress.gov would make it a more useful
+ 20     and comprehensive research resource.
+ 21 SEC. 3. PUBLIC ACCESS TO THE LAWS OF THE UNITED
+ 22            STATES.
+ 23     (a) ONLINE AVAILABILITY OF STATUTES AT LARGE
+ 24 THROUGH GOVERNMENT PUBLISHING OFFICE.—Section
+ 25 728 of title 44, United States Code, is amended—
+ 1         (1) in the first undesignated paragraph, by
+ 2     striking ‘‘The Director’’ and inserting ‘‘(a) PRINT-
+ 3     ING AND DISTRIBUTION.—The Director’’;
+ 4         (2) in the second undesignated paragraph, by
+ 5     striking ‘‘The Director’’ and inserting ‘‘(b) TREA-
+ 6     TIES AND OTHER INTERNATIONAL AGREEMENTS.—
+ 7     The Director’’; and
+ 8         (3) by adding at the end the following new sub-
+ 9     section:
+ 10     ‘‘(c) ONLINE ACCESS TO STATUTES AT LARGE.—
+ 11         ‘‘(1) IN GENERAL.—The Director shall make
+ 12     the Statutes at Large available to the public at no
+ 13     cost on a website in a searchable, non-proprietary
+ 14     format.
+ 15         ‘‘(2) CONSULTATION AND COORDINATION.—The
+ 16     Director shall ensure that the searchable online edi-
+ 17     tion of the United States Statutes at Large made
+ 18     available under this subsection is prepared in con-
+ 19     sultation and coordination with entities that develop
+ 20     formatting conventions used for enrolled bills and
+ 21     other legislative materials, which may include the Li-
+ 22     brary of Congress, the Office of the Clerk of the
+ 23     House of Representatives, the Office of the Sec-
+ 24     retary of the Senate, the Office of the Legislative
+ 25     Counsel of the House of Representatives, the Office
+ 1     of the Legislative Counsel of the Senate, the Office
+ 2     of the Law Revision Counsel, the Congressional Re-
+ 3     search Service, the National Archives and Records
+ 4     Administration, and such other public and private
+ 5     entities that the Director considers appropriate.’’.
+ 6     (b) REQUIRING LIBRARIAN OF CONGRESS TO INCOR-
+ 7 PORATE SEARCHABLE STATUTES AT LARGE INTO LEGIS-
+ 8 LATIVE INFORMATION RETRIEVAL SYSTEM.—Section 209
+ 9 of the Legislative Branch Appropriations Act, 1996 (2
+ 10 U.S.C. 180) is amended by adding at the end the following
+ 11 new subsection:
+ 12     ‘‘(f) In addition to the legislative information de-
+ 13 scribed in subsection (b), the relevant electronic informa-
+ 14 tion made available by the Director of the Government
+ 15 Publishing Office under section 728(c) of title 44, United
+ 16 States Code, shall be incorporated into the legislative in-
+ 17 formation service to the extent practicable.’’.
+ 18     (c) AUTHORIZATION OF APPROPRIATIONS.—There is
+ 19 authorized to be appropriated $5,000,000 for each of fis-
+ 20 cal years 2018 through 2022 to carry out the provisions
+ 21 of this Act.

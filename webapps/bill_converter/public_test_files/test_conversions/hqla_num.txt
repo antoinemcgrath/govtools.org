@@ -1,0 +1,53 @@
+ 1     Be it enacted by the Senate and House of Representa-
+ 2 tives of the United States of America in Congress assembled,
+ 3 SECTION 1. TREATMENT OF CERTAIN MUNICIPAL OBLIGA-
+ 4            TIONS.
+ 5     (a) IN GENERAL.—Section 18 of the Federal Deposit
+ 6 Insurance Act (12 U.S.C. 1828) is amended—
+ 1         (1) by moving subsection (z) so that it appears
+ 2     after subsection (y); and
+ 3         (2) by adding at the end the following:
+ 4     ‘‘(aa) TREATMENT OF CERTAIN MUNICIPAL OBLIGA-
+ 5 TIONS.—
+ 6         ‘‘(1) DEFINITIONS.—In this subsection—
+ 7             ‘‘(A) the term ‘investment grade’, with re-
+ 8         spect to an obligation, has the meaning given
+ 9         the term in section 1.2 of title 12, Code of Fed-
+ 10         eral Regulations, or any successor thereto;
+ 11             ‘‘(B) the term ‘liquid and readily-market-
+ 12         able’ has the meaning given the term in section
+ 13         249.3 of title 12, Code of Federal Regulations,
+ 14         or any successor thereto; and
+ 15             ‘‘(C) the term ‘municipal obligation’ means
+ 16         an obligation of—
+ 17                 ‘‘(i) a State or any political subdivi-
+ 18             sion thereof; or
+ 19                 ‘‘(ii) any agency or instrumentality of
+ 20             a State or any political subdivision thereof.
+ 21         ‘‘(2) MUNICIPAL OBLIGATIONS.—For purposes
+ 22     of the final rule entitled ‘Liquidity Coverage Ratio:
+ 23     Liquidity Risk Measurement Standards’ (79 Fed.
+ 24     Reg. 61439 (October 10, 2014)), the final rule enti-
+ 25     tled ‘Liquidity Coverage Ratio: Treatment of U.S.
+ 1     Municipal Securities as High-Quality Liquid Assets’
+ 2     (81 Fed. Reg. 21223 (April 11, 2016)), and any
+ 3     other regulation that incorporates a definition of the
+ 4     term ‘high-quality liquid asset’ or another substan-
+ 5     tially similar term, the appropriate Federal banking
+ 6     agencies shall treat a municipal obligation as a high-
+ 7     quality liquid asset that is a level 2B liquid asset if
+ 8     that obligation is, as of the date of calculation—
+ 9             ‘‘(A) liquid and readily-marketable; and
+ 10             ‘‘(B) investment grade.’’.
+ 11     (b) AMENDMENT TO LIQUIDITY COVERAGE RATIO
+ 12 REGULATIONS.—Not later than 90 days after the date of
+ 13 enactment of this Act, the Federal Deposit Insurance Cor-
+ 14 poration, the Board of Governors of the Federal Reserve
+ 15 System, and the Comptroller of the Currency shall amend
+ 16 the final rule entitled ‘‘Liquidity Coverage Ratio: Liquidity
+ 17 Risk Measurement Standards’’ (79 Fed. Reg. 61439 (Oc-
+ 18 tober 10, 2014)) and the final rule entitled ‘‘Liquidity
+ 19 Coverage Ratio: Treatment of U.S. Municipal Securities
+ 20 as High-Quality Liquid Assets’’ (81 Fed. Reg. 21223
+ 21 (April 11, 2016)) to implement the amendments made by
+ 22 this Act.
