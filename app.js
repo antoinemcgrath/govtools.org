@@ -49,7 +49,7 @@ app.post('/upload', function(req, res) {
 	///BLOB = "TEST"
 	///navigator.msSaveBlob(blob, "filename.csv")
     dest = sampleFile.name.split('.').slice(0, -1).join('.')+".txt"
-	resp_url = ("In 15 seconds your converted draft will be ready at https://govtools.org/upload/"+dest);
+	resp_url = ("In 15 seconds your converted draft legislation will be ready at https://govtools.org/upload/"+dest);
     res.header('Content-disposition: attachment; filename=dest');
     //res.header(field, [value])
 	res.send((resp_url));
