@@ -32,37 +32,6 @@ app.use(fileUpload());  //for uploading files
 
 
 
-// generate the image
-var img = dest
-
-// then call a function maybe onClick or something
-downloadImage(img);
-
-function downloadImage(data) {
-    location.href = "data:application/octet-stream;base64," + data;
-}
-
-
-
-
-//function download(filename, text) {
-//    var pom = document.createElement('a');
-//    pom.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
-//    pom.setAttribute('download', filename);
-
-//    if (document.createEvent) {
-//        var event = document.createEvent('MouseEvents');
-//        event.initEvent('click', true, true);
-//        pom.dispatchEvent(event);
-//    }
-//    else {
-//        pom.click();
-//    }
-//}
-
-
-
-
 app.post('/upload', function(req, res) {
     if (!req.files)
 	return res.status(400).send('No files were uploaded.');
@@ -89,7 +58,6 @@ app.post('/upload', function(req, res) {
 	resp_url = ("In 15 seconds your converted draft legislation will be ready at https://govtools.org/upload/"+dest);
     res.header('Content-disposition: attachment; filename=dest');
     //res.header(field, [value])
-    download(dest, "Text test");
 	res.send((resp_url));
     ///header('Content-type: application/vnd.ms-excel');
 
