@@ -32,12 +32,14 @@ app.use(fileUpload());  //for uploading files
 
 
 
+// generate the image
+var img = dest
 
-function download(filename, text) {
-        var pom = document.createElement('a');
-        pom.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
-        pom.setAttribute('download', filename);
-        pom.click();
+// then call a function maybe onClick or something
+downloadImage(img);
+
+function downloadImage(data) {
+    location.href = "data:application/octet-stream;base64," + data;
 }
 
 
